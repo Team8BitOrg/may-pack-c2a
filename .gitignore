@@ -1,0 +1,26 @@
+#Bloat from mods that is just not needed
+src/config/AppliedEnergistics2/items.csv
+src/config/AppliedEnergistics2/aerecipes/*
+src/config/cd4017be/inductiveLogistics.rcp
+src/config/cd4017be/inductiveLogistics.rcp.old
+src/config/cd4017be/compiled.dat
+src/config/cd4017be/core.rcp.old
+
+#Client side only files
+src/config/InvTweaks.cfg
+src/config/MouseTweaks.cfg
+src/config/jei/bookmarks.ini
+src/config/jei/worldsettings.cfg
+src/config/jei/lookupHistory.zip
+
+#Other things that just are irrelevant
+src/config/worldutils/*
+src/config/sampler.ini
+
+#IDE
+.idea/
+.vscode/
+
+#MORE STUFF
+.DS_STORE
+*.dat
