@@ -9,6 +9,7 @@
 - [ ] AE2 Wireless Terminal Library
 - [ ] Agricraft
 - [ ] AI Improvements
+- [ ] Animal Crops
 - [ ] AppleSkin
 - [ ] Applied Energistics 2
 - [ ] Astral Sorcery
