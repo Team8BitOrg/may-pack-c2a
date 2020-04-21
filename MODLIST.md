@@ -41,7 +41,7 @@
 - [ ] ContentTweaker
 - [ ] Controlling
 - [ ] Cooking for Blockheads
-- [ ] CrafTweaker
+- [ ] CraftTweaker
 - [ ] Cucumber Library
 - [ ] Custom Main Menu
 - [ ] Cyclops Core
@@ -133,6 +133,7 @@
 - [ ] Shadowfacts' Forgelin
 - [ ] Storage Drawers
 - [ ] Storage Drawers Extra?
+- [ ] Telepastries <- Any alternatives that can do non-natively supported dims?
 - [ ] Tesla Core Lib
 - [ ] The One Probe
 - [ ] Toast Control
