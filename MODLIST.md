@@ -1,0 +1,144 @@
+# Modlist
+
+- [ ] Actually Additions
+- [ ] Actually Baubles
+- [ ] Actually Computers
+- [ ] AE2 Stuff
+- [ ] AE2 Wireless Fluid Terminal
+- [ ] AE2 Wireless Interface Terminal
+- [ ] AE2 Wireless Terminal Library
+- [ ] Agricraft
+- [ ] AI Improvements
+- [ ] AppleSkin
+- [ ] Applied Energistics 2
+- [ ] Astral Sorcery
+- [ ] Athenaeum
+- [ ] Avaritia 1.1x
+- [ ] B.A.S.E
+- [ ] Baubles
+- [ ] BdLib
+- [ ] Better Advancements
+- [ ] Better With Addons
+- [ ] Better with Lib (BWM - Core)
+- [ ] Better with Mods
+- [ ] Better FPS
+- [ ] Biome Bundle
+- [ ] Bird's Foods
+- [ ] Blood Agricraft
+- [ ] Blood Arsenal
+- [ ] Blood Magic
+- [ ] BNBGamingLib
+- [ ] Bookshelf
+- [ ] Botania
+- [ ] Brandon's Core
+- [ ] Chameleon
+- [ ] Chisel
+- [ ] Chisels & Bits
+- [ ] CodeChickenLib 1.8+
+- [ ] Common Capabilities
+- [ ] ConnectedTexturesMod
+- [ ] ContentTweaker
+- [ ] Controlling
+- [ ] Cooking for Blockheads
+- [ ] CrafTweaker
+- [ ] Cucumber Library
+- [ ] Custom Main Menu
+- [ ] Cyclops Core
+- [ ] Dark Utilities
+- [ ] Deep Mob Learning
+- [ ] Deep Mob Learning - Blood Magic Addon
+- [ ] Draconic Evolution
+- [ ] Dropt
+- [ ] Enchantment Descriptions
+- [ ] Ender IO
+- [ ] Ender Storage 1.8+
+- [ ] Ender Tweaker
+- [ ] EnderCore
+- [ ] EverlastingAbilities
+- [ ] Extended Crafting
+- [ ] ExtraCells2
+- [ ] ExtraPlanets
+- [ ] Fairy Lights
+- [ ] Farming for Blockheads
+- [ ] FastFurnace
+- [ ] FastWorkbench
+- [ ] FoamFix
+- [ ] FTB Backups
+- [ ] FTB Library
+- [ ] FTB Quests
+- [ ] FTB Utilities
+- [ ] Galacticraft-core
+- [ ] Galacticraft-Planets
+- [ ] Geolosys
+- [ ] Guide-API
+- [ ] GunpowderLib
+- [ ] IC2 Crop-Breeding Plugin
+- [ ] IC2 Tweaker
+- [ ] Immwesive Cable
+- [ ] Immersive Engineering
+- [ ] Immersive Petroleum
+- [ ] Immersvie Tech
+- [ ] Industrial Craft
+- [ ] Industrial Foregoing
+- [ ] Industrial Wires
+- [ ] InfinityLib
+- [ ] Inspirations
+- [ ] Integrated Dynamics
+- [ ] Integrated Tunnels
+- [ ] Integration Foregoing
+- [ ] Inventory Tweaks
+- [ ] Item Filters
+- [ ] JourneyMap
+- [ ] Just Enough Items (JEI)
+- [ ] Magneticraft
+- [ ] Mantle
+- [ ] McJtyLib
+- [ ] Mekanism 
+- [ ] Mekanism Generators
+- [ ] MJRLegends Lib
+- [ ] MicdoodleCore
+- [ ] Mod Name Tooltip
+- [ ] ModelLoader
+- [ ] ModTweaker
+- [ ] More Overlays
+- [ ] MoreTweaker
+- [ ] Morpheus
+- [ ] Mouse Tweaks
+- [ ] MPUtils
+- [ ] MPUtils Basic Tools
+- [ ] MTLib
+- [ ] MystAgrad Cloche Compat
+- [ ] Mystical Agriculture
+- [ ] Mystical Aggraditions
+- [ ] Mystical Agriculture Tiered Crystals
+- [ ] Mystical Creations
+- [ ] NuclearCraft: Overhauled
+- [ ] Open Terrain Generator (OpenTerrainGenerator / OTG)
+- [ ] OpenComputers
+- [ ] p455w0rd's Library
+- [ ] Patchouli
+- [ ] Phosphor (forge)
+- [ ] Placebo
+- [ ] PneumaticCraft: Repressurized
+- [ ] Prestige
+- [ ] Primal Tech
+- [ ] Project EX
+- [ ] Project Intelligence
+- [ ] ProjectE
+- [ ] Pyrotech
+- [ ] ReAuth
+- [ ] Redstone Flux
+- [ ] Resource Loader
+- [ ] Shadowfacts' Forgelin
+- [ ] Storage Drawers
+- [?] Storage Drawers Extra
+- [ ] Tesla Core Lib
+- [ ] The One Probe
+- [ ] Toast Control
+- [ ] TOP Addons
+- [ ] Topography
+- [ ] Wireless Crafting Terminal
+- [ ] Wirelss Pattern Terminal
+- [ ] XNet
+- [ ] YNot
+- [ ] YUNG's Better Caves
