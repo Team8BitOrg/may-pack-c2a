@@ -131,7 +131,7 @@
 - [ ] Resource Loader
 - [ ] Shadowfacts' Forgelin
 - [ ] Storage Drawers
-- [?] Storage Drawers Extra
+- [ ] Storage Drawers Extra?
 - [ ] Tesla Core Lib
 - [ ] The One Probe
 - [ ] Toast Control
