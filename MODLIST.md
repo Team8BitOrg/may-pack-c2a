@@ -19,9 +19,6 @@
 - [ ] Baubles
 - [ ] BdLib
 - [ ] Better Advancements
-- [ ] Better With Addons
-- [ ] Better with Lib (BWM - Core)
-- [ ] Better with Mods
 - [ ] Better FPS
 - [ ] Biome Bundle
 - [ ] Bird's Foods
@@ -37,6 +34,7 @@
 - [ ] Chisels & Bits
 - [ ] CodeChickenLib 1.8+
 - [ ] Common Capabilities
+- [ ] Compact Machines
 - [ ] ConnectedTexturesMod
 - [ ] ContentTweaker
 - [ ] Controlling
@@ -75,10 +73,6 @@
 - [ ] GunpowderLib
 - [ ] IC2 Crop-Breeding Plugin
 - [ ] IC2 Tweaker
-- [ ] Immwesive Cable
-- [ ] Immersive Engineering
-- [ ] Immersive Petroleum
-- [ ] Immersvie Tech
 - [ ] Industrial Craft
 - [ ] Industrial Foregoing
 - [ ] Industrial Wires
