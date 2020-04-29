@@ -1,140 +1,206 @@
-# Modlist
+# Provisional Modlist
 
-- [ ] Actually Additions
-- [ ] Actually Baubles
-- [ ] Actually Computers
-- [ ] AE2 Stuff
-- [ ] AE2 Wireless Fluid Terminal
-- [ ] AE2 Wireless Interface Terminal
-- [ ] AE2 Wireless Terminal Library
-- [ ] Agricraft
-- [ ] AI Improvements
-- [ ] Animal Crops
-- [ ] AppleSkin
-- [ ] Applied Energistics 2
-- [ ] Astral Sorcery
-- [ ] Athenaeum
-- [ ] Avaritia 1.1x
-- [ ] B.A.S.E
-- [ ] Baubles
-- [ ] BdLib
-- [ ] Better Advancements
-- [ ] Better FPS
-- [ ] Biome Bundle
-- [ ] Bird's Foods
-- [ ] Blood Agricraft
-- [ ] Blood Arsenal
-- [ ] Blood Magic
-- [ ] BNBGamingLib
-- [ ] Bookshelf
-- [ ] Botania
-- [ ] Brandon's Core
-- [ ] Chameleon
-- [ ] Chisel
-- [ ] Chisels & Bits
-- [ ] CodeChickenLib 1.8+
-- [ ] Common Capabilities
-- [ ] Compact Machines
-- [ ] ConnectedTexturesMod
-- [ ] ContentTweaker
-- [ ] Controlling
-- [ ] Cooking for Blockheads
-- [ ] CraftTweaker
-- [ ] Cucumber Library
-- [ ] Custom Main Menu
-- [ ] Cyclops Core
-- [ ] Dark Utilities
-- [ ] Deep Mob Learning
-- [ ] Deep Mob Learning - Blood Magic Addon
-- [ ] Draconic Evolution
-- [ ] Dropt
-- [ ] Enchantment Descriptions
-- [ ] Ender IO
-- [ ] Ender Storage 1.8+
-- [ ] Ender Tweaker
-- [ ] EnderCore
-- [ ] EverlastingAbilities
-- [ ] Extended Crafting
-- [ ] ExtraCells2
-- [ ] ExtraPlanets
-- [ ] Fairy Lights
-- [ ] Farming for Blockheads
-- [ ] FastFurnace
-- [ ] FastWorkbench
-- [ ] FoamFix
-- [ ] FTB Backups
-- [ ] FTB Library
-- [ ] FTB Quests
-- [ ] FTB Utilities
-- [ ] Galacticraft-core
-- [ ] Galacticraft-Planets
-- [ ] Geolosys
-- [ ] Guide-API
-- [ ] GunpowderLib
-- [ ] IC2 Crop-Breeding Plugin
-- [ ] IC2 Tweaker
-- [ ] Industrial Craft
-- [ ] Industrial Foregoing
-- [ ] Industrial Wires
-- [ ] InfinityLib
-- [ ] Inspirations
-- [ ] Integrated Dynamics
-- [ ] Integrated Tunnels
-- [ ] Integration Foregoing
-- [ ] Inventory Tweaks
-- [ ] Item Filters
-- [ ] JourneyMap
-- [ ] Just Enough Items (JEI)
-- [ ] Magneticraft
-- [ ] Mantle
-- [ ] McJtyLib
-- [ ] Mekanism 
-- [ ] Mekanism Generators
-- [ ] MJRLegends Lib
-- [ ] MicdoodleCore
-- [ ] Mod Name Tooltip
-- [ ] ModelLoader
-- [ ] ModTweaker
-- [ ] More Overlays
-- [ ] MoreTweaker
-- [ ] Morpheus
-- [ ] Mouse Tweaks
-- [ ] MPUtils
-- [ ] MPUtils Basic Tools
-- [ ] MTLib
-- [ ] MystAgrad Cloche Compat
-- [ ] Mystical Agriculture
-- [ ] Mystical Aggraditions
-- [ ] Mystical Agriculture Tiered Crystals
-- [ ] Mystical Creations
-- [ ] NuclearCraft: Overhauled
-- [ ] Open Terrain Generator (OpenTerrainGenerator / OTG)
-- [ ] OpenComputers
-- [ ] p455w0rd's Library
-- [ ] Patchouli
-- [ ] Phosphor (forge)
-- [ ] Placebo
-- [ ] PneumaticCraft: Repressurized
-- [ ] Prestige
-- [ ] Primal Tech
-- [ ] Project EX
-- [ ] Project Intelligence
-- [ ] ProjectE
-- [ ] Pyrotech
-- [ ] ReAuth
-- [ ] Redstone Flux
-- [ ] Resource Loader
-- [ ] Shadowfacts' Forgelin
-- [ ] Storage Drawers
-- [ ] Storage Drawers Extra?
-- [ ] Telepastries <- Any alternatives that can do non-natively supported dims?
-- [ ] Tesla Core Lib
-- [ ] The One Probe
-- [ ] Toast Control
-- [ ] TOP Addons
-- [ ] Topography
-- [ ] Wireless Crafting Terminal
-- [ ] Wirelss Pattern Terminal
-- [ ] XNet
-- [ ] YNot
-- [ ] YUNG's Better Caves
+- CreativeCoreDummy - 1.0.0
+- ItemPhysic - 1.4.0
+- LittleTilesCore - 1.0.0
+- OTG Core - 1.12.2 - v8.3
+- Smooth Font Core - mc1.12.2-2.1.1
+- FoamFixCore - 7.7.4
+- OpenComputers (Core) - 1.7.5.192
+- RandomPatches - 1.12.2-1.21.0.3
+- Smooth Font - mc1.12.2-2.1.1
+- FastWorkbench - 1.7.3
+- Actually Additions - 1.12.2-r151
+- Baubles - 1.5.2
+- Actually Baubles - 1.1
+- OpenComputers - 1.7.5.192
+- ActuallyComputers - 2.1.0
+- CTM - MC1.12.2-1.0.2.31
+- Applied Energistics 2 - rv6-stable-7
+- BD Lib - 1.14.3.12
+- AE2 Stuff - 0.7.0.4
+- EnderCore - 1.12.2-0.5.73
+- CraftTweaker2 - 4.1.20
+- EnderTweaker - 1.2.0
+- MTLib - 3.0.6
+- Mod Tweaker - 4.0.18
+- Just Enough Items - 4.15.0.291
+- Chisels & Bits - 14.33
+- Fancy Block Particles - 2.4.1
+- Proportional Destruction Particles - 1.12.2-1.2.4
+- Redstone Flux - 2.1.1
+- CoFH Core - 4.6.6
+- CoFH World - 1.4.0
+- Thermal Foundation - 2.6.7
+- Ender IO - 5.1.55
+- Mantle - 1.12-1.3.3.55
+- ProjectE - 1.12.2-PE1.4.1
+- p455w0rd's Library - 2.3.161
+- AE2 Wireless Terminals (AE2WTLib) - 1.0.34
+- InfinityLib - 1.12.2-1.12.0
+- AgriCraft - 2.12.0-1.12.0-a6
+- AI Improvements - 0.0.1.3
+- Inspirations - 1.12.2-0.2.9
+- Placebo - 1.6.0
+- Apotheosis - 1.12.4
+- AppleSkin - 1.0.9
+- Astral Sorcery - 1.10.22
+- Athenaeum - 1.12.2-1.17.4
+- CodeChicken Lib - 3.2.3.358
+- Avaritia - 3.3.0
+- B.A.S.E - 3.13.0
+- Better Advancements - 0.1.0.77
+- Better Builder's Wands - 0.11.1
+- YUNG's Better Caves - 1.12.2
+- Open Terrain Generator - v8.3
+- Biome Bundle - 5.1
+- Bird's Foods - 3.1 - [1.12]
+- Cyclic - 1.20.2
+- Guide-API - 1.12-2.1.8-63
+- Blood Magic: Alchemical Wizardry - 1.12.2-2.4.3-105
+- Blood Agricraft - 1.0.0
+- Blood Arsenal - 1.12.2-2.2.2-31
+- BNBGamingLib - 2.17.6
+- Bookshelf - 2.3.590
+- Botania - r1.10-363
+- Brandon's Core - 2.4.18
+- BuildCraft Lib - 7.99.24.6
+- BuildCraft - 7.99.24.6
+- BuildCraft Builders - 7.99.24.6
+- BuildCraft Transport - 7.99.24.6
+- BuildCraft Silicon - 7.99.24.6
+- The One Probe - 1.4.28
+- BuildCraft Compat - 7.99.24.6
+- BuildCraft Energy - 7.99.24.6
+- BuildCraft Factory - 7.99.24.6
+- BuildCraft Robotics - 7.99.24.6
+- Building Gadgets - 2.8.3
+- Carry On - 1.12.3
+- Chameleon - 1.12-4.1.3
+- Charm - 1.12.2-1.3.7
+- Chisel - MC1.12.2-1.0.2.45
+- Client Tweaks - 3.1.11
+- Coloured Tooltips - 1.0.7
+- Cyclops Core - 1.6.3
+- IndustrialCraft 2 - 2.8.170-ex112
+- CommonCapabilities - 2.4.6
+- Compact Machines 3 - 3.0.18
+- CompactStorage - 3.1
+- ComPatchedStorage - 1.6.0
+- ContentTweaker - 1.12.2-4.9.1
+- Controlling - 3.0.9
+- Cooking for Blockheads - 6.5.0
+- Crafting Tweaks - 8.1.9
+- CT-GUI - 1.0.0
+- CraftTweaker JEI Support - 2.0.3
+- CreativeCore - 1.10.0
+- Cucumber Library - 1.1.3
+- Custom Main Menu - 2.0.9.1
+- SwingThroughGrass - 1.12.2-1.2.3
+- Mouse Tweaks - 2.10
+- /dank/null - 1.7.91
+- Dark Utilities - 1.8.230
+- Patchouli - 1.0-20
+- Deep Mob Learning - 1.12.2-2.5.2
+- Deep Mob Learning - Blood Magic Addon - 1.12.2-1.0.1
+- Diet Hopper - 1.1
+- DimStorage - 1.3.0
+- Draconic Evolution - 2.3.25
+- Dropt - 1.12.2-1.17.0
+- Elevator Mod - 1.3.14
+- Enchantment Descriptions - 1.1.15
+- Ender IO Integration with Tinkers' Construct - 5.1.55
+- Ender IO Base - 5.1.55
+- Ender IO Conduits - 5.1.55
+- Ender IO Applied Energistics Conduits - 5.1.55
+- Ender IO Open Computers Conduits - 5.1.55
+- FTB Library - 5.4.7.0
+- Ender IO Machines - 5.1.55
+- Ender IO Powertools - 5.1.55
+- Corail Tombstone - 3.7.3
+- Erebus - 1.0.31
+- EverlastingAbilities - 1.5.2
+- Extended Crafting - 1.5.6
+- Extra Cells 2 - 2.6.5
+- Fairy Lights - 2.1.10
+- Farming for Blockheads - 3.1.28
+- FastFurnace - 1.3.1
+- FindMe - 1.1.0
+- Flux Networks - 4.0.14
+- FoamFix - 0.10.10-1.12.2
+- Shadowfacts' Forgelin - 1.8.4
+- FTB Backups - 1.1.0.1
+- FTB Utilities - 5.4.0.124
+- Item Filters - 1.0.3.12
+- FTB Quests - 1.8.0.237
+- Advanced Generators - 0.9.20.12
+- Geolosys - 3.0.10
+- GunpowderLib - 1.12.2-1.0
+- IC2CropPlugin - 1.1
+- InControl - 3.9.16
+- Mekanism - 1.12.2-9.8.3.390
+- Tesla Core Lib - 1.0.17
+- Industrial Foregoing - 1.12.2-1.12.2
+- Integrated Dynamics - 1.1.5
+- IntegratedDynamics-Compat - 1.0.0
+- Integrated Tunnels - 1.6.11
+- IntegratedTunnels-Compat - 1.0.0
+- Mystical Agriculture - 1.7.5
+- Mystical Agradditions - 1.3.2
+- NuclearCraft - 2o.2.4
+- Random Things - 4.2.7.4
+- McJtyLib - 3.5.4
+- RFTools - 7.73
+- Integration Foregoing - 1.12.2-1.10
+- Inventory Tweaks - 1.63+release.109.220f184
+- JourneyMap - 1.12.2-5.7.1
+- Just Enough Energistics - 1.0.8
+- LittleTiles - 1.5.0
+- LootTweaker - 0.1.7
+- Magneticraft - 2.7.0
+- Mystical Agriculture Tiered Crystals - 1.0.1-hotfix
+- Mekanism: Generators - 1.12.2-9.8.3.390
+- MJRLegendsLib - 1.12.2-1.1.9
+- ModelLoader - 1.1.7
+- Mod Name Tooltip - 1.10.1
+- MoreOverlays - 1.15.1
+- The Betweenlands - 3.5.10
+- MoreTweaker - 1.0.16
+- Morpheus - 1.12.2-3.5.106
+- ModPack Utilities - 1.5.6
+- ModPack Basic Tools - 1.4.7
+- Mystical Creations - 1.3
+- No Recipe Book - 1.2.1
+- NotEnoughIDs - 1.5.4.4
+- No World Gen 5 You - 1.0.6
+- PneumaticCraft: Repressurized - 1.12.2-0.11.14-395
+- Prestige - 1.1.51
+- Project EX - 1.2.0.39
+- Project Intelligence - 1.0.9
+- Prospectors - 1.0.2
+- Reborn Core - 3.19.3.524
+- QuantumStorage - 4.7.0
+- RandomTweaks - 1.12.2-2.7.1.0
+- Resource Loader - 1.5.3
+- RFTools Control - 2.0.2
+- Simply Backpacks - 1.2.3
+- Simply Jetpacks 2 - 2.2.14.67
+- Simply Light - 1.12.2-0.8.7
+- Storage Drawers - 1.12.2-5.4.1
+- Stuff A Sock In It - 1.1.30
+- Tesslocator - 1.1.0.15
+- Thermal Innovation - 0.3.6
+- Toast Control - 1.8.1
+- TOP Addons - 1.12.2-1.13.0
+- uppers - 0.0.6
+- VanillaFix - 1.0.10-150
+- ViesCraft - 5.9.16
+- Wireless Crafting Terminal 2 - 3.12.97
+- Wireless Fluid Terminal - 1.0.4
+- Wireless Interface Terminal - 1.0.2
+- Wireless Pattern Terminal - 1.0.3
+- XNet - 1.8.2
+- YNot - 0.2.4
+- Phosphor Lighting Engine - 1.12.2-0.2.6
+- ReAuth - 3.6.0
+- Tesla Core Lib Registries - 1.0.17
