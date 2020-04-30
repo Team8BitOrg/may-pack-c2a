@@ -204,3 +204,4 @@
 - Phosphor Lighting Engine - 1.12.2-0.2.6
 - ReAuth - 3.6.0
 - Tesla Core Lib Registries - 1.0.17
+- Headcrumbs - 2.0.5.17
