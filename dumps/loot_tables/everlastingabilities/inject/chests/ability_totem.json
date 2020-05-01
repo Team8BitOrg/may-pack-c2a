@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "everlastingabilities:ability_totem",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "everlastingabilities:set_random_ability"
+            }
+          ],
+          "name": "everlastingabilities:ability_totem"
+        }
+      ],
+      "rolls": 3.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

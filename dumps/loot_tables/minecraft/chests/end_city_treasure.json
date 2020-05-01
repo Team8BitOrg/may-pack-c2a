@@ -1,0 +1,677 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:beetroot_seeds",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_sword",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "entryName": "minecraft:diamond_boots",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "entryName": "minecraft:diamond_chestplate",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "entryName": "minecraft:diamond_leggings",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "entryName": "minecraft:diamond_helmet",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_helmet"
+        },
+        {
+          "entryName": "minecraft:diamond_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "minecraft:diamond_shovel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "entryName": "minecraft:iron_sword",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "entryName": "minecraft:iron_boots",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "entryName": "minecraft:iron_chestplate",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "minecraft:iron_leggings",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "entryName": "minecraft:iron_helmet",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "entryName": "minecraft:iron_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "minecraft:iron_shovel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 39.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:iron_shovel"
+        },
+        {
+          "entryName": "actuallyadditions:crystalItems",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:item_crystal"
+        },
+        {
+          "entryName": "actuallyadditions:crystalBlocks",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:block_crystal"
+        },
+        {
+          "entryName": "actuallyadditions:drillCore",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 16.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "actuallyadditions:item_misc"
+        },
+        {
+          "entryName": "actuallyadditions:quartz",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:item_misc"
+        },
+        {
+          "entryName": "actuallyadditions:batWings",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:item_misc"
+        },
+        {
+          "entryName": "cyclicmagic:item.corrupted_chorus",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:corrupted_chorus"
+        },
+        {
+          "entryName": "cyclicmagic:item.heart_food",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:heart_food"
+        },
+        {
+          "entryName": "cyclicmagic:item.cyclic_wand_build",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:cyclic_wand_build"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:chests/end_city_treasure",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "enderio:chests/end_city_treasure"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "ic2",
+      "entries": [
+        {
+          "entryName": "copper_ingot",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:ingot"
+        },
+        {
+          "entryName": "tin_ingot",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:ingot"
+        },
+        {
+          "entryName": "iridium_shard",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ic2:misc_resource"
+        },
+        {
+          "entryName": "ic2:bronze_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_pickaxe"
+        },
+        {
+          "entryName": "ic2:bronze_sword",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_sword"
+        },
+        {
+          "entryName": "ic2:bronze_helmet",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_helmet"
+        },
+        {
+          "entryName": "ic2:bronze_chestplate",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_chestplate"
+        },
+        {
+          "entryName": "ic2:bronze_leggings",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_leggings"
+        },
+        {
+          "entryName": "ic2:bronze_boots",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "ic2:bronze_boots"
+        },
+        {
+          "entryName": "empty",
+          "weight": 43,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:scroll_buff",
+          "weight": 6,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{stored_xp:2000}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:lost_tablet",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "name": "tombstone:lost_tablet"
+        },
+        {
+          "entryName": "empty",
+          "weight": 92,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

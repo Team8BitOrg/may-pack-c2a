@@ -1,0 +1,230 @@
+{
+  "pools": [
+    {
+      "name": "charm:village/farmer",
+      "entries": [
+        {
+          "entryName": "minecraft:wheat_seeds",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "entryName": "minecraft:red_mushroom",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "entryName": "minecraft:brown_mushroom",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brown_mushroom"
+        },
+        {
+          "entryName": "minecraft:beetroot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot"
+        },
+        {
+          "entryName": "minecraft:carrot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot"
+        },
+        {
+          "entryName": "minecraft:potato",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potato"
+        },
+        {
+          "entryName": "minecraft:hay_block",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:hay_block"
+        },
+        {
+          "entryName": "minecraft:stone_hoe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_hoe"
+        },
+        {
+          "entryName": "minecraft:stone_shovel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone_shovel"
+        },
+        {
+          "entryName": "minecraft:bucket",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:dirt",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dirt"
+        },
+        {
+          "entryName": "minecraft:pumpkin_seeds",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

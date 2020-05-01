@@ -1,0 +1,298 @@
+{
+  "pools": [
+    {
+      "name": "charm:treasure/potions/swiftness",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_swiftness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/slowness",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_slowness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/strength",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_strength\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/healing",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_healing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/harming",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_harming\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/leaping",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_leaping\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/regeneration",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_regeneration\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/fire_resistance",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_fire_resistance\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/water_breathing",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_water_breathing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/invisibility",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_invisibility\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/night_vision",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_night_vision\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/weakness",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:long_weakness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "charm:treasure/potions/posion",
+      "entries": [
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:strong_poison\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

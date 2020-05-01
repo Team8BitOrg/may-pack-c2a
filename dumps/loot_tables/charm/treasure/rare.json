@@ -1,0 +1,248 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond_helmet",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 40.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_helmet"
+        },
+        {
+          "entryName": "minecraft:diamond_chestplate",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 40.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "entryName": "minecraft:diamond_leggings",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 40.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "entryName": "minecraft:diamond_boots",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 40.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:totem_of_undying",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "entryName": "charm:totem_of_returning",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "name": "charm:totem_of_returning"
+        },
+        {
+          "entryName": "charm:totem_of_shielding",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "name": "charm:totem_of_shielding"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "rare_set2",
+      "entries": [
+        {
+          "entryName": "minecraft:emerald_block",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 4,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 40.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "rare_mob1",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:zombie\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "rare_mob2",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:silverfish\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "rare_mob3",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:vex\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "rare_mob4",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:stray\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

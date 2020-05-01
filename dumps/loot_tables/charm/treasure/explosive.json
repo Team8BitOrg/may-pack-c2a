@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:tnt",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tnt"
+        },
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:creeper\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 40.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:diamond_block",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "entryName": "minecraft:emerald_block",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "entryName": "minecraft:totem_of_undying",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:totem_of_undying"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    }
+  ]
+}

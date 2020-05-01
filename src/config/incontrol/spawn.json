@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "dimension": 20,
+        "mob": "thebetweenlands:dark_druid",
+        "mincount": {
+          "amount": 5,
+          "mob": "thebetweenlands:dark_druid"
+        },
+        "result": "deny"
+    }
+]

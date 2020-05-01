@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "name": "charm:village/fisherman",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:fishing_rod",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:fishing_rod"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

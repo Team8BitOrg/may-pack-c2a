@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "name": "charm:treasure/books",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "charm:treasure/books_mundane",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

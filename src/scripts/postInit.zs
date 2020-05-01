@@ -25,13 +25,15 @@ function initRecipes() {
 	scripts.recipes.hideCategory.init();
 	scripts.recipes.removeAndHide.init();
 	scripts.recipes.furnace.init();
-
+	
 	//Mods
 	//scripts.recipes.mods.scriptname.init();
+	scripts.recipes.mods.betweenlands.init();
 }
 
 function initIntegration() {
-	//scripts.modIntegrations.mods.scriptname.init();
+	//scripts.modIntegrations.scriptname.init();
+	scripts.modIntegrations.bloodmagic.init();
 }
 
 function initItemModifiers() {

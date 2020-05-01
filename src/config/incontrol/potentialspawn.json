@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "dimension": 20,
+        "minheight": 121,
+        "minspawndist": 500,
+        "mobs": [
+            {
+              "mob": "thebetweenlands:dark_druid",
+              "weight": 5,
+              "groupcountmin": 1,
+              "groupcountmax": 2
+            }
+          ]
+    }
+]

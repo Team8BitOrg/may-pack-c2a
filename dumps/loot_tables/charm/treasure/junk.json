@@ -1,0 +1,153 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:bowl",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bowl"
+        },
+        {
+          "entryName": "minecraft:wooden_shovel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:wooden_shovel"
+        },
+        {
+          "entryName": "minecraft:wooden_pickaxe",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe"
+        },
+        {
+          "entryName": "minecraft:dirt",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:dirt"
+        },
+        {
+          "entryName": "minecraft:stone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stone"
+        },
+        {
+          "entryName": "minecraft:cobblestone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "entryName": "minecraft:deadbush",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:deadbush"
+        },
+        {
+          "entryName": "minecraft:flower_pot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flower_pot"
+        },
+        {
+          "entryName": "minecraft:bread",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "minecraft:wheat",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wheat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    }
+  ]
+}

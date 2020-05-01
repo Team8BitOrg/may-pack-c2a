@@ -1,0 +1,118 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 5,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:diamond_block",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_block"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "main2",
+      "entries": [
+        {
+          "entryName": "minecraft:shulker_shell",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "danger_set1",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:vindication_illager\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "danger_set2",
+      "entries": [
+        {
+          "entryName": "minecraft:tnt",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tnt"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "danger_set3",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:creeper\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

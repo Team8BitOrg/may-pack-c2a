@@ -1,0 +1,310 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:emerald_block",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "entryName": "minecraft:sea_lantern",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sea_lantern"
+        },
+        {
+          "entryName": "minecraft:sponge",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sponge"
+        },
+        {
+          "entryName": "minecraft:purpur_block",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:purpur_block"
+        },
+        {
+          "entryName": "minecraft:potion",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:luck\"}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "minecraft:dragon_breath",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:dragon_breath"
+        },
+        {
+          "entryName": "minecraft:diamond_sword",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "entryName": "minecraft:diamond_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "minecraft:diamond_axe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "entryName": "minecraft:diamond_hoe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "entryName": "minecraft:diamond_shovel",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 20.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 3,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "charm:totem_of_returning",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "charm:totem_of_returning"
+        },
+        {
+          "entryName": "charm:totem_of_shielding",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "charm:totem_of_shielding"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "danger_set1",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:stray\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "danger_set2",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:ocelot\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "danger_set3",
+      "entries": [
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{EntityTag:{id:\"minecraft:wither_skeleton\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

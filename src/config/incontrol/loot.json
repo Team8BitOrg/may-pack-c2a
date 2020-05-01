@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "mob": "thebetweenlands:fortress_boss",
+        "player": true,
+        "item": "thebetweenlands:swamp_talisman@1"
+    },
+    {
+        "mob": "thebetweenlands:dreadful_mummy",
+        "player": true,
+        "item": "thebetweenlands:swamp_talisman@2"
+    },
+    {
+        "mob": "thebetweenlands:sludge_menace",
+        "player": true,
+        "item": "thebetweenlands:swamp_talisman@3"
+    },
+    {
+        "mob": "thebetweenlands:spirit_tree_face_large",
+        "player": true,
+        "item": "thebetweenlands:swamp_talisman@4"
+    },
+    {
+        "mob": "thebetweenlands:dark_druid",
+        "removeall": true
+    }
+]

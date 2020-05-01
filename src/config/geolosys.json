@@ -75,9 +75,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:desert",
-				"minecraft:mutated_desert",
-				"minecraft:desert_hills"
 			],
 			"isWhitelist": true
 		},
@@ -138,12 +135,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:ice_mountains",
-				"minecraft:extreme_hills_with_trees",
-				"minecraft:mutated_extreme_hills",
-				"minecraft:mutated_extreme_hills_with_trees",
-				"minecraft:extreme_hills",
-				"minecraft:smaller_extreme_hills"
 			],
 			"isWhitelist": true
 		},
@@ -185,10 +176,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:swampland",
-				"minecraft:mutated_swampland",
-				"minecraft:mushroom_island",
-				"minecraft:mushroom_island_shore"
 			],
 			"isWhitelist": true
 		},
@@ -234,9 +221,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:ocean",
-				"minecraft:frozen_ocean",
-				"minecraft:deep_ocean"
 			],
 			"isWhitelist": true
 		},
@@ -261,7 +245,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:river"
 			],
 			"isWhitelist": true
 		},
@@ -284,10 +267,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:mutated_plains",
-				"minecraft:plains",
-				"minecraft:ice_flats",
-				"minecraft:mutated_ice_flats"
 			],
 			"isWhitelist": true
 		},
@@ -310,16 +289,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:jungle",
-				"minecraft:jungle_hills",
-				"minecraft:jungle_edge",
-				"minecraft:mutated_jungle",
-				"minecraft:mutated_jungle_edge",
-				"minecraft:beaches",
-				"minecraft:savanna",
-				"minecraft:savanna_rock",
-				"minecraft:mutated_savanna",
-				"minecraft:mutated_savanna_rock"
 			],
 			"isWhitelist": true
 		},
@@ -342,12 +311,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:ice_mountains",
-				"minecraft:extreme_hills_with_trees",
-				"minecraft:mutated_extreme_hills",
-				"minecraft:mutated_extreme_hills_with_trees",
-				"minecraft:extreme_hills",
-				"minecraft:smaller_extreme_hills"
 			],
 			"isWhitelist": true
 		},
@@ -372,12 +335,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:ice_mountains",
-				"minecraft:extreme_hills_with_trees",
-				"minecraft:mutated_extreme_hills",
-				"minecraft:mutated_extreme_hills_with_trees",
-				"minecraft:extreme_hills",
-				"minecraft:smaller_extreme_hills"
 			],
 			"isWhitelist": true
 		},
