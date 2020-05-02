@@ -152,6 +152,12 @@ charm.cfg
 chisel.cfg
     I:limestoneAmount=10
     I:marbleAmount=15
+chiselandbits.cfg
+    I:bagStackSize=4096
+colouredtooltips.cfg
+    S:background=f0bf1e2e
+    S:borderEnd=50ffe0e3
+    S:borderStart=50ffe0e3
 cyclic_ores.cfg
     B:aquamarine_nether_ore=false
     B:aquamarine_end_ore=false
@@ -309,8 +315,16 @@ randomthings.cfg
     B:SlimeCube=false
     B:SummoningPendulum=false
     B:WaterChest=false
+splash.properties
+    background=0xbf1e2e
+    font=0xffe0e3
+    barBackground=0xbf1e2e
+    barBorder=0xbf1e2e
+    bar=0xffe0e3
 theoneprobe.cfg
     B:spawnNote=false
+    S:boxBorderColor=ffffe0e3
+    S:boxFillColor=55bf1e2e
 
 -- Script Changes --
 --------------------
