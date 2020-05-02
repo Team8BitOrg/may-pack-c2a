@@ -32,6 +32,7 @@ function initRecipes() {
 	scripts.recipes.mods.bloodmagic.init();
 	scripts.recipes.mods.erebus.init();
 	scripts.recipes.mods.integrateddynamics.init();
+	scripts.recipes.mods.magneticraft.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.randomthings.init();
 }
