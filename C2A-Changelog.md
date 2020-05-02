@@ -38,6 +38,19 @@ buildcraft/main.cfg
 ChanceCubes/chancecubes.cfg
     B:GenerateAsOre=false
     B:GenerateOnSurface=false
+cofh/thermalfoundation/common.cfg
+    B:DisableAllArmorRecipes=true
+    B:DisableAllBows=true
+    B:DisableAllFishingRods=true
+    B:DisableAllShears=true
+    B:DisableAllShields=true
+    B:DisableAllToolRecipes=true
+    B:AlternateGears=true
+    B:DisableUpgradeItemRecipes=true
+    B:EnableCryotheumCrafting=false
+    B:EnableHorseArmorCrafting=false
+    B:EnablePetrotheumCrafting=false
+    B:EnablePyrotheumCrafting=false
 cofh/world/01_thermalfoundation_ores.json
     "copper": {
         "enabled": "false",

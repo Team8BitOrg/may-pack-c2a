@@ -22,7 +22,43 @@ static ingredientsArray as IIngredient[] = [
     //Minecraft
     <minecraft:crafting_table>,
     //Random Things
-    <randomthings:customworkbench>
+    <randomthings:customworkbench>,
+    //Thermal Foundation,
+    <thermalfoundation:dye>,
+    <thermalfoundation:dye:1>,
+    <thermalfoundation:dye:2>,
+    <thermalfoundation:dye:3>,
+    <thermalfoundation:dye:4>,
+    <thermalfoundation:dye:5>,
+    <thermalfoundation:dye:6>,
+    <thermalfoundation:dye:7>,
+    <thermalfoundation:dye:8>,
+    <thermalfoundation:wrench>,
+    <thermalfoundation:meter>,
+    <thermalfoundation:tome_lexicon>,
+    <thermalfoundation:bait>,
+    <thermalfoundation:bait:1>,
+    <thermalfoundation:bait:2>,
+    <thermalfoundation:dye:9>,
+    <thermalfoundation:dye:10>,
+    <thermalfoundation:dye:11>,
+    <thermalfoundation:dye:12>,
+    <thermalfoundation:dye:13>,
+    <thermalfoundation:dye:14>,
+    <thermalfoundation:dye:15>,
+    <thermalinnovation:injector>,
+    <thermalinnovation:injector:1>,
+    <thermalinnovation:injector:2>,
+    <thermalinnovation:injector:3>,
+    <thermalinnovation:injector:4>,
+    <thermalinnovation:injector:32000>,
+    <thermalinnovation:quiver>,
+    <thermalinnovation:quiver:1>,
+    <thermalinnovation:quiver:2>,
+    <thermalinnovation:quiver:3>,
+    <thermalinnovation:quiver:4>,
+    <thermalinnovation:quiver:32000>
+
 ];
 
 function init() {
