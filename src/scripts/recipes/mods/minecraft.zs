@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for The Betweenlands
+    This script handles the recipes for Minecraft
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -18,11 +18,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <thebetweenlands:druid_altar> : [
+    <minecraft:cauldron> : [
 			[
-	  			[null, <thebetweenlands:shimmer_stone>, null],
-	   			[<thebetweenlands:scabyst_pitstone_horizontal>, <thebetweenlands:life_crystal>, <thebetweenlands:scabyst_pitstone_horizontal>],
-	  			[<thebetweenlands:glowing_betweenstone_tile>, <thebetweenlands:animator>, <thebetweenlands:glowing_betweenstone_tile>]
+	  			[<contenttweaker:material_part>, null, <contenttweaker:material_part>],
+	   			[<contenttweaker:material_part>, null, <contenttweaker:material_part>],
+	  			[<contenttweaker:material_part>, <contenttweaker:material_part>, <contenttweaker:material_part>]
 			]
 	]
 };
@@ -67,59 +67,44 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
-    <thebetweenlands:rotten_planks> * 2 : [
-        [<thebetweenlands:log_rotten_bark>]
+    <minecraft:planks> * 2 : [
+        [<minecraft:log>]
     ],
-    <thebetweenlands:weedwood_planks> * 2 : [
-        [<thebetweenlands:log_weedwood:12>]
+    <minecraft:planks:1> * 2 : [
+        [<minecraft:log:1>]
     ],
-    <thebetweenlands:rubber_tree_planks> * 2 : [
-        [<thebetweenlands:log_rubber>]
+    <minecraft:planks:2> * 2 : [
+        [<minecraft:log:2>]
     ],
-    <thebetweenlands:giant_root_planks> * 2 : [
-        [<thebetweenlands:giant_root>]
+    <minecraft:planks:3> * 2 : [
+        [<minecraft:log:3>]
     ],
-    <thebetweenlands:hearthgrove_planks> * 2 : [
-        [<thebetweenlands:log_hearthgrove:1>]
+    <minecraft:planks:4> * 2 : [
+        [<minecraft:log2>]
     ],
-    <thebetweenlands:nibbletwig_planks> * 2 : [
-        [<thebetweenlands:log_nibbletwig:12>]
-    ]  
+    <minecraft:planks:5> * 2 : [
+        [<minecraft:log2:1>]
+    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-    /*<mod:itemname:meta> : {
+    /*<mod:itemname:meta> : [
 		"string_for_recipe_name" : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
-    }*/
-    <thebetweenlands:hearthgrove_planks> * 2 : {
-        "6_sided_hearthgrove_log_to_planks" : [
-            [<thebetweenlands:log_hearthgrove:3>]
-        ]
-    },
-    <thebetweenlands:nibbletwig_planks> * 2 : {
-        "nibbletwig_log_to_planks_2" : [
-            [<thebetweenlands:log_nibbletwig>]
-        ]
-    },
-    <thebetweenlands:weedwood_planks> * 2 : {
-        "weedwood_log_to_planks_2" : [
-            [<thebetweenlands:log_weedwood>]
-        ]
-    }
+	]*/
 };
 
 //Removals
 static removeRecipes as IItemStack[] = [
-    //<modid:itemname:meta> 
-    <thebetweenlands:swamp_talisman>,
-    <thebetweenlands:rotten_planks>,
-    <thebetweenlands:weedwood_planks>,
-    <thebetweenlands:rubber_tree_planks>,
-    <thebetweenlands:giant_root_planks>,
-    <thebetweenlands:hearthgrove_planks>,
-    <thebetweenlands:nibbletwig_planks>
+    //<modid:itemname:meta>
+    <minecraft:planks>,
+    <minecraft:planks:1>,
+    <minecraft:planks:2>,
+    <minecraft:planks:3>,
+    <minecraft:planks:4>,
+    <minecraft:planks:5>,
+    <minecraft:cauldron>
 ];
 
 function init() {

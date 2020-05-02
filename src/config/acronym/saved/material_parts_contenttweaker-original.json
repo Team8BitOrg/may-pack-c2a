@@ -1,3 +1,5 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "syrmorite_plate": 0
+  }
 }

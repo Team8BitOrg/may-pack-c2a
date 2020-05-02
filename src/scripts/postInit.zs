@@ -29,11 +29,18 @@ function initRecipes() {
 	//Mods
 	//scripts.recipes.mods.scriptname.init();
 	scripts.recipes.mods.betweenlands.init();
+	scripts.recipes.mods.bloodmagic.init();
+	scripts.recipes.mods.erebus.init();
+	scripts.recipes.mods.integrateddynamics.init();
+	scripts.recipes.mods.minecraft.init();
+	scripts.recipes.mods.randomthings.init();
 }
 
 function initIntegration() {
 	//scripts.modIntegrations.scriptname.init();
 	scripts.modIntegrations.bloodmagic.init();
+	scripts.modIntegrations.inspirations.init();
+	scripts.modIntegrations.magneticraft.init();
 }
 
 function initItemModifiers() {

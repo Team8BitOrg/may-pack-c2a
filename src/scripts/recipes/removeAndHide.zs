@@ -10,6 +10,19 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI;
 
 static ingredientsArray as IIngredient[] = [
+    //Actually Additions
+    <actuallyadditions:item_crafter_on_a_stick>,
+    //Cyclic
+    <cyclicmagic:block_workbench>,
+    //Erebus
+    <erebus:petrified_crafting_table>,
+    //Extended Crafting
+    <extendedcrafting:handheld_table>,
+    <extendedcrafting:crafting_table>,
+    //Minecraft
+    <minecraft:crafting_table>,
+    //Random Things
+    <randomthings:customworkbench>
 ];
 
 function init() {

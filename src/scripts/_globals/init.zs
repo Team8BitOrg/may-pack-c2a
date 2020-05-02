@@ -11,6 +11,9 @@
 //Mods
 //global modname as scripts._globals.mods.modname.ModName = scripts._globals.mods.modname.ModName();
 global bloodmagic as scripts._globals.mods.bloodmagic.BloodMagic = scripts._globals.mods.bloodmagic.BloodMagic();
+global inspirations as scripts._globals.mods.inspirations.Inspirations = scripts._globals.mods.inspirations.Inspirations();
+global magneticraft as scripts._globals.mods.magneticraft.Magneticraft = scripts._globals.mods.magneticraft.Magneticraft();
+
 
 //Utils
 global recipeHelper as scripts._globals.utils.recipeHelper.RecipeHelper = scripts._globals.utils.recipeHelper.RecipeHelper();

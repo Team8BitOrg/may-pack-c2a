@@ -15,7 +15,7 @@ IDK, all of them?
 
 -- Removed Mods --
 ------------------
-
+Ender Storage - Using DimStorage instead
 
 -- Config Changes --
 --------------------
@@ -35,6 +35,9 @@ buildcraft/main.cfg
     oil {
         I:excludedDimensions <
             20
+ChanceCubes/chancecubes.cfg
+    B:GenerateAsOre=false
+    B:GenerateOnSurface=false
 cofh/world/01_thermalfoundation_ores.json
     "copper": {
         "enabled": "false",

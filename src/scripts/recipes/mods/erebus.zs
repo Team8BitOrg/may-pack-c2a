@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for The Betweenlands
+    This script handles the recipes for Erebus
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -18,13 +18,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <thebetweenlands:druid_altar> : [
-			[
-	  			[null, <thebetweenlands:shimmer_stone>, null],
-	   			[<thebetweenlands:scabyst_pitstone_horizontal>, <thebetweenlands:life_crystal>, <thebetweenlands:scabyst_pitstone_horizontal>],
-	  			[<thebetweenlands:glowing_betweenstone_tile>, <thebetweenlands:animator>, <thebetweenlands:glowing_betweenstone_tile>]
-			]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -67,59 +60,59 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
-    <thebetweenlands:rotten_planks> * 2 : [
-        [<thebetweenlands:log_rotten_bark>]
+    <erebus:planks> * 2 : [
+        [<erebus:log_baobab>]
     ],
-    <thebetweenlands:weedwood_planks> * 2 : [
-        [<thebetweenlands:log_weedwood:12>]
+    <erebus:planks:1> * 2 : [
+        [<erebus:log_eucalyptus>]
     ],
-    <thebetweenlands:rubber_tree_planks> * 2 : [
-        [<thebetweenlands:log_rubber>]
+    <erebus:planks:2> * 2 : [
+        [<erebus:log_mahogany>]
     ],
-    <thebetweenlands:giant_root_planks> * 2 : [
-        [<thebetweenlands:giant_root>]
+    <erebus:planks:3> * 2 : [
+        [<erebus:log_mossbark>]
     ],
-    <thebetweenlands:hearthgrove_planks> * 2 : [
-        [<thebetweenlands:log_hearthgrove:1>]
+    <erebus:planks:4> * 2 : [
+        [<erebus:log_asper>]
     ],
-    <thebetweenlands:nibbletwig_planks> * 2 : [
-        [<thebetweenlands:log_nibbletwig:12>]
-    ]  
+    <erebus:planks:5> * 2 : [
+        [<erebus:log_cypress>]
+    ],
+    <erebus:planks:6> * 2 : [
+        [<erebus:log_balsam_resinless>]
+    ],
+    <erebus:planks:9> * 2 : [
+        [<erebus:log_rotten>]
+    ],
+    <erebus:planks:10> * 2 : [
+        [<erebus:log_marshwood>]
+    ],
+    <erebus:planks:11> * 2 : [
+        [<erebus:log_scorched>]
+    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-    /*<mod:itemname:meta> : {
+    /*<mod:itemname:meta> : [
 		"string_for_recipe_name" : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
-    }*/
-    <thebetweenlands:hearthgrove_planks> * 2 : {
-        "6_sided_hearthgrove_log_to_planks" : [
-            [<thebetweenlands:log_hearthgrove:3>]
-        ]
-    },
-    <thebetweenlands:nibbletwig_planks> * 2 : {
-        "nibbletwig_log_to_planks_2" : [
-            [<thebetweenlands:log_nibbletwig>]
-        ]
-    },
-    <thebetweenlands:weedwood_planks> * 2 : {
-        "weedwood_log_to_planks_2" : [
-            [<thebetweenlands:log_weedwood>]
-        ]
-    }
+	]*/
 };
 
 //Removals
 static removeRecipes as IItemStack[] = [
-    //<modid:itemname:meta> 
-    <thebetweenlands:swamp_talisman>,
-    <thebetweenlands:rotten_planks>,
-    <thebetweenlands:weedwood_planks>,
-    <thebetweenlands:rubber_tree_planks>,
-    <thebetweenlands:giant_root_planks>,
-    <thebetweenlands:hearthgrove_planks>,
-    <thebetweenlands:nibbletwig_planks>
+    //<modid:itemname:meta>
+    <erebus:planks>,
+    <erebus:planks:1>,
+    <erebus:planks:2>,
+    <erebus:planks:3>,
+    <erebus:planks:4>,
+    <erebus:planks:5>,
+    <erebus:planks:6>,
+    <erebus:planks:9>,
+    <erebus:planks:10>,
+    <erebus:planks:11>
 ];
 
 function init() {
