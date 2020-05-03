@@ -31,6 +31,7 @@ function initRecipes() {
 	scripts.recipes.mods.betweenlands.init();
 	scripts.recipes.mods.bloodmagic.init();
 	scripts.recipes.mods.erebus.init();
+	scripts.recipes.mods.industrialcraft.init();
 	scripts.recipes.mods.integrateddynamics.init();
 	scripts.recipes.mods.magneticraft.init();
 	scripts.recipes.mods.minecraft.init();
@@ -42,6 +43,7 @@ function initIntegration() {
 	scripts.modIntegrations.bloodmagic.init();
 	scripts.modIntegrations.inspirations.init();
 	scripts.modIntegrations.magneticraft.init();
+	scripts.modIntegrations.mekanism.init();
 }
 
 function initItemModifiers() {

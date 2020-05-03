@@ -1,5 +1,7 @@
 {
   "materialMappings": {
-    "syrmorite_plate": 0
+    "aquamarine_ore": 0,
+    "aquamarine_ore_minecraft_stone": 2,
+    "syrmorite_plate": 1
   }
 }

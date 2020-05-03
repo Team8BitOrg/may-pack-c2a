@@ -13,6 +13,7 @@
 global bloodmagic as scripts._globals.mods.bloodmagic.BloodMagic = scripts._globals.mods.bloodmagic.BloodMagic();
 global inspirations as scripts._globals.mods.inspirations.Inspirations = scripts._globals.mods.inspirations.Inspirations();
 global magneticraft as scripts._globals.mods.magneticraft.Magneticraft = scripts._globals.mods.magneticraft.Magneticraft();
+global mekanism as scripts._globals.mods.mekanism.Mekanism = scripts._globals.mods.mekanism.Mekanism();
 
 
 //Utils

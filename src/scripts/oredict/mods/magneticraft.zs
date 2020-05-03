@@ -22,3 +22,12 @@
 <ore:ingotSilver>.remove(<magneticraft:ingots:12>);
 <ore:ingotTin>.remove(<magneticraft:ingots:13>);
 <ore:ingotZinc>.remove(<magneticraft:ingots:14>);
+
+//Dusts
+<ore:dustCopper>.remove(<magneticraft:dusts:2>);
+<ore:dustCobalt>.remove(<magneticraft:dusts:4>);
+<ore:dustTungsten>.remove(<magneticraft:dusts:5>);
+<ore:dustAluminum>.remove(<magneticraft:dusts:7>);
+<ore:dustAluminium>.remove(<magneticraft:dusts:7>);
+<ore:dustZinc>.remove(<magneticraft:dusts:14>);
+

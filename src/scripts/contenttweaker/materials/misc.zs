@@ -1,5 +1,4 @@
 #loader contenttweaker
-#priority 4000
 
 /*
     ContentTweaker Misc Script
@@ -13,10 +12,16 @@ import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialSystem;
 
 //import scripts.contenttweaker.materials.utils.addDefaultMoltenData;
-//import scripts.contenttweaker.materials.utils.addDefaultOreData;
+import scripts.contenttweaker.materials.utils.addDefaultOreData;
 import scripts.contenttweaker.materials.init.materials;
 
 function init() {
+    //Aquamarine
+    var oreAquamarineData = materials.aquamarine.registerPart("ore").getData();
+    addDefaultOreData(oreAquamarineData);
+    oreAquamarineData.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
+    oreAquamarineData.addDataValue("harvestlevel", "1");
+
     //Syrmorite Plate
     var syrmoriteParts as string[] = [
         "plate"
