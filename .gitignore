@@ -24,3 +24,7 @@ src/config/sampler.ini
 #MORE STUFF
 .DS_STORE
 *.dat
+src/config/IC2.ini
+src/config/splash.properties
+src/config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
+src/config/buildcraft/detailed.properties

@@ -27,4 +27,11 @@ function init() {
         "plate"
     ];
     materials.syrmorite.registerParts(syrmoriteParts);
+
+    var copperParts as string[] = [
+        "block",
+        "gear",
+        "dust"
+    ];
+    materials.copper.registerParts(copperParts);
 }

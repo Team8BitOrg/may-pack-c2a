@@ -12,8 +12,6 @@ import mods.jei.JEI;
 static ingredientsArray as IIngredient[] = [
     //Actually Additions
     <actuallyadditions:item_crafter_on_a_stick>,
-    //Alchemistry
-    <alchemistry:ingot:29>,
     //Cyclic
     <cyclicmagic:block_workbench>,
     //Erebus
