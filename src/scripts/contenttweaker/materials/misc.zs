@@ -22,16 +22,16 @@ function init() {
     oreAquamarineData.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
     oreAquamarineData.addDataValue("harvestlevel", "1");
 
-    //Syrmorite Plate
-    var syrmoriteParts as string[] = [
-        "plate"
-    ];
-    materials.syrmorite.registerParts(syrmoriteParts);
-
     var copperParts as string[] = [
         "block",
         "gear",
         "dust"
     ];
     materials.copper.registerParts(copperParts);
+
+    //Syrmorite Plate
+    var syrmoriteParts as string[] = [
+        "plate"
+    ];
+    materials.syrmorite.registerParts(syrmoriteParts);
 }
