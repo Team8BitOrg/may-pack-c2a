@@ -1,0 +1,36 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "actuallyadditions",
+      "path": "item_misc"
+    },
+    "meta": 19
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "oreThorium"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreUranium"
+    },
+    {
+      "weight": 250,
+      "oreName": "oreBoron"
+    },
+    {
+      "weight": 200,
+      "oreName": "oreLithium"
+    },
+    {
+      "weight": 150,
+      "oreName": "oreMagnesium"
+    }
+  ],
+  "explosionStrength": 12.0,
+  "radius": 3,
+  "maxWeight": 3040,
+  "version": 4,
+  "cost": 50
+}

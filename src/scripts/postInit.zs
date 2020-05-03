@@ -36,6 +36,7 @@ function initRecipes() {
 	scripts.recipes.mods.magneticraft.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.randomthings.init();
+	scripts.recipes.mods.mysticalag.init();
 }
 
 function initIntegration() {
@@ -43,6 +44,8 @@ function initIntegration() {
 	scripts.modIntegrations.bloodmagic.init();
 	scripts.modIntegrations.inspirations.init();
 	scripts.modIntegrations.magneticraft.init();
+	scripts.modIntegrations.actuallyadditions.init();
+	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.mekanism.init();
 }
 
