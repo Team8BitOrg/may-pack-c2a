@@ -26,11 +26,15 @@
     {
       "weight": 150,
       "oreName": "oreMagnesium"
+    },
+    {
+      "weight": 275,
+      "oreName": "oreAquamarine"
     }
   ],
   "explosionStrength": 12.0,
   "radius": 3,
-  "maxWeight": 3040,
+  "maxWeight": 2500,
   "version": 4,
   "cost": 50
 }
