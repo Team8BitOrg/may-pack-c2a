@@ -302,6 +302,7 @@ morpheus.cfg
 mysticalagriculture.cfg
     I:dragon_supremium=0
     I:hostile_drop_chance=0
+    I:passive_drop_chance=0
     I:wither_supremium=0
     I:end_inferium_veincount=0
     I:end_prosperity_veincount=0
