@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:blocks/trophy_test"
+    "layer0": "base:items/plate"
   }
 }

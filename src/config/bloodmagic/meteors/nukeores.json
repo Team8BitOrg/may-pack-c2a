@@ -1,10 +1,10 @@
 {
   "catalystStack": {
     "registryName": {
-      "domain": "actuallyadditions",
-      "path": "item_misc"
+      "domain": "contenttweaker",
+      "path": "sub_block_holder_0"
     },
-    "meta": 19
+    "meta": 1
   },
   "components": [
     {
