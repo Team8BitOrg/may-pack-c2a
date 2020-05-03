@@ -1,5 +1,4 @@
 #priority 3400
-
 /*
     This script is a class script for Inspirations
 
@@ -17,16 +16,12 @@ zenClass Inspirations {
 	zenConstructor() {
 	}
 
-	/*
-		Add a Cauldron Brewing recipe.
-	*/
+	//Add a Cauldron Brewing recipe.
 	function addCauldronBrewing(output as string, input as string, reagent as IIngredient) {
 		Cauldron.addBrewingRecipe(output, input, reagent);
 	}
 
-	/*
-		Remove a Cauldron Brewing recipe.
-	*/
+	//Remove a Cauldron Brewing recipe.
 	function removeCauldronBrewing(output as string) {
 		Cauldron.removeBrewingRecipe(output);
 	}
@@ -35,9 +30,7 @@ zenClass Inspirations {
 		Cauldron.removeBrewingRecipe(output, input, reagent);
 	}
 
-	/*
-		Add a Cauldron Potion recipe.
-	*/
+	//Add a Cauldron Potion recipe.
 	function addCauldronPotion(output as IItemStack, input as IIngredient, potion as string) {
 		Cauldron.addPotionRecipe(output, input, potion);
 	}
@@ -50,9 +43,7 @@ zenClass Inspirations {
 		Cauldron.addPotionRecipe(output, input, potion, levels, boiling);
 	}
 
-	/*
-		Remove a Cauldron Potion recipe.
-	*/
+	//Remove a Cauldron Potion recipe.
 	function removeCauldronPotion(output as IIngredient) {
 		Cauldron.removePotionRecipe(output);
 	}
@@ -61,16 +52,12 @@ zenClass Inspirations {
 		Cauldron.removePotionRecipe(output, input, potion);
 	}
 
-	/*
-		Add a Cauldron Dyeing recipe.
-	*/
+	//Add a Cauldron Dyeing recipe.
 	function addCauldronDyeing(output as IItemStack, input as IIngredient, stringDye as string) {
 		Cauldron.addDyeRecipe(output, input, stringDye);
 	}
 
-	/*
-		Remove a Cauldron Dyeing recipe.
-	*/
+	//Remove a Cauldron Dyeing recipe.
 	function removeCauldronDyeing(output as IIngredient) {
 		Cauldron.removeDyeRecipe(output);
 	}
@@ -79,9 +66,7 @@ zenClass Inspirations {
 		Cauldron.removeDyeRecipe(output, input, stringDye);
 	}
 
-	/*
-		Add a Cauldron Fluid recipe.
-	*/
+	//Add a Cauldron Fluid recipe.
 	function addCauldronFluid(output as IItemStack, input as IIngredient, fluid as ILiquidStack) {
 		Cauldron.addFluidRecipe(output, input, fluid);
 	}
@@ -94,9 +79,7 @@ zenClass Inspirations {
 		Cauldron.addFluidRecipe(output, input, fluid, levels, boiling);
 	}
 
-	/*
-		Remove a Cauldron Fluid recipe.
-	*/
+	//Remove a Cauldron Fluid recipe.
 	function removeCauldronFluid(output as IIngredient) {
 		Cauldron.removeFluidRecipe(output);
 	}
@@ -105,9 +88,7 @@ zenClass Inspirations {
 		Cauldron.removeFluidRecipe(output, input, fluid);
 	}
 
-	/*
-		Add a Cauldron Fluid Transform recipe.
-	*/
+	//Add a Cauldron Fluid Transform recipe.
 	function addCauldronFluidTransform(output as ILiquidStack, input as IIngredient, fluid as ILiquidStack) {
 		Cauldron.addFluidTransform(output, input, fluid);
 	}
@@ -120,9 +101,7 @@ zenClass Inspirations {
 		Cauldron.addFluidTransform(output, input, fluid, maxLevel, boiling);
 	}
 
-	/*
-		Remove a Cauldron Fluid Transform recipe.
-	*/
+	//Remove a Cauldron Fluid Transform recipe.
 	function removeCauldronFluidTransform(output as IIngredient) {
 		Cauldron.removeFluidTransform(output);
 	}
@@ -131,9 +110,7 @@ zenClass Inspirations {
 		Cauldron.removeFluidTransform(output, input, fluid);
 	}
 
-	/*
-		Add a Cauldron Filling recipe.
-	*/
+	//Add a Cauldron Filling recipe.
 	function addCauldronFill(input as IIngredient, fluid as ILiquidStack) {
 		Cauldron.addFillRecipe(input, fluid);
 	}
@@ -150,9 +127,7 @@ zenClass Inspirations {
 		Cauldron.addFillRecipe(input, fluid, amount, container, boiling);
 	}
 
-	/*
-		Remove a Cauldron Filling recipe.
-	*/
+	//Remove a Cauldron Filling recipe.
 	function removeCauldronFill(input as IIngredient) {
 		Cauldron.removeFillRecipe(input);
 	}

@@ -12,6 +12,8 @@ import mods.jei.JEI;
 static ingredientsArray as IIngredient[] = [
     //Actually Additions
     <actuallyadditions:item_crafter_on_a_stick>,
+    //Alchemistry
+    <alchemistry:ingot:29>,
     //Cyclic
     <cyclicmagic:block_workbench>,
     //Erebus
@@ -19,6 +21,54 @@ static ingredientsArray as IIngredient[] = [
     //Extended Crafting
     <extendedcrafting:handheld_table>,
     <extendedcrafting:crafting_table>,
+    //Industrialcraft
+    <ic2:ingot:2>,
+    //IntegratedDynamics
+    <integrateddynamics:squeezer>,
+    <integrateddynamics:mechanical_squeezer>,
+    //Magneticraft
+    <magneticraft:steam_engine>,
+    <magneticraft:grinder>,
+    <magneticraft:sieve>,
+    <magneticraft:solar_tower>,
+    <magneticraft:solar_mirror>,
+    <magneticraft:container>,
+    <magneticraft:pumpjack>,
+    <magneticraft:oil_heater>,
+    <magneticraft:refinery>,
+    <magneticraft:big_electric_furnace>,
+    <magneticraft:nuggets:2>,
+    <magneticraft:nuggets:3>,
+    <magneticraft:nuggets:4>,
+    <magneticraft:nuggets:5>,
+    <magneticraft:nuggets:6>,
+    <magneticraft:nuggets:7>,
+    <magneticraft:nuggets:9>,
+    <magneticraft:nuggets:10>,
+    <magneticraft:nuggets:11>,
+    <magneticraft:nuggets:12>,
+    <magneticraft:nuggets:13>,
+    <magneticraft:nuggets:14>,
+    <magneticraft:battery_item_low>,
+    <magneticraft:battery_item_medium>,
+    <magneticraft:electric_drill>,
+    <magneticraft:electric_chainsaw>,
+    <magneticraft:electric_piston>,
+    <magneticraft:floppy_disk>,
+    <magneticraft:floppy_disk:1>,
+    <magneticraft:floppy_disk:2>,
+    <magneticraft:floppy_disk:3>,
+    <magneticraft:floppy_disk:4>,
+    <magneticraft:floppy_disk:5>,
+    <magneticraft:floppy_disk:6>,
+    <magneticraft:iron_gear>,
+    <magneticraft:broken_gear>,
+    <magneticraft:steel_gear>,
+    <magneticraft:tungsten_gear>,
+    <magneticraft:storage_blocks>,
+    <magneticraft:storage_blocks:1>,
+    //Mekanism
+    <mekanism:ingot:5>,
     //Minecraft
     <minecraft:crafting_table>,
     //Random Things

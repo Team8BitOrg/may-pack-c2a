@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Minecraft
+    This script handles the recipes for Magneticraft
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -18,13 +18,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <minecraft:cauldron> : [
-			[
-	  			[<contenttweaker:material_part:1>, null, <contenttweaker:material_part:1>],
-	   			[<contenttweaker:material_part:1>, null, <contenttweaker:material_part:1>],
-	  			[<contenttweaker:material_part:1>, <contenttweaker:material_part:1>, <contenttweaker:material_part:1>]
-			]
-	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -67,24 +60,6 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
-    <minecraft:planks> * 2 : [
-        [<minecraft:log>]
-    ],
-    <minecraft:planks:1> * 2 : [
-        [<minecraft:log:1>]
-    ],
-    <minecraft:planks:2> * 2 : [
-        [<minecraft:log:2>]
-    ],
-    <minecraft:planks:3> * 2 : [
-        [<minecraft:log:3>]
-    ],
-    <minecraft:planks:4> * 2 : [
-        [<minecraft:log2>]
-    ],
-    <minecraft:planks:5> * 2 : [
-        [<minecraft:log2:1>]
-    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -98,13 +73,19 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <minecraft:planks>,
-    <minecraft:planks:1>,
-    <minecraft:planks:2>,
-    <minecraft:planks:3>,
-    <minecraft:planks:4>,
-    <minecraft:planks:5>,
-    <minecraft:cauldron>
+    <magneticraft:ingots:2>,
+    <magneticraft:ingots:3>,
+    <magneticraft:ingots:4>,
+    <magneticraft:ingots:5>,
+    <magneticraft:ingots:6>,
+    <magneticraft:ingots:7>,
+    <magneticraft:ingots:9>,
+    <magneticraft:ingots:10>,
+    <magneticraft:ingots:11>,
+    <magneticraft:ingots:12>,
+    <magneticraft:ingots:13>,
+    <magneticraft:ingots:14>
+
 ];
 
 function init() {

@@ -13,6 +13,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.magneticraft.CrushingTable;
+import mods.magneticraft.SluiceBox;
+import mods.magneticraft.HydraulicPress;
 
 zenClass Magneticraft {
     zenConstructor() {
@@ -20,5 +22,16 @@ zenClass Magneticraft {
 
     function addCrushingTable(input as IItemStack, output as IItemStack, oreDict as bool) {
         CrushingTable.addRecipe(input, output, oreDict);
+    }
+    function removeCrushingTable(input as IItemStack) {
+        CrushingTable.removeRecipe(input);
+    }
+
+    function removeSluice(input as IItemStack) {
+        SluiceBox.removeRecipe(input);
+    }
+
+    function removeHPress(input as IItemStack, mode as int) {
+        HydraulicPress.removeRecipe(input, mode);
     }
 }
