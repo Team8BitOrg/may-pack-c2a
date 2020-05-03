@@ -33,9 +33,13 @@ function init() {
     magneticraft.removeCrushingTable(<magneticraft:storage_blocks:3>);
     magneticraft.removeCrushingTable(<magneticraft:ingots:6>);
 
-    //Remove double plates from Hydrulic Press
+    //Remove double plates from Hydraulic Press
     magneticraft.removeHPress(<minecraft:iron_ingot>, 1);
     magneticraft.removeHPress(<minecraft:gold_ingot>, 1);
+
+    //Remove heavy plates from Hydraulic Press
+    magneticraft.removeHPress(<minecraft:iron_ingot>, 2);
+    magneticraft.removeHPress(<minecraft:gold_ingot>, 2);
 }
 
 
