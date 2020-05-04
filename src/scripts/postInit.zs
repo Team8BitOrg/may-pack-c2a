@@ -47,6 +47,7 @@ function initIntegration() {
 	scripts.modIntegrations.actuallyadditions.init();
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.mekanism.init();
+	/* scripts.modIntegrations.inworldcrafting.init(); */
 }
 
 function initItemModifiers() {

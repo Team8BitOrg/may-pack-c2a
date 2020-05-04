@@ -18,6 +18,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
+    <integrateddynamics:menril_sapling> : [
+			[
+	  			[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>],
+	   			[<integrateddynamics:crystalized_menril_chunk>, <ore:treeSapling>, <integrateddynamics:crystalized_menril_chunk>],
+	  			[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]
+			]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

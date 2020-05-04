@@ -12,4 +12,10 @@ function init() {
     //Washes tar off Hearthgrove logs
     inspirations.addCauldronFluid(<thebetweenlands:log_hearthgrove:1>, <thebetweenlands:log_hearthgrove:5>, <liquid:swamp_water>);
     inspirations.addCauldronFluid(<thebetweenlands:log_hearthgrove:3>, <thebetweenlands:log_hearthgrove:7>, <liquid:swamp_water>);
+
+    //Create Menril Resin
+    inspirations.addCauldronFluidTransform(<liquid:menrilresin>, <botania:petalblock:3>, <liquid:etchacid>);
+
+    //Make Crystalized Menril Chunk
+    inspirations.addCauldronFluid(<integrateddynamics:crystalized_menril_chunk>, <minecraft:redstone>, <liquid:menrilresin>, 1);
 }
