@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for <modname>
+    This script handles the recipes for Botania
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -19,24 +19,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <immersiveengineering:stone_decoration> * 3 : [
-			[
-	  			[<minecraft:clay_ball>, <thebetweenlands:items_misc:10>, <minecraft:clay_ball>],
-	   			[<thebetweenlands:items_misc:10>, <ore:sandstone>, <thebetweenlands:items_misc:10>],
-	  			[<minecraft:clay_ball>, <thebetweenlands:items_misc:10>, <minecraft:clay_ball>]
-			]
-	],
-
-    <immersiveengineering:wooden_device1> : [
-        craftingHelper.createSurroundedRecipe(<immersiveengineering:material:10>, <alchemistry:ingot:74>)
-    ],
-
-    <immersiveengineering:stone_decoration:10> * 2 : [
-        [
-            [<ore:sandstone>, <thebetweenlands:items_misc:10>],
-            [<thebetweenlands:items_misc:10>, <ore:sandstone>]
-        ]
-    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -89,14 +71,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	]*/
 };
 
-
 //Removals
 static removeRecipes as IItemStack[] = [
-    //<modid:itemname:meta>
-    <immersiveengineering:stone_decoration>,
-    <immersiveengineering:wooden_device1>,
-    <immersiveengineering:stone_decoration:10>,
-    <immersiveengineering:material:2>
+    //<modid:itemname:meta> 
+    <botania:fertilizer>  
 ];
 
 function init() {

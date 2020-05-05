@@ -9,6 +9,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.craftingHelper;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {

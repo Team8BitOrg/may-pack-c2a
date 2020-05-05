@@ -7,9 +7,14 @@
       "boolean": false
     },
     "ledger.help.is_open": {
-      "boolean": false
+      "boolean": true
     },
     "ledger.owner.is_open": {
+      "boolean": true
+    }
+  },
+  "buildcraftsilicon:all_tables": {
+    "ledger.power.is_open": {
       "boolean": false
     }
   }

@@ -36,6 +36,7 @@ brandon3055/DraconicEvolution.cfg
     B:worldGenEnabled=false
 buildcraft/main.cfg
     oil {
+        B:enable=false
         I:excludedDimensions <
             20
 ChanceCubes/chancecubes.cfg
@@ -122,6 +123,7 @@ incontrol/spawn.json
         "result": "deny"
     }
 thebetweenlands/config.cfg
+    B:show_non_bl_gem_recipes=false
     B:start_in_betweenlands=true
 actuallyadditions.cfg
     B:"Give Booklet on First Craft"=false
@@ -263,6 +265,8 @@ everlastingabilites.cfg
     I:general.dropAbilitiesOnPlayerDeath=0
     I:general.mobAbilityChance=0
     I:general.totemMaximumSpawnRarity=-1
+gamestages.cfg
+    B:"Log Debug Data"=false
 geolosys.json
     Removed entries from all "biomes" entries
 IC2.ini
@@ -275,6 +279,10 @@ IC2.ini
         enabled = false
     [worldgen / uranium]
         enabled = false
+immersiveengineering.cfg
+    S:preferredOres <
+        alchemistry
+        alchemaddon
 integrateddynamics.cfg
     B:on_the_dynamics_of_integration.bookRewards=false
     B:on_the_dynamics_of_integration.obtainOnSpawn=false

@@ -37,6 +37,8 @@ function initRecipes() {
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.randomthings.init();
 	scripts.recipes.mods.mysticalag.init();
+	scripts.recipes.mods.botania.init();
+	scripts.recipes.mods.astral.init();
 }
 
 function initIntegration() {
@@ -46,6 +48,7 @@ function initIntegration() {
 	scripts.modIntegrations.actuallyadditions.init();
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.mekanism.init();
+	scripts.modIntegrations.immersiveengineering.init();
 	/* scripts.modIntegrations.inworldcrafting.init(); */
 }
 
