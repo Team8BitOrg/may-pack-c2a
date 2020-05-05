@@ -40,11 +40,25 @@ zenClass ImmersiveEngineering {
         mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy);
     }
 
-    function removeMetalPress(ouput as IItemStack) {
+    function removeMetalPress(output as IItemStack) {
         mods.immersiveengineering.MetalPress.removeRecipe(output);
     }
 
+    function addCrusher(output as IItemStack, input as IIngredient, energy as int, secondaryOutput as IItemStack, secondaryChance as double) {
+        mods.immersiveengineering.Crusher.addRecipe(output, input, energy, secondaryOutput, secondaryChance);
+    }
 
+    function addCrusher(output as IItemStack, input as IIngredient, energy as int) {
+        mods.immersiveengineering.Crusher.addRecipe(output, input, energy);
+    }
+
+    function removeCrusherByOutput(output as IItemStack){
+        mods.immersiveengineering.Crusher.removeRecipe(output);
+    }
+
+    function removeCrusherByInput(input as IItemStack){
+        mods.immersiveengineering.Crusher.removeRecipesForInput(input);
+    }
 
 
 }

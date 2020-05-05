@@ -39,6 +39,8 @@ function initRecipes() {
 	scripts.recipes.mods.mysticalag.init();
 	scripts.recipes.mods.botania.init();
 	scripts.recipes.mods.astral.init();
+	scripts.recipes.mods.poweradapter.init();
+	scripts.recipes.mods.pneumaticraft.init();
 }
 
 function initIntegration() {

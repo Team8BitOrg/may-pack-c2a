@@ -8,6 +8,7 @@
     pasting and claiming as your own.
 */
 
+//Blocks
 <ore:blockCopper>.remove(<thermalfoundation:storage>);
 <ore:blockTin>.remove(<thermalfoundation:storage:1>);
 <ore:blockSilver>.remove(<thermalfoundation:storage:2>);
@@ -16,3 +17,9 @@
 <ore:blockNickel>.remove(<thermalfoundation:storage:5>);
 <ore:blockPlatinum>.remove(<thermalfoundation:storage:6>);
 <ore:blockIridium>.remove(<thermalfoundation:storage:7>);
+
+//Ingots
+<ore:ingotSteel>.remove(<thermalfoundation:material:160>);
+
+//Plate
+<ore:plateSteel>.remove(<thermalfoundation:material:352>);

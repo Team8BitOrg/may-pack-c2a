@@ -9,6 +9,8 @@
 */
 //Ingots
 <ore:ingotCopper>.remove(<nuclearcraft:ingot>);
+<ore:ingotSteel>.remove(<nuclearcraft:alloy:5>);
+
 
 //Dusts
 <ore:dustCopper>.remove(<nuclearcraft:dust>);
