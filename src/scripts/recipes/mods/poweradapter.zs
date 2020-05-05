@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Minecraft
+    This script handles the recipes for Power Adapter
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -8,6 +8,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.craftingHelper;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
@@ -18,18 +19,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <minecraft:cauldron> : [
+    <poweradapters:mj> : [
 			[
-	  			[<contenttweaker:material_part:1>, null, <contenttweaker:material_part:1>],
-	   			[<contenttweaker:material_part:1>, null, <contenttweaker:material_part:1>],
-	  			[<contenttweaker:material_part:1>, <contenttweaker:material_part:1>, <contenttweaker:material_part:1>]
-			]
-	],
-    <minecraft:furnace> : [
-			[
-	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-	   			[<ore:cobblestone>, <thebetweenlands:sulfur_furnace_dual>, <ore:cobblestone>],
-	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+	  			[<alchemistry:ingot:74>, <alchemistry:ingot:74>, <alchemistry:ingot:74>],
+	   			[<immersiveengineering:connector>, <minecraft:redstone_block>, <buildcrafttransport:pipe_wood_power>],
+	  			[<alchemistry:ingot:74>, <alchemistry:ingot:74>, <alchemistry:ingot:74>]
 			]
 	]
 };
@@ -74,24 +68,6 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
-    <minecraft:planks> * 2 : [
-        [<minecraft:log>]
-    ],
-    <minecraft:planks:1> * 2 : [
-        [<minecraft:log:1>]
-    ],
-    <minecraft:planks:2> * 2 : [
-        [<minecraft:log:2>]
-    ],
-    <minecraft:planks:3> * 2 : [
-        [<minecraft:log:3>]
-    ],
-    <minecraft:planks:4> * 2 : [
-        [<minecraft:log2>]
-    ],
-    <minecraft:planks:5> * 2 : [
-        [<minecraft:log2:1>]
-    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -105,14 +81,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <minecraft:planks>,
-    <minecraft:planks:1>,
-    <minecraft:planks:2>,
-    <minecraft:planks:3>,
-    <minecraft:planks:4>,
-    <minecraft:planks:5>,
-    <minecraft:cauldron>,
-    <minecraft:furnace>
+    <poweradapters:mj> 
 ];
 
 function init() {

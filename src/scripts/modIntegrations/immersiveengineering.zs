@@ -28,4 +28,7 @@ function init() {
     //Replace Steel Plate
     /* immersiveengineering.addMetalPress(<alchemaddon:>, <alchemistry:ingot:74>, <immersiveengineering:mold:0>, 2000); */
     immersiveengineering.removeMetalPress(<immersiveengineering:metal:38>);
+
+    //Remove Quartz from Crusher
+    immersiveengineering.removeCrusherByInput(<geolosys:ore_vanilla:4>);
 }
