@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Pneumaticraft
+    This script handles the recipes for Deep Mob Learning
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -19,11 +19,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <pneumaticcraft:air_compressor> : [
+    <deepmoblearning:machine_casing> : [
 			[
-	  			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>],
-	   			[<pneumaticcraft:ingot_iron_compressed>, null, <pneumaticcraft:pressure_tube>],
-	  			[<pneumaticcraft:ingot_iron_compressed>, <actuallyadditions:block_furnace_double>, <pneumaticcraft:ingot_iron_compressed>]
+	  			[<deepmoblearning:soot_covered_plate>, <alchemistry:ingot:97>, <deepmoblearning:soot_covered_plate>],
+	   			[<alchemistry:ingot:97>, <deepmoblearning:soot_covered_redstone>, <alchemistry:ingot:97>],
+	  			[<deepmoblearning:soot_covered_plate>, <alchemistry:ingot:97>, <deepmoblearning:soot_covered_plate>]
 			]
 	]
 };
@@ -81,7 +81,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <pneumaticcraft:air_compressor>  
+    <deepmoblearning:machine_casing>   
 ];
 
 function init() {

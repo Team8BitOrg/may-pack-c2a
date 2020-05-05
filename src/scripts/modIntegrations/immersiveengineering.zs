@@ -31,4 +31,7 @@ function init() {
 
     //Remove Quartz from Crusher
     immersiveengineering.removeCrusherByInput(<geolosys:ore_vanilla:4>);
+
+    //Add Plates
+    immersiveengineering.addMetalPress(<contenttweaker:material_part:119>, <alchemistry:ingot:43>, <immersiveengineering:mold:0>, 2000);
 }

@@ -41,6 +41,10 @@ function initRecipes() {
 	scripts.recipes.mods.astral.init();
 	scripts.recipes.mods.poweradapter.init();
 	scripts.recipes.mods.pneumaticraft.init();
+	scripts.recipes.mods.compactmachines.init();
+	scripts.recipes.mods.deepmoblearning.init();
+	scripts.recipes.mods.rftools.init();
+	scripts.recipes.mods.actuallyadditions.init();
 }
 
 function initIntegration() {
@@ -51,6 +55,7 @@ function initIntegration() {
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.mekanism.init();
 	scripts.modIntegrations.immersiveengineering.init();
+	scripts.modIntegrations.ic2.init();
 	/* scripts.modIntegrations.inworldcrafting.init(); */
 }
 

@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Pneumaticraft
+    This script handles the recipes for Actually Additions
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -19,11 +19,11 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <pneumaticcraft:air_compressor> : [
+    <actuallyadditions:block_misc:9> : [
 			[
-	  			[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>],
-	   			[<pneumaticcraft:ingot_iron_compressed>, null, <pneumaticcraft:pressure_tube>],
-	  			[<pneumaticcraft:ingot_iron_compressed>, <actuallyadditions:block_furnace_double>, <pneumaticcraft:ingot_iron_compressed>]
+	  			[<contenttweaker:material_part:119>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:119>],
+	   			[<actuallyadditions:item_misc:5>, <ic2:resource:13>, <actuallyadditions:item_misc:5>],
+	  			[<contenttweaker:material_part:119>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:119>]
 			]
 	]
 };
@@ -81,7 +81,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <pneumaticcraft:air_compressor>  
+    <actuallyadditions:block_misc:9>   
 ];
 
 function init() {
