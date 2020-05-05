@@ -207,13 +207,13 @@ function init() {
     ];
     materials.strontium.registerParts(strontiumParts);
 
-    var ytteriumParts as string[] = [
+    var yttriumParts as string[] = [
         "block",
         "plate",
         "gear",
         "dust"
     ];
-    materials.ytterium.registerParts(ytteriumParts);
+    materials.yttrium.registerParts(yttriumParts);
 
     var zirconiumParts as string[] = [
         "block",
