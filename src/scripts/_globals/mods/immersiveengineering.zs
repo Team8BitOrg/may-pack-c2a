@@ -40,7 +40,7 @@ zenClass ImmersiveEngineering {
         mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy);
     }
 
-    function removeMetalPress(ouput as IItemStack) {
+    function removeMetalPress(output as IItemStack) {
         mods.immersiveengineering.MetalPress.removeRecipe(output);
     }
 

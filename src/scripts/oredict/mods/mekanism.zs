@@ -10,6 +10,7 @@
 
 //Ingots
 <ore:ingotCopper>.remove(<mekanism:ingot:5>);
+<ore:ingotSteel>.remove(<mekanism:ingot:4>);
 
 //Dusts
 <ore:dustCopper>.remove(<mekanism:dust:3>);
