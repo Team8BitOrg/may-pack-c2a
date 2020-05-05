@@ -1,8 +1,56 @@
 {
   "savedSubBlockNames": {
     "0": {
-      "0": "aquamarine_ore_minecraft_stone",
-      "1": "tough_alloy_block"
+      "0": "scandium_block",
+      "1": "aluminum_block",
+      "2": "aquamarine_ore_minecraft_stone",
+      "3": "chromium_block",
+      "4": "calcium_block",
+      "5": "vanadium_block",
+      "6": "potassium_block",
+      "7": "titanium_block",
+      "8": "lithium_block",
+      "9": "boron_block",
+      "10": "silicon_block",
+      "11": "magnesium_block",
+      "12": "tough_alloy_block",
+      "13": "beryllium_block",
+      "14": "sodium_block",
+      "15": "gallium_block"
+    },
+    "1": {
+      "0": "arsenic_block",
+      "1": "nickel_block",
+      "2": "copper_block",
+      "3": "strontium_block",
+      "4": "selenium_block",
+      "5": "manganese_block",
+      "6": "cobalt_block",
+      "7": "rubidium_block",
+      "8": "germanium_block",
+      "9": "zinc_block",
+      "10": "cadmium_block",
+      "11": "antimony_block",
+      "12": "barium_block",
+      "13": "lanthanum_block",
+      "14": "tellurium_block",
+      "15": "indium_block"
+    },
+    "2": {
+      "0": "tin_block",
+      "1": "molybdenum_block",
+      "2": "technetium_block",
+      "3": "praseodymium_block",
+      "4": "niobium_block",
+      "5": "cerium_block",
+      "6": "silver_block",
+      "7": "rhodium_block",
+      "8": "zirconium_block",
+      "9": "ruthenium_block",
+      "10": "palladium_block",
+      "11": "ytterium_block",
+      "12": "cesium_block",
+      "13": "neodymium_block"
     }
   }
 }

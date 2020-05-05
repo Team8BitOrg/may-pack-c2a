@@ -2,7 +2,6 @@
 
 /*
     ContentTweaker Misc Script
-
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
     pasting and claiming as your own.
@@ -16,7 +15,7 @@ import scripts.contenttweaker.materials.utils.addDefaultOreData;
 import scripts.contenttweaker.materials.init.materials;
 
 function init() {
-    //Aquamarine
+    //Aquamarine Ore
     var oreAquamarineData = materials.aquamarine.registerPart("ore").getData();
     addDefaultOreData(oreAquamarineData);
     oreAquamarineData.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
@@ -35,6 +34,4 @@ function init() {
         "dust"
     ];
     materials.toughalloy.registerParts(toughAlloyParts);
-
-
 }
