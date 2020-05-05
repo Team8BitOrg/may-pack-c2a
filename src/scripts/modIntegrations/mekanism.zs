@@ -8,7 +8,6 @@
 function init() {
     //Remove unused Copper Dust from Enrichment Chamber
     mekanism.removeEnrich(<mekanism:dirtydust:3>);
-    mekanism.removeEnrich(<magneticraft:ores>);
     mekanism.removeEnrich(<mekanism:oreblock:1>);
     mekanism.removeEnrich(<geolosys:cluster:2>);
     mekanism.removeEnrich(<thermalfoundation:ore>);

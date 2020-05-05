@@ -20,9 +20,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	]*/
     <bloodmagic:soul_snare> * 4 : [
 			[
-	  			[<thebetweenlands:rope_item>, <magneticraft:copper_coil>, <thebetweenlands:rope_item>],
-	   			[<thebetweenlands:items_misc:26>, <minecraft:tripwire_hook>, <thebetweenlands:items_misc:26>],
-	  			[null, <thebetweenlands:rope_item>, null]
+	  			[null, <immersiveengineering:wirecoil:5>, null],
+	   			[<immersiveengineering:wirecoil:5>, <ore:grapplingHook>.reuse(), <immersiveengineering:wirecoil:5>],
+	  			[null, <immersiveengineering:wirecoil:5>, null]
 			]
 	]
 };

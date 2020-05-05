@@ -19,12 +19,15 @@ Ender Storage - Using DimStorage instead
 
 -- Config Changes --
 --------------------
-AppliedEnergistics2/AppliedEnergistics2.cfg
-    world {
-        B:CertusOre=false
-        B:CertusQuartzWorldGen=false
-        B:ChargedCertusOre=false
-        B:MeteoriteWorldGen=false
+AppliedEnergistics2
+    /AppliedEnergistics2.cfg
+        world {
+            B:CertusOre=false
+            B:CertusQuartzWorldGen=false
+            B:ChargedCertusOre=false
+            B:MeteoriteWorldGen=false
+    /extracells.cfg
+        B:enableigwmod=false
 Guide-API/Guide-API.cfg
     B:"cyclicmagic:guide"=false
 brandon3055/DraconicEvolution.cfg

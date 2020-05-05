@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Magneticraft
+    This script handles the recipes for <modname>
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -18,6 +18,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
+    <immersiveengineering:stone_decoration> * 3 : [
+			[
+	  			[<minecraft:clay_ball>, <thebetweenlands:items_misc:10>, <minecraft:clay_ball>],
+	   			[<thebetweenlands:items_misc:10>, <ore:sandstone>, <thebetweenlands:items_misc:10>],
+	  			[<minecraft:clay_ball>, <thebetweenlands:items_misc:10>, <minecraft:clay_ball>]
+			]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -73,19 +80,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <magneticraft:ingots:2>,
-    <magneticraft:ingots:3>,
-    <magneticraft:ingots:4>,
-    <magneticraft:ingots:5>,
-    <magneticraft:ingots:6>,
-    <magneticraft:ingots:7>,
-    <magneticraft:ingots:9>,
-    <magneticraft:ingots:10>,
-    <magneticraft:ingots:11>,
-    <magneticraft:ingots:12>,
-    <magneticraft:ingots:13>,
-    <magneticraft:ingots:14>
-
+    <immersiveengineering:stone_decoration>
 ];
 
 function init() {
