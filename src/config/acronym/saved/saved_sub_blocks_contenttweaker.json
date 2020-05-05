@@ -50,7 +50,70 @@
       "10": "palladium_block",
       "11": "ytterium_block",
       "12": "cesium_block",
-      "13": "neodymium_block"
+      "13": "neodymium_block",
+      "14": "erbium_block",
+      "15": "thulium_block"
+    },
+    "3": {
+      "0": "europium_block",
+      "1": "dysprosium_block",
+      "2": "samarium_block",
+      "3": "promethium_block",
+      "4": "gadolinium_block",
+      "5": "terbium_block",
+      "6": "holmium_block",
+      "7": "iridium_block",
+      "8": "thorium_block",
+      "9": "berkelium_block",
+      "10": "darmstadtium_block",
+      "11": "fermium_block",
+      "12": "rhenium_block",
+      "13": "lawrencium_block",
+      "14": "dubmium_block",
+      "15": "medelevium_block"
+    },
+    "4": {
+      "0": "osmium_block",
+      "1": "lead_block",
+      "2": "polonium_block",
+      "3": "bismuth_block",
+      "4": "francium_block",
+      "5": "uranium_block",
+      "6": "radium_block",
+      "7": "thallium_block",
+      "8": "protactinium_block",
+      "9": "californium_block",
+      "10": "hafnium_block",
+      "11": "rutherfordium_block",
+      "12": "ytterbium_block",
+      "13": "plutonium_block",
+      "14": "platinum_block",
+      "15": "roentgenium_block"
+    },
+    "5": {
+      "0": "bohrium_block",
+      "1": "neptunium_block",
+      "2": "tungsten_block",
+      "3": "meitnerium_block",
+      "4": "curium_block",
+      "5": "hassium_block",
+      "6": "nobelium_block",
+      "7": "seaborgium_block",
+      "8": "americium_block",
+      "9": "tantalum_block",
+      "10": "astatine_block",
+      "11": "einsteinium_block",
+      "12": "actinium_block",
+      "13": "lutetium_block",
+      "14": "copernicium_block",
+      "15": "nihonium_block"
+    },
+    "6": {
+      "0": "moscovium_block",
+      "1": "oganesson_block",
+      "2": "flerovium_block",
+      "3": "livermorium_block",
+      "4": "tennessine_block"
     }
   }
 }
