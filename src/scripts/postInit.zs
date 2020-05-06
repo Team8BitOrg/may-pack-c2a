@@ -55,7 +55,7 @@ function initIntegration() {
 	scripts.modIntegrations.botania.init();
 	scripts.modIntegrations.mekanism.init();
 	scripts.modIntegrations.immersiveengineering.init();
-	scripts.modIntegrations.ic2.init();
+	scripts.modIntegrations.industrialcraft.init();
 	/* scripts.modIntegrations.inworldcrafting.init(); */
 }
 

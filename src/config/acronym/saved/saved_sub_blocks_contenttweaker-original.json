@@ -107,6 +107,13 @@
       "13": "lutetium_block",
       "14": "copernicium_block",
       "15": "nihonium_block"
+    },
+    "6": {
+      "0": "moscovium_block",
+      "1": "oganesson_block",
+      "2": "flerovium_block",
+      "3": "livermorium_block",
+      "4": "tennessine_block"
     }
   }
 }

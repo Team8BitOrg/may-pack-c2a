@@ -9,7 +9,7 @@ function init() {
     
     //Replace Steel with Tungsten
     immersiveengineering.addBlastFurnace(<alchemistry:ingot:74>, <minecraft:iron_ingot>, 2560, <immersiveengineering:material:7>);
-    /* immersiveengineering.addBlastFurnace(<alchemaddon>, <minecraft:iron_block>, 18500, <immersiveengineering:material:7> * 9); */
+    immersiveengineering.addBlastFurnace(<contenttweaker:sub_block_holder_5:2>, <minecraft:iron_block>, 18500, <immersiveengineering:material:7> * 9);
     immersiveengineering.removeBlastFurnace(<immersiveengineering:metal:8>);
     immersiveengineering.removeBlastFurnace(<immersiveengineering:storage:8>);
 
@@ -26,8 +26,9 @@ function init() {
     immersiveengineering.removeMetalPress(<thermalfoundation:material:288>);
 
     //Replace Steel Plate
-    /* immersiveengineering.addMetalPress(<alchemaddon:>, <alchemistry:ingot:74>, <immersiveengineering:mold:0>, 2000); */
+    immersiveengineering.addMetalPress(<contenttweaker:material_part:235>, <alchemistry:ingot:74>, <immersiveengineering:mold:0>, 2000);
     immersiveengineering.removeMetalPress(<immersiveengineering:metal:38>);
+    immersiveengineering.removeMetalPress(<thermalfoundation:material:352>);
 
     //Remove Quartz from Crusher
     immersiveengineering.removeCrusherByInput(<geolosys:ore_vanilla:4>);

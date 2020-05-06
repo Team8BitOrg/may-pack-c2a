@@ -36,7 +36,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<ore:sandstone>, <thebetweenlands:items_misc:10>],
             [<thebetweenlands:items_misc:10>, <ore:sandstone>]
         ]
-    ]
+    ],
+
+    <immersiveengineering:material:2> : [
+        [
+            [<alchemistry:ingot:74>],
+            [<alchemistry:ingot:74>]
+        ]
+    ],
+
+    
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
