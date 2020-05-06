@@ -9,6 +9,7 @@
 
 import mods.contenttweaker.Material;
 import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.MaterialPartData;
 
 //import scripts.contenttweaker.materials.utils.addDefaultMoltenData;
 import scripts.contenttweaker.materials.utils.addDefaultOreData;
@@ -34,4 +35,10 @@ function init() {
         "dust"
     ];
     materials.toughalloy.registerParts(toughAlloyParts);
+
+    //Octine Armor
+    var octineArmor = materials.octine.registerPart("armor").getData();
+    octineArmor.addDataValue("durability", "25");
+    octineArmor.addDataValue("reduction", "2,5,7,2");
+    octineArmor.addDataValue("toughness", "1");
 }
