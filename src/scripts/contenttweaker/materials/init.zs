@@ -14,7 +14,7 @@ import mods.contenttweaker.MaterialSystem;
 
 static materials as Material[string] = {
     "aquamarine": MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(Color.fromHex("12a9de")).build(),
-    "octine": MaterialSystem.getMaterialBuilder().setName("Octine").setColor(Color.fromHex("ffb600")).build(),
+    "octine": MaterialSystem.getMaterialBuilder().setName("Octine").setColor(Color.fromHex("233372")).build(),
     "syrmorite": MaterialSystem.getMaterialBuilder().setName("Syrmorite").setColor(Color.fromHex("373e66")).build(),
     "toughalloy": MaterialSystem.getMaterialBuilder().setName("Tough Alloy").setColor(Color.fromHex("130e1e")).build(),
 
@@ -43,7 +43,7 @@ static materials as Material[string] = {
     "selenium": MaterialSystem.getMaterialBuilder().setName("Selenium").setColor(Color.fromHex("743e91")).build(),
     "rubidium": MaterialSystem.getMaterialBuilder().setName("Rubidium").setColor(Color.fromHex("0f3d28")).build(),
     "strontium": MaterialSystem.getMaterialBuilder().setName("Strontium").setColor(Color.fromHex("ce5818")).build(),
-    "yttrium": MaterialSystem.getMaterialBuilder().setName("Ytterium").setColor(Color.fromHex("ceb318")).build(),
+    "yttrium": MaterialSystem.getMaterialBuilder().setName("Yttrium").setColor(Color.fromHex("ceb318")).build(),
     "zirconium": MaterialSystem.getMaterialBuilder().setName("Zirconium").setColor(Color.fromHex("7f5016")).build(),
     "niobium": MaterialSystem.getMaterialBuilder().setName("Niobium").setColor(Color.fromHex("021dff")).build(),
     "molybdenum": MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(Color.fromHex("270030")).build(),
