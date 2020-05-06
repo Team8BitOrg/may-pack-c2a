@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "base:items/feet"
+    "layer0": "contenttweaker:items/octine_feet"
   }
 }
