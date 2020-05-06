@@ -10,3 +10,4 @@
 
 //Ore
 <ore:oreAquamarine>.remove(<astralsorcery:blockcustomsandore>);
+<ore:oreRockCrystal>.add(<astralsorcery:blockcustomore>);

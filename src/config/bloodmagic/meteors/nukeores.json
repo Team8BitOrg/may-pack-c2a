@@ -30,6 +30,10 @@
     {
       "weight": 275,
       "oreName": "oreAquamarine"
+    },
+    {
+      "weight": 175,
+      "oreName": "oreRockCrystal"
     }
   ],
   "explosionStrength": 12.0,
