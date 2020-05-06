@@ -43,7 +43,7 @@ static materials as Material[string] = {
     "selenium": MaterialSystem.getMaterialBuilder().setName("Selenium").setColor(Color.fromHex("743e91")).build(),
     "rubidium": MaterialSystem.getMaterialBuilder().setName("Rubidium").setColor(Color.fromHex("0f3d28")).build(),
     "strontium": MaterialSystem.getMaterialBuilder().setName("Strontium").setColor(Color.fromHex("ce5818")).build(),
-    "yttrium": MaterialSystem.getMaterialBuilder().setName("Ytterium").setColor(Color.fromHex("ceb318")).build(),
+    "yttrium": MaterialSystem.getMaterialBuilder().setName("Yttrium").setColor(Color.fromHex("ceb318")).build(),
     "zirconium": MaterialSystem.getMaterialBuilder().setName("Zirconium").setColor(Color.fromHex("7f5016")).build(),
     "niobium": MaterialSystem.getMaterialBuilder().setName("Niobium").setColor(Color.fromHex("021dff")).build(),
     "molybdenum": MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(Color.fromHex("270030")).build(),
