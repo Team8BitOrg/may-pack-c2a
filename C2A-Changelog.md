@@ -283,6 +283,11 @@ immersiveengineering.cfg
     S:preferredOres <
         alchemistry
         alchemaddon
+    ores {
+        I:oreDimBlacklist <
+            0
+            20
+            66
 integrateddynamics.cfg
     B:on_the_dynamics_of_integration.bookRewards=false
     B:on_the_dynamics_of_integration.obtainOnSpawn=false
