@@ -9,7 +9,7 @@
 					"name": "appliedenergistics2:sky_stone_block"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 8
 			},
 			"cluster-count": 8,
 			"min-height": 20,

@@ -71,7 +71,6 @@ cofh/world/01_thermalfoundation_ores.json
     "copper_high": {
         "enabled": "false",
 cofh/world/config.cfg
-    B:DisableAllGeneration=true
     B:EnableRetroactiveFlatBedrock=true
 incontrol/loot.json
     {
@@ -223,6 +222,11 @@ immersiveengineering.cfg
             0
             20
             66
+inspirations.cfg
+    B:moreSeeds=false
+    moreseeds {
+        B:grassDrops=false
+        B:nerfCarrotPotatoDrops=false
 integrateddynamics.cfg
     B:on_the_dynamics_of_integration.bookRewards=false
     B:on_the_dynamics_of_integration.obtainOnSpawn=false
@@ -283,6 +287,10 @@ randomthings.cfg
     B:SlimeCube=false
     B:SummoningPendulum=false
     B:WaterChest=false
+rftools.cfg
+    S:dimensionalShardOregenWithDimensions <
+    S:dimensionalShardOregenWithoutDimensions <
+    I:oreMaximumVeinSize=0
 splash.properties
     background=0xbf1e2e
     font=0xffe0e3
