@@ -21,9 +21,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	]*/
     <actuallyadditions:block_misc:9> : [
 			[
-	  			[<contenttweaker:material_part:119>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:119>],
+	  			[<contenttweaker:material_part:56>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:56>],
 	   			[<actuallyadditions:item_misc:5>, <ic2:resource:13>, <actuallyadditions:item_misc:5>],
-	  			[<contenttweaker:material_part:119>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:119>]
+	  			[<contenttweaker:material_part:56>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:56>]
 			]
 	]
 };

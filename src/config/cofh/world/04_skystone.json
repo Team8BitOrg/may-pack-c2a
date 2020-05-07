@@ -1,0 +1,28 @@
+{
+	"populate": {
+	
+		"skystone": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:sky_stone_block"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 8,
+			"min-height": 20,
+			"max-height": 90,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+        }
+        
+	}
+}

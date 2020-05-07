@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for RFTools
+    This script handles the recipes for Applied Energistics
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -19,11 +19,18 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <rftools:machine_frame> : [
+    <appliedenergistics2:energy_acceptor> : [
 			[
-	  			[<alchemistry:ingot:104>, <actuallyadditions:block_crystal_empowered:1>, <alchemistry:ingot:104>],
-	   			[<appliedenergistics2:material:22>, null, <appliedenergistics2:material:22>],
-	  			[<alchemistry:ingot:104>, <actuallyadditions:block_crystal_empowered:1>, <alchemistry:ingot:104>]
+	  			[<alchemistry:ingot:64>, <appliedenergistics2:quartz_glass>, <alchemistry:ingot:64>],
+	   			[<appliedenergistics2:quartz_glass>, <ore:allFluixCrystal>, <appliedenergistics2:quartz_glass>],
+	  			[<alchemistry:ingot:64>, <appliedenergistics2:quartz_glass>, <alchemistry:ingot:64>]
+			]
+	],
+    <appliedenergistics2:quantum_ring> : [
+			[
+	  			[<alchemistry:ingot:68>, <appliedenergistics2:material:22>, <alchemistry:ingot:68>],
+	   			[<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:part:76>],
+	  			[<alchemistry:ingot:68>, <appliedenergistics2:material:22>, <alchemistry:ingot:68>]
 			]
 	]
 };
@@ -81,9 +88,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <rftools:storage_scanner>,
-    <rftools:storage_module_tablet>,
-    <rftools:machine_frame>
+    <appliedenergistics2:energy_acceptor>,
+    <appliedenergistics2:quantum_ring>,
+    <appliedenergistics2:controller>
 ];
 
 function init() {

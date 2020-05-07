@@ -25,6 +25,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[<minecraft:ender_eye>, <minecraft:book>, <minecraft:ender_eye>],
 	  			[null, <pneumaticcraft:plastic:7>, null]
 			]
+	],
+    <compactmachines3:fieldprojector> * 4 : [
+			[
+	  			[null, <botania:thirdeye>, null],
+	   			[<buildcraftsilicon:redstone_chipset:3>, <rftools:machine_frame>, <buildcraftsilicon:redstone_chipset:3>],
+	  			[<actuallyadditions:item_crystal_empowered:2>, <compactmachines3:psd>.reuse(), <actuallyadditions:item_crystal_empowered:2>]
+			]
 	]
 };
 
@@ -81,7 +88,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <compactmachines3:psd> 
+    <compactmachines3:psd>,
+    <compactmachines3:fieldprojector>
 ];
 
 function init() {
