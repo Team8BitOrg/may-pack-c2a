@@ -20,16 +20,16 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	]*/
     <ic2:resource:12> : [
 			[
-	  			[<contenttweaker:material_part:235>, <thermalfoundation:material:32>, <contenttweaker:material_part:235>],
+	  			[<contenttweaker:material_part:236>, <thermalfoundation:material:32>, <contenttweaker:material_part:236>],
 	   			[<thermalfoundation:material:32>, <buildcraftsilicon:redstone_chipset:1>, <thermalfoundation:material:32>],
-	  			[<contenttweaker:material_part:235>, <thermalfoundation:material:32>, <contenttweaker:material_part:235>]
+	  			[<contenttweaker:material_part:236>, <thermalfoundation:material:32>, <contenttweaker:material_part:236>]
 			]
 	],
     <ic2:resource:13> : [
 			[
-	  			[<contenttweaker:material_part:235>, <ic2:crafting:15>, <contenttweaker:material_part:235>],
+	  			[<contenttweaker:material_part:236>, <ic2:crafting:15>, <contenttweaker:material_part:236>],
 	   			[<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>],
-	  			[<contenttweaker:material_part:235>, <ic2:crafting:15>, <contenttweaker:material_part:235>]
+	  			[<contenttweaker:material_part:236>, <ic2:crafting:15>, <contenttweaker:material_part:236>]
 			]
 	]
 };

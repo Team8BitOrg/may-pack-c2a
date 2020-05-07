@@ -45,6 +45,7 @@ function initRecipes() {
 	scripts.recipes.mods.deepmoblearning.init();
 	scripts.recipes.mods.rftools.init();
 	scripts.recipes.mods.actuallyadditions.init();
+	scripts.recipes.mods.appliedenergetics.init();
 }
 
 function initIntegration() {

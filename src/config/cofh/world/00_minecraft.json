@@ -138,7 +138,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -159,7 +160,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -180,7 +182,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -201,7 +204,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -222,7 +226,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -243,7 +248,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -282,7 +288,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
@@ -322,7 +329,8 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					0
 				]
 			}
 		},
