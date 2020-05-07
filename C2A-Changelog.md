@@ -138,6 +138,7 @@ actuallyadditions.cfg
     B:"Jam Villager: Existence"=false
     B:"Rice Gen"=false
     B:"Treasure Chest Gen"=false
+    I:"What is 11"=0
 astralsorcery.cfg
     B:giveJournalAtFirstJoin=false
     I:generateAquamarineAmount=0
@@ -156,6 +157,8 @@ astralsorcery.cfg
         B:Generate=false
     rockcrystals {
         B:Generate=false
+avaritia.cfg
+    B:"break_bedrock"=false
 bettercaves-1_12_2.cfg
     I:"Whitelisted Dimension IDs" <
         20
@@ -207,6 +210,11 @@ gamestages.cfg
     B:"Log Debug Data"=false
 geolosys.json
     Removed entries from all "biomes" entries
+headcrumbs.cfg
+B:"Add player heads as dungeon loot"=false
+    I:"Dimension Blacklist" <
+        20
+    B:"Enable usernames sent by other mods"=false
 IC2.ini
     rubberTreeBlacklist = 20,66
     [worldgen / copper]
@@ -226,6 +234,9 @@ immersiveengineering.cfg
             0
             20
             66
+industrialforegoing.cfg
+    wither_builder {
+        B:enabled=false
 inspirations.cfg
     B:moreSeeds=false
     moreseeds {
@@ -256,6 +267,7 @@ mekanism.cfg
     I:OsmiumPerChunk=0
     I:SaltPerChunk=0
     I:TinPerChunk=0
+    B:DigitalMinerEnabled=false
 morpheus.cfg
     I:SleeperPerc=15
 mysticalagriculture.cfg

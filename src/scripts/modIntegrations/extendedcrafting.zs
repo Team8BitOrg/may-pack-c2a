@@ -1,3 +1,4 @@
+#norun
 /*
     This script handles the recipes for Extended Crafting
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 

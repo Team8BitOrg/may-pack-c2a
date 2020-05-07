@@ -45,6 +45,7 @@ function initRecipes() {
 	scripts.recipes.mods.rftools.init();
 	scripts.recipes.mods.actuallyadditions.init();
 	scripts.recipes.mods.appliedenergistics.init();
+	scripts.recipes.mods.extendedcrafting.init();
 }
 
 function initIntegration() {
@@ -58,7 +59,7 @@ function initIntegration() {
 	scripts.modIntegrations.industrialcraft.init();
 	scripts.modIntegrations.alchemistry.init();
 	scripts.modIntegrations.pneumaticcraft.init();
-	scripts.modIntegrations.extendedcrafting.init();
+	/* scripts.modIntegrations.extendedcrafting.init(); */
 	/* scripts.modIntegrations.inworldcrafting.init(); */
 }
 

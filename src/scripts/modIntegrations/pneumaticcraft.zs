@@ -1,6 +1,5 @@
-#norun
 /*
-    This script handles the recipes for MODNAME
+    This script handles the recipes for Pneumaticcraft
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
     pasting and claiming as your own.
@@ -13,8 +12,8 @@ function init() {
 
 
     //EXPLOSIONS!!!!
-    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard>, <draconicevolution:chaos_shard:1>, 10);
-    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:2>, 20);
-    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard:2>, <draconicevolution:chaos_shard:3>, 30);
+    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard>, <draconicevolution:chaos_shard:1> * 9, 10);
+    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:2> * 9, 20);
+    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard:2>, <draconicevolution:chaos_shard:3> * 9, 30);
 
 }

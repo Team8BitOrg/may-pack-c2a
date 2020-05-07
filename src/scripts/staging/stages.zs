@@ -15,7 +15,8 @@ import scripts.utils.toCamelCase;
 global stages as Stage[string] = {};
 
 var stageNames as string[] = [
-	"unobtainable"
+	"unobtainable",
+    "overworld"
 ];
 
 for stageName in stageNames {

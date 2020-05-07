@@ -1,8 +1,7 @@
-#norun
 #priority 3400
 
 /*
-    This script is a class script for ModName
+    This script is a class script for Pneumaticcraft
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -29,6 +28,7 @@ zenClass Pneumaticcraft {
         pressurechamber.removeRecipe(outputs);
     }
     
-    fuction addExplosionCrafting(input as IItemStack, output as IItemStack, loss_rate as int)
+    function addExplosionCrafting(input as IItemStack, output as IItemStack, loss_rate as int) {
         explosioncrafting.addRecipe(input, output, loss_rate);
+    }
 }
