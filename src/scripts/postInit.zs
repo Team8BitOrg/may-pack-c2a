@@ -58,7 +58,8 @@ function initIntegration() {
 	scripts.modIntegrations.immersiveengineering.init();
 	scripts.modIntegrations.industrialcraft.init();
 	scripts.modIntegrations.alchemistry.init();
-	scripts.modIntegrations.pneumaticraft.init();
+	scripts.modIntegrations.pneumaticcraft.init();
+	scripts.modIntegrations.extendedcrafting.init();
 	/* scripts.modIntegrations.inworldcrafting.init(); */
 }
 

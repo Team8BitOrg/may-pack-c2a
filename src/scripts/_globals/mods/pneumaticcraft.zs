@@ -17,16 +17,16 @@ import mods.pneumaticcraft.explosioncrafting;
 
 #Add anymore imports needed here
 
-zenClass ModName {
+zenClass Pneumaticcraft {
     zenConstructor() {
     }
 
     function addPressureChamber(inputs as IIngredient[], pressure as double, outputs as IItemStack[]) {
-        mods.pneumaticcraft.pressurechamber.addRecipe(inputs, pressure, outputs);
+        pressurechamber.addRecipe(inputs, pressure, outputs);
     }
 
     function removePressureChamber(outputs as IItemStack[]) {
-        mods.pneumaticcraft.pressurechamber.removeRecipe(outputs);
+        pressurechamber.removeRecipe(outputs);
     }
     
     fuction addExplosionCrafting(input as IItemStack, output as IItemStack, loss_rate as int)
