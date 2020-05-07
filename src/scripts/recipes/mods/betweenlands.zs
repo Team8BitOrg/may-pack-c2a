@@ -25,27 +25,27 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<thebetweenlands:glowing_betweenstone_tile>, <thebetweenlands:animator>, <thebetweenlands:glowing_betweenstone_tile>]
 			]
 	],
-    <contenttweaker:octine_head> : [
+    <contenttweaker:sigma_right_head> : [
 			[
 	  			[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>],
 	   			[<thebetweenlands:octine_ingot>, <thebetweenlands:syrmorite_helmet>, <thebetweenlands:octine_ingot>]
 			]
 	],
-    <contenttweaker:octine_chest> : [
+    <contenttweaker:sigma_right_chest> : [
 			[
 	  			[<thebetweenlands:octine_ingot>, <thebetweenlands:syrmorite_chestplate>, <thebetweenlands:octine_ingot>],
 	   			[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>],
 	  			[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>]
 			]
 	],
-    <contenttweaker:octine_legs> : [
+    <contenttweaker:sigma_right_legs> : [
 			[
 	  			[<thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>, <thebetweenlands:octine_ingot>],
 	   			[<thebetweenlands:octine_ingot>, <thebetweenlands:syrmorite_leggings>, <thebetweenlands:octine_ingot>],
 	  			[<thebetweenlands:octine_ingot>, null, <thebetweenlands:octine_ingot>]
 			]
 	],
-    <contenttweaker:octine_feet> : [
+    <contenttweaker:sigma_right_feet> : [
 			[
 	  			[<thebetweenlands:octine_ingot>, <thebetweenlands:syrmorite_boots>, <thebetweenlands:octine_ingot>],
 	   			[<thebetweenlands:octine_ingot>, null, <thebetweenlands:octine_ingot>]
