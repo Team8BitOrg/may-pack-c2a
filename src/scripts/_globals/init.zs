@@ -17,6 +17,8 @@ global botania as scripts._globals.mods.botania.Botania = scripts._globals.mods.
 global mekanism as scripts._globals.mods.mekanism.Mekanism = scripts._globals.mods.mekanism.Mekanism();
 global immersiveengineering as scripts._globals.mods.immersiveengineering.ImmersiveEngineering = scripts._globals.mods.immersiveengineering.ImmersiveEngineering();
 global industrialcraft as scripts._globals.mods.industrialcraft.IndustrialCraft = scripts._globals.mods.industrialcraft.IndustrialCraft();
+global alchemistry as scripts._globals.mods.alchemistry.Alchemistry = scripts._globals.mods.alchemistry.Alchemistry();
+global pneumaticraft as scripts._globals.mods.pneumaticraft.Pneumaticraft = scripts._globals.mods.pneumaticraft.Pneumaticraft();
 /* global inworldcrafting as scripts._globals.mods.inworldcrafting.InWorldCrafting = scripts._globals.mods.inworldcrafting.InWorldCrafting(); */
 
 

@@ -18,6 +18,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
+    <mysticalagriculture:soulstone> * 4 : [
+			[
+	  			[<minecraft:netherrack>, <tombstone:crafting_ingredient:3>, <minecraft:netherrack>],
+	   			[<tombstone:crafting_ingredient:3>, <botania:dye:12>, <tombstone:crafting_ingredient:3>],
+	  			[<minecraft:netherrack>, <tombstone:crafting_ingredient:3>, <minecraft:netherrack>]
+			]
+	]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -73,7 +80,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <mysticalagriculture:tier1_inferium_seeds> 
+    <mysticalagriculture:tier1_inferium_seeds>,
+    <mysticalagriculture:soulstone> 
 ];
 
 function init() {

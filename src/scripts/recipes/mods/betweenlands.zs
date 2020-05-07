@@ -50,7 +50,20 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<thebetweenlands:octine_ingot>, <thebetweenlands:syrmorite_boots>, <thebetweenlands:octine_ingot>],
 	   			[<thebetweenlands:octine_ingot>, null, <thebetweenlands:octine_ingot>]
 			]
-	]
+	],
+    <thebetweenlands:items_misc:20> * 2 : [
+			[
+	  			[<ore:plankBetween>],
+	   			[<ore:plankBetween>]
+			]
+	],
+    <thebetweenlands:items_misc:20> * 8 : [
+			[
+	  			[<ore:logBetween>],
+	   			[<ore:logBetween>]
+			]
+	],
+
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -99,6 +112,9 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     <thebetweenlands:weedwood_planks> * 2 : [
         [<thebetweenlands:log_weedwood:12>]
     ],
+    <thebetweenlands:weedwood_planks> * 2 : [
+        [<thebetweenlands:weedwood>]
+    ],
     <thebetweenlands:rubber_tree_planks> * 2 : [
         [<thebetweenlands:log_rubber>]
     ],
@@ -145,7 +161,8 @@ static removeRecipes as IItemStack[] = [
     <thebetweenlands:rubber_tree_planks>,
     <thebetweenlands:giant_root_planks>,
     <thebetweenlands:hearthgrove_planks>,
-    <thebetweenlands:nibbletwig_planks>
+    <thebetweenlands:nibbletwig_planks>,
+    <thebetweenlands:items_misc:20>
 ];
 
 function init() {

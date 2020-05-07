@@ -166,6 +166,10 @@ botania.cfg
     I:worldgen.flower.quantity=0
     D:worldgen.flower.tallChance=0
     I:worldgen.mushroom.quantity=0
+carryon.cfg
+    S:forbiddenEntities <
+        thebetweenlands:weedwood_rubber_tap
+        thebetweenlands:syrmorite_rubber_tap
 charm.cfg
     B:Spectre=false
     D:"Generate crate chance"=0.0
@@ -297,6 +301,8 @@ splash.properties
     barBackground=0xbf1e2e
     barBorder=0xbf1e2e
     bar=0xffe0e3
+tombstone.cfg
+    S:fogDensity=NONE
 theoneprobe.cfg
     B:spawnNote=false
     S:boxBorderColor=ffffe0e3
