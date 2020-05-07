@@ -33,7 +33,6 @@ function initRecipes() {
 	scripts.recipes.mods.erebus.init();
 	scripts.recipes.mods.immersiveengineering.init();
 	scripts.recipes.mods.industrialcraft.init();
-	scripts.recipes.mods.integrateddynamics.init();
 	scripts.recipes.mods.minecraft.init();
 	scripts.recipes.mods.randomthings.init();
 	scripts.recipes.mods.mysticalag.init();
