@@ -61,9 +61,6 @@ static ingredientsArray as IIngredient[] = [
     <immersiveengineering:metal:38>,
     <immersiveengineering:metal:39>,
     <immersiveengineering:metal:40>,
-    //IntegratedDynamics
-    <integrateddynamics:squeezer>,
-    <integrateddynamics:mechanical_squeezer>,
     //Mekanism
     <mekanism:ingot:5>,
     //Minecraft
