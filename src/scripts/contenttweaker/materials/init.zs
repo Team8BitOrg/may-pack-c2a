@@ -39,7 +39,7 @@ static materials as Material[string] = {
     "zinc": MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(Color.fromHex("bdc48d")).build(),
     "gallium": MaterialSystem.getMaterialBuilder().setName("Gallium").setColor(Color.fromHex("7a1431")).build(),
     "germanium": MaterialSystem.getMaterialBuilder().setName("Germanium").setColor(Color.fromHex("68acff")).build(),
-    "arsenic": MaterialSystem.getMaterialBuilder().setName("Arsenic").setColor(Color.fromHex("3e914cc")).build(),
+    "arsenic": MaterialSystem.getMaterialBuilder().setName("Arsenic").setColor(Color.fromHex("3e914c")).build(),
     "selenium": MaterialSystem.getMaterialBuilder().setName("Selenium").setColor(Color.fromHex("743e91")).build(),
     "rubidium": MaterialSystem.getMaterialBuilder().setName("Rubidium").setColor(Color.fromHex("0f3d28")).build(),
     "strontium": MaterialSystem.getMaterialBuilder().setName("Strontium").setColor(Color.fromHex("ce5818")).build(),
