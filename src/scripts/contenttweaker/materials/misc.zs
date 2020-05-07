@@ -36,9 +36,9 @@ function init() {
     ];
     materials.toughalloy.registerParts(toughAlloyParts);
 
-    //Octine Armor
-    var octineArmor = materials.octine.registerPart("armor").getData();
-    octineArmor.addDataValue("durability", "25");
-    octineArmor.addDataValue("reduction", "2,5,7,2");
-    octineArmor.addDataValue("toughness", "1");
+    //Sigma Right Armor
+    var sigmarightArmor = materials.sigmaright.registerPart("armor").getData();
+    sigmarightArmor.addDataValue("durability", "25");
+    sigmarightArmor.addDataValue("reduction", "2,5,7,2");
+    sigmarightArmor.addDataValue("toughness", "1");
 }
