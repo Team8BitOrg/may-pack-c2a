@@ -21,9 +21,11 @@ zenClass ExtendedCrafting {
     }
 
 //EnderCrafting
+//https://mods.blakebr0.com/docs/extendedcrafting/crafttweaker/ender-crafting-recipes
+// mods.extendedcrafting.EnderCrafting.addShaped(name, <output>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]], seconds);
 
-    function addShapedEnderCrafting(name as string, output as IItemStack, [input1 as IIngredient[], input2 as IIngredient[], input3 as IIngredient[]], seconds as int) {
-        EnderCrafting.addShaped(name, output, input1, input2, input3, seconds); 
+    function addShapedEnderCrafting(name as string, output as IItemStack, input1 as IIngredient[], input2 as IIngredient[], input3 as IIngredient[], seconds as int) {
+        EnderCrafting.addShaped(name, output, [input1, input2, input3], seconds); 
     }
 
     function addShapelessEnderCrafting(name as string, output as IItemStack, inputs as IIngredient[], seconds as int) {

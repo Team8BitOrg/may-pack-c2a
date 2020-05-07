@@ -7,6 +7,6 @@
 
 function init() {
 
-    extendedcrafting.addShapedEnderCrafting("extendedcraft_black_iron_ingot", <extendedcrafting:material>, [<actuallyadditions:item_crystal:3>, <draconicevolution:chaos_shard:2>, <actuallyadditions:item_crystal:3>], [<draconicevolution:chaos_shard:2>, <alchemistry:ingot:74>, <draconicevolution:chaos_shard:2>], [<actuallyadditions:item_crystal:3>, <draconicevolution:chaos_shard:2>, <actuallyadditions:item_crystal:3>], 40);
+    extendedcrafting.addShapedEnderCrafting("extendedcraft_black_iron_ingot", <extendedcrafting:material>, [[<actuallyadditions:item_crystal:3>, <draconicevolution:chaos_shard:2>, <actuallyadditions:item_crystal:3>], [<draconicevolution:chaos_shard:2>, <alchemistry:ingot:74>, <draconicevolution:chaos_shard:2>], [<actuallyadditions:item_crystal:3>, <draconicevolution:chaos_shard:2>, <actuallyadditions:item_crystal:3>]], 40);
     
 }
