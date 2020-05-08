@@ -74,7 +74,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>   
-    <avaritia:extreme_crafting_table>
+    <avaritia:extreme_crafting_table>,
+    <avaritia:compressed_crafting_table>,
+    <avaritia:double_compressed_crafting_table>
 ];
 
 function init() {
