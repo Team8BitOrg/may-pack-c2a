@@ -30,9 +30,9 @@ TableCrafting.addShaped(0, <avaritia:cosmic_meatballs>, [
 ]);
 
 TableCrafting.addShaped(0, <avaritia:ultimate_stew> * 2, [
-	[<avaritia:resource:2>, <ore:cropWheat>, <ore:listAllveggie>, <ore:listAllveggie>, <ore:listAllveggie>, <ore:listAllfruit>, <ore:listAllfruit>, <ore:cropPumpkin>, <ore:cropCactus>], 
-	[<ore:listAllveggie>, <ore:listAllveggie>, <ore:listAllfruit>, <ore:cropCoffee>, <ore:cropCanola>, <ore:cropNetherWart>, <ore:listAllgreenveggie>, <ore:listAllveggie>, <ore:cropRice>], 
-	[<ore:listAllseed>, <ore:cropFlax>, null, null, null, null, null, null, null]
+	[<avaritia:resource:2>, <minecraft:wheat>, <minecraft:carrot>, <minecraft:beetroot>, <minecraft:potato>, <minecraft:apple>, <minecraft:melon>, <minecraft:pumpkin>, <minecraft:cactus>], 
+	[<minecraft:red_mushroom>, <minecraft:brown_mushroom>, <minecraft:chorus_fruit>, <actuallyadditions:item_coffee_beans>, <actuallyadditions:item_misc:13>, <minecraft:nether_wart>, <birdsfoods:dandelion_salad>, <randomthings:beans>, <actuallyadditions:item_food:16>], 
+	[<birdsfoods:sunflower_seeds>, <minecraft:string>, null, null, null, null, null, null, null]
 ]);
 
 TableCrafting.addShaped(0, <avaritia:endest_pearl>, [
@@ -52,10 +52,10 @@ TableCrafting.addShaped(0, <avaritia:skullfire_sword>, [
 	[null, null, null, null, null, null, <ore:ingotCrystalMatrix>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>], 
 	[null, null, null, null, null, <ore:ingotCrystalMatrix>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>, null], 
 	[null, null, null, null, <ore:ingotCrystalMatrix>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>, null, null], 
-	[null, <ore:bone>, null, <ore:ingotCrystalMatrix>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>, null, null, null], 
-	[null, null, <ore:bone>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>, null, null, null, null], 
-	[null, null, <ore:logWood>, <ore:bone>, null, null, null, null, null], 
-	[null, <ore:logWood>, null, null, <ore:bone>, null, null, null, null], 
+	[null, <minecraft:bone>, null, <ore:ingotCrystalMatrix>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>, null, null, null], 
+	[null, null, <minecraft:bone>, <ore:powderBlaze>, <ore:ingotCrystalMatrix>, null, null, null, null], 
+	[null, null, <ore:logWood>, <minecraft:bone>, null, null, null, null, null], 
+	[null, <ore:logWood>, null, null, <minecraft:bone>, null, null, null, null], 
 	[<ore:netherStar>, null, null, null, null, null, null, null, null]
 ]);
 
@@ -93,27 +93,93 @@ TableCrafting.addShaped(0, <avaritia:infinity_chestplate>, [
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_helmet>, [
-	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
-	[null, <ore:ingotCosmicNeutronium>, null, <avaritia:resource:5>, <ore:ingotInfinity>, <avaritia:resource:5>, null, <ore:ingotCosmicNeutronium>, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, null, <ore:ingotInfinity>, null, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>, null]
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, null, <avaritia:resource:5>, <ore:ingotInfinity>, <avaritia:resource:5>, null, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotInfinity>, null, <ore:ingotInfinity>, null, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>]
 ]);
 
+TableCrafting.addShaped(0, <avaritia:infinity_hoe>, [
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[<ore:ingotInfinity>, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null]
+]);
 
+TableCrafting.addShaped(0, <avaritia:infinity_axe>, [
+	[null, <ore:ingotInfinity>, null, null, null], 
+	[<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, <ore:ingotInfinity>, <ore:ingotCosmicNeutronium>], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>]
+]);
 
+TableCrafting.addShaped(0, <avaritia:infinity_shovel>, [
+	[null, null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:blockInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotCosmicNeutronium>, null, <ore:ingotInfinity>, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null], 
+	[null, null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null], 
+	[null, <ore:ingotCosmicNeutronium>, null, null, null, null, null, null, null], 
+	[<ore:ingotCosmicNeutronium>, null, null, null, null, null, null, null, null]
+]);
 
+TableCrafting.addShaped(0, <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35 as short}]}), [
+	[null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null], 
+	[<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:blockCrystalMatrix>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[<ore:ingotInfinity>, <ore:ingotInfinity>, null, null, <ore:ingotCosmicNeutronium>, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, null, <ore:ingotCosmicNeutronium>, null, null, null, null]
+]);
 
+TableCrafting.addShaped(0, <avaritia:infinity_bow>, [
+	[null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, <ore:ingotInfinity>, null, <ore:blockWool>], 
+	[null, <ore:ingotInfinity>, null, null, <ore:blockWool>], 
+	[<ore:ingotInfinity>, null, null, null, <ore:blockWool>], 
+	[<ore:blockCrystalMatrix>, null, null, null, <ore:blockWool>], 
+	[<ore:ingotInfinity>, null, null, null, <ore:blockWool>], 
+	[null, <ore:ingotInfinity>, null, null, <ore:blockWool>], 
+	[null, null, <ore:ingotInfinity>, null, <ore:blockWool>], 
+	[null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>]
+]);
 
+TableCrafting.addShaped(0, <avaritia:infinity_sword>, [
+	[null, null, null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[null, null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null], 
+	[null, null, null, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null], 
+	[null, <ore:ingotCrystalMatrix>, null, <ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null, null], 
+	[null, null, <ore:ingotCrystalMatrix>, <ore:ingotInfinity>, <ore:ingotInfinity>, null, null, null, null], 
+	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, null, null, null, null, null], 
+	[null, <ore:ingotCosmicNeutronium>, null, null, <ore:ingotCrystalMatrix>, null, null, null, null], 
+	[<avaritia:resource:5>, null, null, null, null, null, null, null, null]
+]);
 
-
-
-
-
-
-
-
+TableCrafting.addShaped(0, <avaritia:resource:6>, [
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <avaritia:resource:5>, <avaritia:resource:5>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+]);
 
 
 

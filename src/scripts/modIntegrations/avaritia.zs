@@ -25,22 +25,22 @@ function init() {
     avaritia.removeCompressor(<avaritia:singularity:14>);
 
     // Remove all Extreme Crafting Recipes
-    avaritia.removeExtremeCrafting(varitia:resource:5>);
-    avaritia.removeExtremeCrafting(varitia:resource:6>);
-    avaritia.removeExtremeCrafting(varitia:infinity_sword>);
-    avaritia.removeExtremeCrafting(varitia:infinity_bow>);
-    avaritia.removeExtremeCrafting(varitia:infinity_pickaxe>);
-    avaritia.removeExtremeCrafting(varitia:infinity_shovel>);
-    avaritia.removeExtremeCrafting(varitia:infinity_axe>);
-    avaritia.removeExtremeCrafting(varitia:infinity_hoe>);
-    avaritia.removeExtremeCrafting(varitia:infinity_helmet>);
-    avaritia.removeExtremeCrafting(varitia:infinity_chestplate>);
-    avaritia.removeExtremeCrafting(varitia:infinity_pants>);
-    avaritia.removeExtremeCrafting(varitia:infinity_boots>);
-    avaritia.removeExtremeCrafting(varitia:skullfire_sword>);
-    avaritia.removeExtremeCrafting(varitia:endest_pearl>);
-    avaritia.removeExtremeCrafting(varitia:ultimate_stew>);
-    avaritia.removeExtremeCrafting(varitia:cosmic_meatballs>);
-    avaritia.removeExtremeCrafting(varitia:neutron_collector>);
+    avaritia.removeExtremeCrafting(<avaritia:resource:5>);
+    avaritia.removeExtremeCrafting(<avaritia:resource:6>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_sword>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_bow>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_pickaxe>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_shovel>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_axe>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_hoe>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_helmet>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_chestplate>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_pants>);
+    avaritia.removeExtremeCrafting(<avaritia:infinity_boots>);
+    avaritia.removeExtremeCrafting(<avaritia:skullfire_sword>);
+    avaritia.removeExtremeCrafting(<avaritia:endest_pearl>);
+    avaritia.removeExtremeCrafting(<avaritia:ultimate_stew>);
+    avaritia.removeExtremeCrafting(<avaritia:cosmic_meatballs>);
+    avaritia.removeExtremeCrafting(<avaritia:neutron_collector>);
 
 }

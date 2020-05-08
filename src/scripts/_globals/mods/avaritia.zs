@@ -20,11 +20,11 @@ zenClass Avaritia {
     zenConstructor() {
     }
 
-    function removeCompressor(output as IItemstack) {
+    function removeCompressor(output as IItemStack) {
         Compressor.remove(output);
     }
 
-    function removeExtremeCrafting(output as IItemstack) {
+    function removeExtremeCrafting(output as IItemStack) {
         ExtremeCrafting.remove(output);
     }
 }
