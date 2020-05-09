@@ -10,7 +10,7 @@
 
 import mods.zenstages.ZenStager;
 import mods.zenstages.Stage;
-import scripts.utils.toCamelCase;
+import scripts.helper.convertSnakeToCamel;
 
 global stages as Stage[string] = {};
 
@@ -20,5 +20,5 @@ var stageNames as string[] = [
 ];
 
 for stageName in stageNames {
-    stages[toCamelCase(stageName)] = ZenStager.initStage(stageName);
+    stages[convertSnakeToCamel(stageName)] = ZenStager.initStage(stageName);
 }
