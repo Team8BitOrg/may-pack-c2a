@@ -6,6 +6,8 @@
           "amount": 5,
           "mob": "thebetweenlands:dark_druid"
         },
+        "healthmultiply": 0.6,
+        "damagemultiply": 0.5,
         "result": "deny"
     }
 ]

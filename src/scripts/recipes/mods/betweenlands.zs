@@ -110,10 +110,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
         [<thebetweenlands:log_rotten_bark>]
     ],
     <thebetweenlands:weedwood_planks> * 2 : [
-        [<thebetweenlands:log_weedwood:12>]
-    ],
-    <thebetweenlands:weedwood_planks> * 2 : [
-        [<thebetweenlands:weedwood>]
+        [<ore:logWeedwood>]
     ],
     <thebetweenlands:rubber_tree_planks> * 2 : [
         [<thebetweenlands:log_rubber>]
@@ -143,11 +140,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
     <thebetweenlands:nibbletwig_planks> * 2 : {
         "nibbletwig_log_to_planks_2" : [
             [<thebetweenlands:log_nibbletwig>]
-        ]
-    },
-    <thebetweenlands:weedwood_planks> * 2 : {
-        "weedwood_log_to_planks_2" : [
-            [<thebetweenlands:log_weedwood>]
         ]
     }
 };

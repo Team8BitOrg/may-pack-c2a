@@ -39,3 +39,5 @@
 <ore:plankBetween>.add(<thebetweenlands:hearthgrove_planks>);
 <ore:plankBetween>.add(<thebetweenlands:nibbletwig_planks>);
 <ore:stickWood>.remove(<thebetweenlands:items_misc:20>);
+<ore:logWeedwood>.add(<thebetweenlands:weedwood:*>);
+<ore:logWeedwood>.add(<thebetweenlands:log_weedwood:*>);
