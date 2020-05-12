@@ -62,6 +62,7 @@ function initIntegration() {
 	scripts.modIntegrations.alchemistry.init();
 	scripts.modIntegrations.pneumaticcraft.init();
 	scripts.modIntegrations.avaritia.init();
+	scripts.modIntegrations.astralsorcery.init();
 	/* scripts.modIntegrations.extendedcrafting.init(); */
 	/* scripts.modIntegrations.inworldcrafting.init(); */
 }

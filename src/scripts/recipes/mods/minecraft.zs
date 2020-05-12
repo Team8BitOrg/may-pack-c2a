@@ -32,13 +32,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 			]
 	],
-    <minecraft:end_rod> : [
-			[
-	  			[<astralsorcery:blockmarble>, <thebetweenlands:life_crystal>, <astralsorcery:blockmarble>],
-	   			[<astralsorcery:blockmarble>, <bloodmagic:slate:3>, <astralsorcery:blockmarble>],
-	  			[<astralsorcery:blockmarble>, <botania:rune:14>, <astralsorcery:blockmarble>]
-			]
-	],
     <minecraft:stick> * 2 : [
 			[
 	  			[<ore:plankWood>],

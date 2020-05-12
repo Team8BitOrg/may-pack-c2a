@@ -20,6 +20,7 @@ global industrialcraft as scripts._globals.mods.industrialcraft.IndustrialCraft 
 global alchemistry as scripts._globals.mods.alchemistry.Alchemistry = scripts._globals.mods.alchemistry.Alchemistry();
 global pneumaticcraft as scripts._globals.mods.pneumaticcraft.Pneumaticcraft = scripts._globals.mods.pneumaticcraft.Pneumaticcraft();
 global avaritia as scripts._globals.mods.avaritia.Avaritia = scripts._globals.mods.avaritia.Avaritia();
+global astralsorcery as scripts._globals.mods.astralsorcery.AstralSorcery = scripts._globals.mods.astralsorcery.AstralSorcery();
 /* global extendedcrafting as scripts._globals.mods.extendedcrafting.ExtendedCrafting = scripts._globals.mods.extendedcrafting.ExtendedCrafting(); */
 /* global inworldcrafting as scripts._globals.mods.inworldcrafting.InWorldCrafting = scripts._globals.mods.inworldcrafting.InWorldCrafting(); */
 

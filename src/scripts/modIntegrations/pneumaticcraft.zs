@@ -11,9 +11,4 @@ function init() {
     pneumaticcraft.addPressureChamber([<forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000}), <draconicevolution:dragon_heart>, <bloodmagic:component:14>], 3.0, [<draconicevolution:chaos_shard:1>]);
 
 
-    //EXPLOSIONS!!!!
-    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard>, <draconicevolution:chaos_shard:1> * 9, 10);
-    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:2> * 9, 20);
-    pneumaticcraft.addExplosionCrafting(<draconicevolution:chaos_shard:2>, <draconicevolution:chaos_shard:3> * 9, 30);
-
 }
