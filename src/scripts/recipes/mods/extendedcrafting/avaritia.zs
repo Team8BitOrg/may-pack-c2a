@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Extended Crafting Large Recipes
+    This script handles the recipes for Extended Crafting Avaritia Recipes
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 

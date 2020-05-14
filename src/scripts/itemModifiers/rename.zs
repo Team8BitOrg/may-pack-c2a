@@ -40,7 +40,6 @@ static itemRenameArray as string[IItemStack] = {
     <immersiveengineering:steel_armor_legs>: "Tungsten Leggings",
     <immersiveengineering:steel_armor_chest>: "Tungsten Chestplate",
     <immersiveengineering:steel_armor_head>: "Tungsten Helmet"
-
 };
 
 function init() {

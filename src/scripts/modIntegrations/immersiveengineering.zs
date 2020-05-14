@@ -35,4 +35,9 @@ function init() {
 
     //Add Plates
     immersiveengineering.addMetalPress(<contenttweaker:material_part:119>, <alchemistry:ingot:43>, <immersiveengineering:mold:0>, 2000);
+
+    //Add Destabilized Redstone to Restonia Crystal
+    immersiveengineering.addMixer(<liquid:redstone> * 1000, <liquid:biodiesel> * 1000, [<minecraft:redstone_block>, <minecraft:redstone_block>, <charm:redstone_sand>, <charm:redstone_sand>, <botania:manaresource:6>, <botania:manaresource:6>], 2048);
+
+    immersiveengineering.addDistillation([<liquid:ethanol> * 50], [<actuallyadditions:item_crystal>], <liquid:redstone> * 1000, 4096, 1500, [1]);
 }

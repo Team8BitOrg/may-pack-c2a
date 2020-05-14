@@ -27,6 +27,30 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			]
 	],
 
+    <immersiveengineering:metal_decoration0:3> * 2 : [
+			[
+	  			[<ic2:casing:3>, <minecraft:redstone_block>, <ic2:casing:3>],
+	   			[<minecraft:redstone_block>, <ic2:crafting:1>, <minecraft:redstone_block>],
+	  			[<ic2:casing:3>, <minecraft:redstone_block>, <ic2:casing:3>]
+			]
+	],
+
+    <immersiveengineering:metal_decoration0:4> * 2 : [
+			[
+	  			[<ic2:casing:3>, <immersiveengineering:material:8>, <ic2:casing:3>],
+	   			[<ic2:casing:1>, <ore:ingotCopper>, <ic2:casing:1>],
+	  			[<ic2:casing:3>, <immersiveengineering:material:8>, <ic2:casing:3>]
+			]
+	],
+
+    <immersiveengineering:metal_decoration0:5> * 2 : [
+			[
+	  			[<ic2:casing:5>, <immersiveengineering:material:9>, <ic2:casing:5>],
+	   			[<ore:craftingPison>, <alchemistry:ingot:39>, <ore:craftingPison>],
+	  			[<ic2:casing:5>, <immersiveengineering:material:9>, <ic2:casing:5>]
+			]
+	],
+
     <immersiveengineering:wooden_device1> : [
         craftingHelper.createSurroundedRecipe(<immersiveengineering:material:10>, <alchemistry:ingot:74>)
     ],
@@ -105,7 +129,10 @@ static removeRecipes as IItemStack[] = [
     <immersiveengineering:stone_decoration>,
     <immersiveengineering:wooden_device1>,
     <immersiveengineering:stone_decoration:10>,
-    <immersiveengineering:material:2>
+    <immersiveengineering:material:2>,
+    <immersiveengineering:metal_decoration0:3>,
+    <immersiveengineering:metal_decoration0:4>,
+    <immersiveengineering:metal_decoration0:5>
 ];
 
 function init() {

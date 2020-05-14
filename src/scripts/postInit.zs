@@ -46,7 +46,8 @@ function initRecipes() {
 	scripts.recipes.mods.actuallyadditions.init();
 	scripts.recipes.mods.appliedenergistics.init();
 	scripts.recipes.mods.extendedcrafting.init();
-	scripts.recipes.mods.extendedcrafting_large.init();
+	scripts.recipes.mods.extendedcrafting.actuallyadditions.init();
+	scripts.recipes.mods.extendedcrafting.avaritia.init();
 	scripts.recipes.mods.avaritia.init();
 }
 

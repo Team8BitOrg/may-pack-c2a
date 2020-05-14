@@ -81,7 +81,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <actuallyadditions:block_misc:9>   
+    <actuallyadditions:block_misc:9>,
+    <actuallyadditions:block_atomic_reconstructor> 
 ];
 
 function init() {

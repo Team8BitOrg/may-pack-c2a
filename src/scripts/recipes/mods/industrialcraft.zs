@@ -31,6 +31,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>],
 	  			[<contenttweaker:material_part:236>, <ic2:crafting:15>, <contenttweaker:material_part:236>]
 			]
+	],
+    <ic2:crafting:1> : [
+			[
+	  			[<ore:itemInsulatedCopperCable>,<ore:itemInsulatedCopperCable>,<ore:itemInsulatedCopperCable>],
+	   			[<buildcraftsilicon:redstone_chipset>, <ore:plateIron>, <buildcraftsilicon:redstone_chipset>],
+	  			[<ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>]
+			]
 	]
 };
 
@@ -88,7 +95,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
     <ic2:resource:12>,
-    <ic2:resource:13>
+    <ic2:resource:13>,
+    <ic2:crafting:1>
 ];
 
 function init() {

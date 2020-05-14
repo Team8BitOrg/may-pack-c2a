@@ -8,5 +8,8 @@
 function init() {
 
     alchemistry.addCombiner(<minecraft:netherrack>, [<alchemistry:compound:1> * 16, <alchemistry:element:16> * 8, <alchemistry:compound:5> * 8]);
+
+    mods.alchemistry.Dissolver.addRecipe(<thebetweenlands:items_misc:39>, false, 5, [[10, <alchemistry:compound:1>],[20, <alchemistry:element:39> * 4, <alchemistry:compound:13>]]);
+
     
 }

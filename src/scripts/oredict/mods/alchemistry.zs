@@ -13,3 +13,5 @@
 
 //Plate
 /* <ore:plateSteel>.add() */
+
+<ore:blockSteel>.add(<contenttweaker:sub_block_holder_2:6>);
