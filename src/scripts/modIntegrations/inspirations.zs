@@ -13,4 +13,8 @@ function init() {
     inspirations.addCauldronFluid(<thebetweenlands:log_hearthgrove:1>, <thebetweenlands:log_hearthgrove:5>, <liquid:swamp_water>);
     inspirations.addCauldronFluid(<thebetweenlands:log_hearthgrove:3>, <thebetweenlands:log_hearthgrove:7>, <liquid:swamp_water>);
 
+    /* Fill Recipes */
+    //Converts an Ingot of Syrmorite to Liquid Syrmorite
+    inspirations.addCauldronFill(<thebetweenlands:items_misc:11>, <liquid:syrmorite>, 1, null, true);  
+
 }

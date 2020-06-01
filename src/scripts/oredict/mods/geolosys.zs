@@ -9,3 +9,5 @@
 */
 
 <ore:ingotCopper>.remove(<geolosys:ingot>);
+<ore:oreYellorium>.remove(<geolosys:cluster:11>);
+<ore:oreUranium>.add(<geolosys:cluster:11>);

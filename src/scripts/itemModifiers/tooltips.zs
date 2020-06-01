@@ -16,6 +16,12 @@ static tooltipArray as IFormattedText[][IItemStack] = {
         format.COLOR("Can be multiline")
     ]
     */
+    <inspirations:bookshelf>.withTag({texture: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}) : [
+        format.gold("Can be made from most types of wood slabs.")
+    ],
+    <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"}) : [
+        format.gold("Can be made from any block.")
+    ]
 };
 
 function init() {

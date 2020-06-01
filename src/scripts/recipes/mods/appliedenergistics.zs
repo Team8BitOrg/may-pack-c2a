@@ -90,7 +90,9 @@ static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
     <appliedenergistics2:energy_acceptor>,
     <appliedenergistics2:quantum_ring>,
-    <appliedenergistics2:controller>
+    <appliedenergistics2:controller>,
+    <appliedenergistics2:grindstone>,
+    <appliedenergistics2:crank>
 ];
 
 function init() {

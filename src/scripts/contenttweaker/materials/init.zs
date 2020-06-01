@@ -14,7 +14,13 @@ import mods.contenttweaker.MaterialSystem;
 
 static materials as Material[string] = {
     "aquamarine": MaterialSystem.getMaterialBuilder().setName("Aquamarine").setColor(Color.fromHex("12a9de")).build(),
-    "sigmaright": MaterialSystem.getMaterialBuilder().setName("Sigma Right").setColor(Color.fromHex("ffffff")).build(),
+    "gold": MaterialSystem.getMaterialBuilder().setName("Gold").setColor(Color.fromHex("fcee4b")).build(),
+    "iron": MaterialSystem.getMaterialBuilder().setName("Iron").setColor(Color.fromHex("bc9980")).build(),
+    "lapis": MaterialSystem.getMaterialBuilder().setName("Lapis").setColor(Color.fromHex("1c57c6")).build(),
+    "redstone": MaterialSystem.getMaterialBuilder().setName("Redstone").setColor(Color.fromHex("c83535")).build(),
+    "bronze": MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(Color.fromHex("b08D57")).build(),
+    "electrum": MaterialSystem.getMaterialBuilder().setName("Electrum").setColor(Color.fromHex("f8f87b")).build(),
+    "sigmaright": MaterialSystem.getMaterialBuilder().setName("Sigmarite").setColor(Color.fromHex("ffffff")).build(),
     "syrmorite": MaterialSystem.getMaterialBuilder().setName("Syrmorite").setColor(Color.fromHex("373e66")).build(),
     "toughalloy": MaterialSystem.getMaterialBuilder().setName("Tough Alloy").setColor(Color.fromHex("130e1e")).build(),
 

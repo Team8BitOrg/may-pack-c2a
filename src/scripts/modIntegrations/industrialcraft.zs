@@ -14,5 +14,8 @@ function init() {
     //Block Cutter Plate Recipes
     industrialcraft.addBlockCutter(<contenttweaker:material_part:119> * 9, <contenttweaker:sub_block_holder_2:2>);
     industrialcraft.addBlockCutter(<contenttweaker:material_part:235> * 9, <contenttweaker:sub_block_holder_5:2>);
+
+    /* Blast Furnace */
+    industrialcraft.addBlastFurnace([<alchemistry:ingot:74>, <ic2:misc_resource:5>], <minecraft:iron_ingot>, 2, 6000);
     
 }

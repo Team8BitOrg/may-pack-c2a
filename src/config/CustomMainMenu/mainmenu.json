@@ -1,34 +1,12 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
-        }
-    },
-    
+       
     "buttons":
     {
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
+            "posX" : 210,
+            "posY" : 95,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -41,8 +19,8 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
+            "posX" : 210,
+            "posY" : 125,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -55,8 +33,8 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
+            "posX" : 210,
+            "posY" : 155,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -69,9 +47,9 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 210,
+            "posY" : 185,
+            "width" : 200,
             "height" : 20,
             "action" : 
             {
@@ -83,21 +61,36 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 210,
+            "posY" : 215,
+            "width" : 200,
             "height" : 20,
             "action" : 
             {
                 "type" : "quit"
             }
         },
+
+        "donate":
+        {
+            "text" : "Donate to StackUp",
+            "posX" : -100,
+            "posY" : 325,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://stackup.donordrive.com/index.cfm?fuseaction=donorDrive.team&teamID=5145"
+            }
+
+        },
         
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 385,
+            "posY" : 325,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -110,8 +103,8 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : 350,
+            "posY" : 325,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -121,52 +114,14 @@
             }
         }
     },
-    
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
-    },
-    
+       
     "other":
     {
-        "splash-text":
+        "background":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+
+            "image" : "custommainmenu:calltoarms/background.png",
+            "blur" : false
         }
     }
 }

@@ -9,6 +9,9 @@
 import mods.jei.JEI;
 
 static hideCategory as string[] = [
+    "appliedenergistics2.grinder",
+    "ie.arcFurnace.recycling",
+    "EIOTank"
 
 ];
 

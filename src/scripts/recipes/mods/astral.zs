@@ -74,7 +74,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta> 
-    <astralsorcery:blockaltar> 
+    <astralsorcery:blockaltar>,
+    <astralsorcery:itemcraftingcomponent:2>
 ];
 
 function init() {

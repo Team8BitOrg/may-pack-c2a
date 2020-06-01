@@ -15,7 +15,7 @@ import scripts.helper.convertSnakeToCamel;
 global stages as Stage[string] = {};
 
 var stageNames as string[] = [
-	"unobtainable",
+	"nonstacked",
     "overworld"
 ];
 

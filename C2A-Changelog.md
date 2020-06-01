@@ -209,6 +209,7 @@ everlastingabilites.cfg
 gamestages.cfg
     B:"Log Debug Data"=false
 geolosys.json
+    B:"Underground Biomes Integration"=false
     Removed entries from all "biomes" entries
 headcrumbs.cfg
 B:"Add player heads as dungeon loot"=false

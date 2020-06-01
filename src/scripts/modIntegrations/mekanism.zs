@@ -14,6 +14,11 @@ function init() {
     mekanism.removeEnrich(<ic2:resource:1>);
     mekanism.removeEnrich(<nuclearcraft:ore>);
 
+    /* Enrichment Chamber */
+    mekanism.removeEnrich(<geolosys:cluster:6>); //Aluminum
+    mekanism.removeEnrich(<geolosys:cluster:7>); //Nickel 
+    mekanism.removeEnrich(<geolosys:cluster:8>); //Platinum
+
     //Remove unused Copper Dust from Crusher
     mekanism.removeCrusher(<mekanism:dust:3>);
 }

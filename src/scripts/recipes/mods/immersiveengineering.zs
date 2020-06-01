@@ -64,10 +64,9 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
     <immersiveengineering:material:2> : [
         [
-            [<alchemistry:ingot:74>],
-            [<alchemistry:ingot:74>]
+            [<ic2:forge_hammer>, <contenttweaker:material_part:236>]
         ]
-    ],
+    ]
 
     
 };
@@ -132,7 +131,11 @@ static removeRecipes as IItemStack[] = [
     <immersiveengineering:material:2>,
     <immersiveengineering:metal_decoration0:3>,
     <immersiveengineering:metal_decoration0:4>,
-    <immersiveengineering:metal_decoration0:5>
+    <immersiveengineering:metal_decoration0:5>,
+    <immersiveengineering:tool>, //Emgineers Hammer
+    <immersiveengineering:stone_decoration>, //Coke brick
+    <immersiveengineering:treated_wood>, //Treated Wood
+    <immersiveengineering:stone_decoration:1> //Blast Brick
 ];
 
 function init() {
