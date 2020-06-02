@@ -22,12 +22,67 @@ function init() {
     oreAquamarineData.addDataValue("drops", "astralsorcery:itemcraftingcomponent");
     oreAquamarineData.addDataValue("harvestlevel", "1");
 
+    //Gold
+    var goldParts as string[] = [
+        "plate",
+        "gear",
+        "dust"
+    ];
+    materials.gold.registerParts(goldParts);
+
+    //Iron
+    var ironParts as string[] = [
+        "plate",
+        "gear",
+        "dust"
+    ];
+    materials.iron.registerParts(ironParts);
+
+    //Lapis
+    var lapisParts as string[] = [
+        "plate",
+        "gear",
+        "dust"
+    ];
+    materials.lapis.registerParts(lapisParts);
+
+    //Redstone
+    var redstoneParts as string[] = [
+        "plate",
+        "gear",
+        "ingot"
+    ];
+    materials.redstone.registerParts(redstoneParts);
+
+    var bronzeParts as string[] = [
+        "plate",
+        "gear",
+        "ingot",
+        "dust"
+    ];
+    materials.bronze.registerParts(bronzeParts);
+
+    var electrumParts as string[] = [
+        "plate",
+        "gear",
+        "ingot",
+        "dust"
+    ];
+    materials.electrum.registerParts(electrumParts);
+
     //Syrmorite Plate
     var syrmoriteParts as string[] = [
         "plate"
     ];
     materials.syrmorite.registerParts(syrmoriteParts);
 
+    //Sigmarite Armor
+    var sigmarightArmor = materials.sigmaright.registerPart("armor").getData();
+    sigmarightArmor.addDataValue("durability", "25");
+    sigmarightArmor.addDataValue("reduction", "2,5,7,2");
+    sigmarightArmor.addDataValue("toughness", "1");
+
+    //Tough Alloy
     var toughAlloyParts as string[] = [
         "block",
         "plate",
@@ -35,10 +90,4 @@ function init() {
         "dust"
     ];
     materials.toughalloy.registerParts(toughAlloyParts);
-
-    //Sigma Right Armor
-    var sigmarightArmor = materials.sigmaright.registerPart("armor").getData();
-    sigmarightArmor.addDataValue("durability", "25");
-    sigmarightArmor.addDataValue("reduction", "2,5,7,2");
-    sigmarightArmor.addDataValue("toughness", "1");
 }

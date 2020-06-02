@@ -32,13 +32,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 			]
 	],
-    <minecraft:end_rod> : [
-			[
-	  			[<astralsorcery:blockmarble>, <thebetweenlands:life_crystal>, <astralsorcery:blockmarble>],
-	   			[<astralsorcery:blockmarble>, <bloodmagic:slate:3>, <astralsorcery:blockmarble>],
-	  			[<astralsorcery:blockmarble>, <botania:rune:14>, <astralsorcery:blockmarble>]
-			]
-	],
     <minecraft:stick> * 2 : [
 			[
 	  			[<ore:plankWood>],
@@ -51,6 +44,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[<ore:logWood>]
 			]
 	],
+    <minecraft:anvil> : [
+        [
+            [<thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>],
+            [null, <thebetweenlands:items_misc:11>, null],
+            [<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -133,7 +133,8 @@ static removeRecipes as IItemStack[] = [
     <minecraft:cauldron>,
     <minecraft:furnace>,
     <minecraft:end_rod>,
-    <minecraft:stick>
+    <minecraft:stick>,
+    <minecraft:anvil>
 ];
 
 function init() {

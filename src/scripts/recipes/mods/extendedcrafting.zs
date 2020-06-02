@@ -19,13 +19,25 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
+    <extendedcrafting:material:7> * 2 : [
+        [
+            [<thebetweenlands:wisp>, <thebetweenlands:wisp>],
+            [<minecraft:gunpowder>]
+        ]
+    ],
+    <extendedcrafting:material:2> : [
+        [
+            [<ic2:forge_hammer>, <extendedcrafting:material>],
+            [<extendedcrafting:material>]
+        ]
+    ],
     <extendedcrafting:table_basic> : [
-			[
-	  			[<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
-	   			[<thebetweenlands:weedwood_workbench>, <contenttweaker:sub_block_holder_2:6>, <thebetweenlands:weedwood_workbench>],
-	  			[<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
-			]
-	]
+        [
+            [<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
+            [<thebetweenlands:weedwood_workbench>, <contenttweaker:sub_block_holder_2:6>, <thebetweenlands:weedwood_workbench>],
+            [<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -81,8 +93,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <extendedcrafting:material>,
-    <extendedcrafting:table_basic> 
+    <extendedcrafting:material>, //Block Iron
+    <extendedcrafting:material:7>, //Luminessence
+    <extendedcrafting:table_basic>
 ];
 
 function init() {

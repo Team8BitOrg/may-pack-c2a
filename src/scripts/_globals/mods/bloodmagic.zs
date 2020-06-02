@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.bloodmagic.AlchemyArray;
+import mods.bloodmagic.AlchemyTable;
 
 zenClass BloodMagic {
     zenConstructor() {
@@ -24,6 +25,12 @@ zenClass BloodMagic {
 
     function addAlchemyArray (output as IItemStack, input as IItemStack, catalyst as IItemStack) {
         AlchemyArray.addRecipe(output, input, catalyst);
+    }
+
+    /* Alchemy Table */
+    //Remove recipe
+    function removeAlchemyTable(inputs as IItemStack[]) {
+        AlchemyTable.removeRecipe(inputs);
     }
 
 }

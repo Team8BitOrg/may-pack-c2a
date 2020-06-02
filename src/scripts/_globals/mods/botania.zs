@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.botania.Apothecary;
 import mods.botania.ManaInfusion;
+import mods.botania.RuneAltar;
 
 #Add anymore imports needed here
 
@@ -38,5 +39,8 @@ zenClass Botania {
         ManaInfusion.addConjuration(output, input, mana);
     }
 
+    function addRuneAltar(output as IItemStack, input as IIngredient[], mana as int) {
+        RuneAltar.addRecipe(output, input, mana);
+    }
 
 }

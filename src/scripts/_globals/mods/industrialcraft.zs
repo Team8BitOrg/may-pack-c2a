@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.ic2.MetalFormer;
 import mods.ic2.BlockCutter;
+import mods.ic2.BlastFurnace;
 
 #Add anymore imports needed here
 
@@ -38,5 +39,11 @@ zenClass IndustrialCraft {
 
     function addBlockCutter(output as IItemStack, input as IIngredient) {
         BlockCutter.addRecipe(output, input);
+    }
+
+    /* Blast Furnace */
+    //Add recipe
+    function addBlastFurnace(outputs as IItemStack[], input as IIngredient, fluidCost as int, time as int) {
+        BlastFurnace.addRecipe(outputs, input, fluidCost, time);
     }
 }

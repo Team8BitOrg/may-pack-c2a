@@ -112,7 +112,8 @@ static removeRecipes as IItemStack[] = [
     <erebus:planks:6>,
     <erebus:planks:9>,
     <erebus:planks:10>,
-    <erebus:planks:11>
+    <erebus:planks:11>,
+    <erebus:altar_offering>
 ];
 
 function init() {

@@ -12,6 +12,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.alchemistry.Combiner;
+import mods.alchemistry.Dissolver;
 
 #Add anymore imports needed here
 
@@ -27,6 +28,12 @@ zenClass Alchemistry {
     function removeCombiner(output as IItemStack) {
         Combiner.removeRecipe(output);
     }
+
+    /* //Chemical Disolver
+    function addDisolver(input as IIngredient, relativeProbability as bool, rolls as int, probabilityGroups as Object[][]){
+        Dissolver.addRecipe(input, relativeProbability, rolls, probabilityGroups);
+    } */
+    
 
 
 

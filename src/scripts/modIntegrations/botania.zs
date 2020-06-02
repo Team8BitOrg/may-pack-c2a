@@ -7,6 +7,10 @@
 
 function init() {
 
+    //Inferium Seed
     botania.addAlchemy(<mysticalagriculture:tier1_inferium_seeds>, <ic2:crafting:20>, 50000);
+
+    //Gaia Altar
+    botania.addRuneAltar(<erebus:altar_offering>, [<minecraft:gold_block>, <botania:rune:2>, <botania:rune:13>, <thebetweenlands:items_misc:3>, <minecraft:obsidian>, <bloodmagic:teleposer>],250000);
 
 }

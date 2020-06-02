@@ -1,0 +1,660 @@
+[
+  {
+    "identifier": "haste1",
+    "title": "Haste",
+    "description": "Unlock Haste",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 420,
+    "y": 79,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "saturation1",
+    "title": "Saturation",
+    "description": "Unlock Saturation",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 388,
+    "y": 47,
+    "cost": 4,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "fertility2",
+    "title": "Max Fertility",
+    "description": "All Fertility Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 452,
+    "y": 239,
+    "cost": 12,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "haste2",
+    "title": "Max Haste",
+    "description": "All Haste Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 452,
+    "y": 79,
+    "cost": 15,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "slowness2",
+    "title": "Max Slowness",
+    "description": "All Slowness Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 260,
+    "y": 303,
+    "cost": 12,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "slowness1",
+    "title": "Slowness",
+    "description": "Unlock Slowness",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 260,
+    "y": 271,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "luck1",
+    "title": "Luck",
+    "description": "Unlock Luck",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 324,
+    "y": 47,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "poison1",
+    "title": "Poison",
+    "description": "Unlock Poison",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 388,
+    "y": 271,
+    "cost": 4,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "jump2",
+    "title": "Max Jump Boost",
+    "description": "All Jump Boost Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 452,
+    "y": 207,
+    "cost": 15,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "luck2",
+    "title": "Max Luck",
+    "description": "All Luck Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 324,
+    "y": 15,
+    "cost": 18,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "bottle",
+    "title": "Everlasting Abilities",
+    "description": "Unlock access to truly everlasting abilities",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_bottle\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[]},Damage:0s}",
+    "x": 308,
+    "y": 159,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [
+      "haste1",
+      "slowness1",
+      "luck1",
+      "poison1",
+      "fertility1",
+      "jump1",
+      "saturation1",
+      "nightvision",
+      "wither1",
+      "regen1",
+      "speed1",
+      "fireresist",
+      "magnetize1",
+      "resist1",
+      "powerstare1",
+      "absorb1",
+      "water",
+      "levitation1",
+      "invisibility",
+      "step1",
+      "bonemealer1",
+      "strength1",
+      "weakness1",
+      "glowing1"
+    ],
+    "placed": true
+  },
+  {
+    "identifier": "poison2",
+    "title": "Max Poison",
+    "description": "All Poison Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 388,
+    "y": 303,
+    "cost": 24,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "fertility1",
+    "title": "Fertility",
+    "description": "Unlock Fertility",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 420,
+    "y": 239,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "jump1",
+    "title": "Jump Boost",
+    "description": "Unlock Jump Boost",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 420,
+    "y": 207,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "nightvision",
+    "title": "Night Vision",
+    "description": "Unlock Night Vision",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 196,
+    "y": 143,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "wither2",
+    "title": "Max Wither",
+    "description": "All Wither Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 356,
+    "y": 303,
+    "cost": 24,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "wither1",
+    "title": "Wither",
+    "description": "Unlock Wither",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 356,
+    "y": 271,
+    "cost": 4,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "regen1",
+    "title": "Regeneration",
+    "description": "Unlock Regeneration",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 260,
+    "y": 47,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "speed2",
+    "title": "Max Speed",
+    "description": "All Speed Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 452,
+    "y": 175,
+    "cost": 15,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "speed1",
+    "title": "Speed",
+    "description": "Unlock Speed",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.speed.name\"}]},Damage:0s}",
+    "x": 420,
+    "y": 175,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "fireresist",
+    "title": "Fire Resistance",
+    "description": "Unlock Fire Resistance",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 228,
+    "y": 47,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "regen2",
+    "title": "Max Regeneration",
+    "description": "All Regeneration Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 260,
+    "y": 15,
+    "cost": 18,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "magnetize1",
+    "title": "Magnetize",
+    "description": "Unlock Magnetize",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 196,
+    "y": 79,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "resist1",
+    "title": "Resistance",
+    "description": "Unlock Resistance",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 356,
+    "y": 47,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "powerstare1",
+    "title": "Power Stare",
+    "description": "Unlock Power Stare",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 196,
+    "y": 175,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "powerstare2",
+    "title": "Max Power Stare",
+    "description": "All Power Stare Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 164,
+    "y": 175,
+    "cost": 30,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "absorbtion1",
+    "title": "Absorbtion",
+    "description": "Unlock Absorbtion",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 292,
+    "y": 47,
+    "cost": 6,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "absorbtion2",
+    "title": "Max Absorbtion",
+    "description": "All Absorbtion Levels Unlocked",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 292,
+    "y": 15,
+    "cost": 45,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "levitation1",
+    "title": "Levitation",
+    "description": "Unlock Levitation",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 324,
+    "y": 271,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "step2",
+    "title": "Max Step Assist",
+    "description": "All Step Assist Levels Available",
+    "icon": "{id:\"minecraft:stone\",Count:1b,Damage:0s}",
+    "x": 452,
+    "y": 143,
+    "cost": 6,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "water",
+    "title": "Waterbreathing",
+    "description": "Unlock Waterbreathing",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 420,
+    "y": 111,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "resist2",
+    "title": "Max Resistance",
+    "description": "All Resistance Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 356,
+    "y": 15,
+    "cost": 18,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "levitation2",
+    "title": "Max Levitation",
+    "description": "All Levitation Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 324,
+    "y": 303,
+    "cost": 18,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "invisibility",
+    "title": "Invisibility",
+    "description": "Unlock Invisibility",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 228,
+    "y": 271,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "step1",
+    "title": "Step Assist",
+    "description": "Unlock Step Assist",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 420,
+    "y": 143,
+    "cost": 1,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "magnetize2",
+    "title": "Max Magnetize",
+    "description": "All Magnetize Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 164,
+    "y": 79,
+    "cost": 30,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "bonemealer1",
+    "title": "Bonemealer",
+    "description": "Unlock Bonemealer",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 196,
+    "y": 239,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "bonemealer2",
+    "title": "Max Bonemealer",
+    "description": "All Bonemealer Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 164,
+    "y": 239,
+    "cost": 30,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "strength1",
+    "title": "Strength",
+    "description": "Unlock Strength",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 196,
+    "y": 207,
+    "cost": 4,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "weakness2",
+    "title": "Max Weakness",
+    "description": "All Weakness Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 292,
+    "y": 303,
+    "cost": 18,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "weakness1",
+    "title": "Weakness",
+    "description": "Unlock Weakness",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 292,
+    "y": 271,
+    "cost": 3,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "strength2",
+    "title": "Max Strength",
+    "description": "All Strength Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 164,
+    "y": 207,
+    "cost": 30,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "saturation2",
+    "title": "Max Saturation",
+    "description": "All Saturation Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 388,
+    "y": 15,
+    "cost": 24,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "glowing1",
+    "title": "Glowing",
+    "description": "Unlock Glowing",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 196,
+    "y": 111,
+    "cost": 2,
+    "sellPrice": 0,
+    "parents": [
+      "bottle"
+    ],
+    "children": [],
+    "placed": true
+  },
+  {
+    "identifier": "glowing2",
+    "title": "Max Glowing",
+    "description": "All Glowing Levels Available",
+    "icon": "{ForgeCaps:{\"astralsorcery:cap_item_amulet_holder\":{}},id:\"everlastingabilities:ability_totem\",Count:1b,tag:{\"everlastingabilities:abilityStoreStack\":[{level:1,name:\"ability.abilities.everlastingabilities.resistance.name\"}]},Damage:0s}",
+    "x": 164,
+    "y": 111,
+    "cost": 12,
+    "sellPrice": 0,
+    "parents": [],
+    "children": [],
+    "placed": true
+  }
+]
