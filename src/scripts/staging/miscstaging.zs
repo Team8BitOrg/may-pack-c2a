@@ -375,6 +375,8 @@ mods.ItemStages.stageLiquid("nonstacked", <liquid:cryotheum_nak_hot>);
 //Items
 /* mods.ItemStages.addItemStage("overworld", <mekanism:machineblock2:11>); //Fluid Tank */
 
+mods.ItemStages.addItemStage("overworld", <minecraft:chest>);
+mods.ItemStages.addItemStage("overworld", <minecraft:furnace>);
 mods.ItemStages.addItemStage("overworld", <contenttweaker:material_part:*>);
 mods.ItemStages.addItemStage("overworld", <contenttweaker:sub_block_holder_0:*>);
 mods.ItemStages.addItemStage("overworld", <contenttweaker:sub_block_holder_1:*>);

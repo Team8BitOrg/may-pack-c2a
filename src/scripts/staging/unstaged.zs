@@ -15,9 +15,12 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 //Items to remove from Staging
-mods.ItemStages.removeItemStage(<mekanism:machineblock2:11>); //Fluid Tank
+mods.ItemStages.removeItemStage(<minecraft:cauldron>); //Cauldron
+mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>); //Solidified Experience
+
 
 //Stack 3 Items
+mods.ItemStages.removeItemStage(<mekanism:machineblock2:11>); //Fluid Tank
 mods.ItemStages.removeItemStage(<botania:manaresource:6>); //Redstone Root
 mods.ItemStages.removeItemStage(<actuallyadditions:block_atomic_reconstructor>); //Atomic Reconstructor
 mods.ItemStages.removeItemStage(<actuallyadditions:block_crystal:1>); //Palis Crystal Block

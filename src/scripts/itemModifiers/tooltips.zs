@@ -21,6 +21,9 @@ static tooltipArray as IFormattedText[][IItemStack] = {
     ],
     <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"}) : [
         format.gold("Can be made from any block.")
+    ],
+    <chiselsandbits:bit_bag> : [
+        format.gold("Advanced Builder's Bag and higher also can be used for C&B")
     ]
 };
 

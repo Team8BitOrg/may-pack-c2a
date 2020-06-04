@@ -15,6 +15,6 @@ function init() {
 
     /* Fill Recipes */
     //Converts an Ingot of Syrmorite to Liquid Syrmorite
-    inspirations.addCauldronFill(<thebetweenlands:items_misc:11>, <liquid:syrmorite>, 1, null, true);  
+    inspirations.addCauldronFill(<thebetweenlands:items_misc:11>, <liquid:syrmorite>, 1, null, true); 
 
 }

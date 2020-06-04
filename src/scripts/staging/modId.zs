@@ -13,7 +13,6 @@ import mods.zenstages.ZenStager;
 static stagedMods as string[][string] = {
 
     stages.overworld.stage : [
-        "minecraft",
         "ic2",
         "immersiveengineering",
         "immersivepetroleum",
@@ -65,7 +64,8 @@ static stagedMods as string[][string] = {
         "tesslocator",
         "animalcrops",
         "apotheosis",
-        "itemfilters"
+        "itemfilters",
+        "littletiles"
 
     ],
 

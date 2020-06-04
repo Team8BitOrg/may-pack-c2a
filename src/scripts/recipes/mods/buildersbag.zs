@@ -1,5 +1,6 @@
+#norun
 /*
-    This script handles the recipes for Minecraft
+    This script handles the recipes for Builder's Bag
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -8,6 +9,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.craftingHelper;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
@@ -18,39 +20,41 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <minecraft:cauldron> : [
+    <buildersbag:builders_bag_tier_one> : [
 			[
-	  			[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>],
-	   			[<thebetweenlands:items_misc:11>, null, <thebetweenlands:items_misc:11>],
-	  			[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
+	  			[null, <thebetweenlands:items_misc:4>, null],
+	   			[<thebetweenlands:items_misc:4>, <thebetweenlands:weedwood_chest>, <thebetweenlands:items_misc:4>],
+	  			[<thebetweenlands:betweenstone>, <thebetweenlands:items_misc:4>, <thebetweenlands:weedwood_planks>]
 			]
 	],
-    <minecraft:furnace> : [
+    <buildersbag:builders_bag_tier_two> : [
 			[
-	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-	   			[<ore:cobblestone>, <thebetweenlands:sulfur_furnace_dual>, <ore:cobblestone>],
-	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+	  			[null, <thebetweenlands:items_misc:4>, null],
+	   			[<thebetweenlands:items_misc:4>, <buildersbag:builders_bag_tier_one>, <thebetweenlands:items_misc:4>],
+	  			[<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:4>, <thebetweenlands:octine_ingot>]
 			]
 	],
-    <minecraft:stick> * 2 : [
+    <buildersbag:builders_bag_tier_three> : [
 			[
-	  			[<ore:plankWood>],
-	   			[<ore:plankWood>]
+	  			[null, <thebetweenlands:items_misc:19>, null],
+	   			[<thebetweenlands:items_misc:4>, <buildersbag:builders_bag_tier_two>, <thebetweenlands:items_misc:4>],
+	  			[<thebetweenlands:syrmorite_block>, <thebetweenlands:items_misc:4>, <thebetweenlands:octine_block>]
 			]
 	],
-    <minecraft:stick> * 8 : [
+    <buildersbag:builders_bag_tier_four> : [
 			[
-	  			[<ore:logWood>],
-	   			[<ore:logWood>]
+	  			[null, <thebetweenlands:weedwood_workbench>, null],
+	   			[<thebetweenlands:items_misc:4>, <buildersbag:builders_bag_tier_three>, <thebetweenlands:items_misc:4>],
+	  			[<thebetweenlands:items_misc:39>, <thebetweenlands:weedwood_chest>, <thebetweenlands:wight_heart>]
 			]
 	],
-    <minecraft:anvil> : [
-        [
-            [<thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>],
-            [null, <thebetweenlands:items_misc:11>, null],
-            [<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
-        ]
-    ]
+    <buildersbag:builders_bag_tier_five> : [
+			[
+	  			[null, <thebetweenlands:valonite_block>, null],
+	   			[<thebetweenlands:items_misc:4>, <buildersbag:builders_bag_tier_four>, <thebetweenlands:items_misc:4>],
+	  			[<thebetweenlands:syrmorite_hopper>, <thebetweenlands:items_misc:24>, <thebetweenlands:simple_slingshot>]
+			]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -63,15 +67,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
             ]
         ]
     }*/
-    <minecraft:armor_stand> : {
-        "armor_stand_betweenlands" : [
-            [
-                [<thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:20>, <thebetweenlands:items_misc:20>],
-                [null, <thebetweenlands:items_misc:20>, null],
-                [<thebetweenlands:items_misc:20>, <thebetweenlands:smooth_betweenstone_slab>, <thebetweenlands:items_misc:20>]
-            ]
-        ]
-    }
 };
 
 //Mirrored Recipes
@@ -102,24 +97,6 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
-    <minecraft:planks> * 2 : [
-        [<minecraft:log>]
-    ],
-    <minecraft:planks:1> * 2 : [
-        [<minecraft:log:1>]
-    ],
-    <minecraft:planks:2> * 2 : [
-        [<minecraft:log:2>]
-    ],
-    <minecraft:planks:3> * 2 : [
-        [<minecraft:log:3>]
-    ],
-    <minecraft:planks:4> * 2 : [
-        [<minecraft:log2>]
-    ],
-    <minecraft:planks:5> * 2 : [
-        [<minecraft:log2:1>]
-    ]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -133,18 +110,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <minecraft:planks>,
-    <minecraft:planks:1>,
-    <minecraft:planks:2>,
-    <minecraft:planks:3>,
-    <minecraft:planks:4>,
-    <minecraft:planks:5>,
-    <minecraft:cauldron>,
-    <minecraft:furnace>,
-    <minecraft:end_rod>,
-    <minecraft:stick>,
-    <minecraft:anvil>,
-    <minecraft:bucket>
+    <buildersbag:builders_bag_tier_one>,
+    <buildersbag:builders_bag_tier_two>,
+    <buildersbag:builders_bag_tier_three>,
+    <buildersbag:builders_bag_tier_four>,
+    <buildersbag:builders_bag_tier_five>
+   
 ];
 
 function init() {

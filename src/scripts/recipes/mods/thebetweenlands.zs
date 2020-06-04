@@ -130,7 +130,8 @@ static removeRecipes as IItemStack[] = [
     <thebetweenlands:giant_root_planks>,
     <thebetweenlands:rotten_planks>,
     <thebetweenlands:items_misc:20>,
-    <thebetweenlands:bl_bucket:1>
+    <thebetweenlands:bl_bucket:1>,
+    <thebetweenlands:swamp_talisman>
 ];
 
 function init() {

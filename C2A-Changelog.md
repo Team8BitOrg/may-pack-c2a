@@ -1,6 +1,66 @@
 Call To Arms Running Changelog
 
 -------------------------------------------------------------------------------
+Release Build
+1.0.0(hotfix) --> 1.0.1
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+Builder's Bag
+Initial Inventory
+
+-- Updated Mods --
+-------------------
+Astral Sorcery (1.10.23 -> 1.10.24)
+NuclearCraft Overhauled (2o.2.6 -> 2o.2.7)
+
+-- Removed Mods --
+------------------
+
+-- Config Changes --
+--------------------
+bloodmagic/meteors
+    Renamed nukeores.json to astralores.json
+    Removed all default meteors
+carryon.cfg
+    S:forbiddenEntities <
+        thebetweenlands:waystone*
+    S:forbiddenTiles <
+        thebetweenlands:waystone*
+ftbutilities.cfg
+    afk {
+        B:enabled=false
+    I:spawn_dimension=20
+    B:enable_event_badges=false
+    B:enable_global_badges=false
+inspirations.cfg
+     S:fires <
+        minecraft:fire
+        thebetweenlands:sulfur_torch
+        minecraft:torch
+
+
+-- Script Changes --
+--------------------
+Removed Minecraft from Mod staging
+Unstaged AA Solidified Experience
+Staged Vanilla Chest and Furnace
+Fixed Tiny Sulfur burn time
+Removed default crafting table Betweenlands talisman
+Changed all Builder's Bag recipes to Betweenlands version
+Staged LittleTiles behind Overworld
+Added Betweenlands-based armor stand recipe
+Added Betweenlands-based Chisels and Bits recipe to make mod useable before Overworld
+Set Initial Inventory to give player FTB Quest book on spawn
+
+-- Asset Changes --
+-------------------
+Updates to Betweenlands quest
+Removed custom Betweenland textures until completed
+
+
+
+-------------------------------------------------------------------------------
 Initial Build
 0.0.0 --> 0.0.0
 -------------------------------------------------------------------------------
