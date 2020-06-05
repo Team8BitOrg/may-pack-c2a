@@ -1,14 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-<<<<<<< HEAD
     "layer0": "contenttweaker:items/tiny_sulfur"
-=======
-<<<<<<< HEAD:src/resources/contenttweaker/models/item/bronze_ingot.json
-    "layer0": "base:items/ingot"
-=======
-    "layer0": "contenttweaker:items/tiny_sulfur"
->>>>>>> 1c21ed393c5930e7d952f1dd964c6b7c179ae714:src/resources/contenttweaker/models/item/tiny_sulfur.json
->>>>>>> 1c21ed393c5930e7d952f1dd964c6b7c179ae714
   }
 }

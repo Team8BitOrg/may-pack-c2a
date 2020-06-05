@@ -111,6 +111,10 @@ general {
             astikorcarts:*
             dakimakuramod:*
             tektopia:*
+            thebetweenlands:rubber_tap:*
+            thebetweenlands:weedwood_rubber_tap:*
+            thebetweenlands:syrmorite_rubber_tap:*
+            thebetweenlands:waystone*
          >
 
         # Entities that cannot have other entities stacked on top of them
@@ -216,6 +220,14 @@ general {
             dumpsterdiving:trash_furn_g
             dumpsterdiving:trash_furn_n
             *door*
+            thebetweenlands:rubber_tap:*
+            thebetweenlands:weedwood_rubber_tap:*
+            thebetweenlands:syrmorite_rubber_tap:*
+            thebetweenlands:*rubber*
+<<<<<<< HEAD
+            thebetweenlands:waystone*
+=======
+>>>>>>> 1c21ed393c5930e7d952f1dd964c6b7c179ae714
          >
     }
 

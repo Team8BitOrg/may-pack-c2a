@@ -1,14 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-<<<<<<< HEAD
     "layer0": "base:items/ingot"
-=======
-<<<<<<< HEAD:src/resources/contenttweaker/models/item/sigmarite_head.json
-    "layer0": "contenttweaker:items/sigmarite_head"
-=======
-    "layer0": "base:items/ingot"
->>>>>>> 1c21ed393c5930e7d952f1dd964c6b7c179ae714:src/resources/contenttweaker/models/item/bronze_ingot.json
->>>>>>> 1c21ed393c5930e7d952f1dd964c6b7c179ae714
   }
 }

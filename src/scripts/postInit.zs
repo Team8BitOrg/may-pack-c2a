@@ -37,6 +37,8 @@ function initRecipes() {
 	scripts.recipes.mods.avaritia.init();
 	scripts.recipes.mods.bloodmagic.init();
 	scripts.recipes.mods.botania.init();
+	scripts.recipes.mods.buildersbag.init();
+	scripts.recipes.mods.chiselsandbits.init();
 	scripts.recipes.mods.compactmachines.init();
 	scripts.recipes.mods.contenttweaker.init();
 	scripts.recipes.mods.danknull.init();

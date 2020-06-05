@@ -2,6 +2,21 @@ Call To Arms Running Changelog
 
 -------------------------------------------------------------------------------
 Release Build
+1.0.1 --> 1.0.1 (hotfix 1/2/3)
+-------------------------------------------------------------------------------
+
+-- Script Changes --
+--------------------
+Fixed OreDict script for Tombstone that was corrupted during last export
+Fixed issues with recipe changes not activating
+
+-- Asset Changes --
+-------------------
+Fixed some texture issues with ContentTweaker that were present in the previous hotfix
+
+
+-------------------------------------------------------------------------------
+Release Build
 1.0.0(hotfix) --> 1.0.1
 -------------------------------------------------------------------------------
 -- Added Mods --

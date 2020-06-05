@@ -1,4 +1,3 @@
-#norun
 /*
     This script handles the recipes for Chisels And Bits
 
@@ -83,26 +82,26 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
-    /*<mod:itemname:meta> : [
+    /*<mod:itemname:meta> : {
 		"string_for_recipe_name" : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
-	]*/
-    <chiselsandbits:positiveprint> : [
+	}*/
+    <chiselsandbits:positiveprint> : {
 		"positiveprint_betweenlands" : [
 			[<ore:listAllwater>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:11>]
 		]
-	],
-    <chiselsandbits:negativeprint> : [
+	},
+    <chiselsandbits:negativeprint> : {
 		"negativeprint_betweenlands" : [
 			[<ore:listAllwater>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:25>]
 		]
-	],
-    <chiselsandbits:mirrorprint> : [
+	},
+    <chiselsandbits:mirrorprint> : {
 		"mirrorprint_betweenlands" : [
 			[<ore:listAllwater>, <thebetweenlands:items_misc:32>, <thebetweenlands:items_crushed:35>]
 		]
-	],
+	},
 };
 
 //Removals

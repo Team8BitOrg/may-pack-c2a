@@ -1,4 +1,3 @@
-#norun
 /*
     This script handles the recipes for Builder's Bag
 
