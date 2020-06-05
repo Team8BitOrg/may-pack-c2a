@@ -2,17 +2,32 @@ Call To Arms Running Changelog
 
 -------------------------------------------------------------------------------
 Release Build
-1.0.1 --> 1.0.1 (hotfix 1/2/3)
+1.0.1 --> 1.0.2
 -------------------------------------------------------------------------------
+
+-- Added Mods --
+----------------
+Statues: Rechiseled
+
+
+-- Config Changes --
+--------------------
+thebetweenlands/config.cfg
+    S:moving_wall_blacklist <
+        tombstone:decorative_grave_simple
+        tombstone:decorative_grave_normal
+        tombstone:decorative_grave_cross
+        tombstone:decorative_tombstone
+        tombstone:grave_simple:*
 
 -- Script Changes --
 --------------------
-Fixed OreDict script for Tombstone that was corrupted during last export
+Fixed corrupted OreDict script for Tombstone
 Fixed issues with recipe changes not activating
 
 -- Asset Changes --
 -------------------
-Fixed some texture issues with ContentTweaker that were present in the previous hotfix
+Fixed texture issues with ContentTweaker
 
 
 -------------------------------------------------------------------------------
