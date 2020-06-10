@@ -47,7 +47,8 @@ static itemRenameArray as string[IItemStack] = {
     <contenttweaker:material_part:252>: "Platinum Plate",
     <contenttweaker:material_part:253>: "Platinum Gear",
     <contenttweaker:material_part:254>: "Platinum Dust",
-    <contenttweaker:sub_block_holder_5:5>: "Block of Platinum"
+    <contenttweaker:sub_block_holder_5:5>: "Block of Platinum",
+    <ic2:crafting>: "Processed Resin"
 
 
 };

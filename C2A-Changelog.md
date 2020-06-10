@@ -2,6 +2,33 @@ Call To Arms Running Changelog
 
 -------------------------------------------------------------------------------
 Release Build
+1.0.2 --> 1.0.3
+-------------------------------------------------------------------------------
+
+-- Added Mods --
+----------------
+
+
+
+-- Config Changes --
+--------------------
+ic2/blast_furnace.ini
+    Removed steel ingot recipes
+headcrumbs.cfg
+    Uriah_Heep
+vanillafix.cfg
+    S:scheduledTaskproblemAction=LOG
+
+-- Script Changes --
+--------------------
+Renamed IC2 rubber to avoid confusion with Betweenlands
+
+-- Asset Changes --
+-------------------
+Added starting Overworld, IC2, and Immersive Engineering quests
+
+-------------------------------------------------------------------------------
+Release Build
 1.0.1 --> 1.0.2
 -------------------------------------------------------------------------------
 

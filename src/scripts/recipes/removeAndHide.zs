@@ -137,6 +137,7 @@ static ingredientsArray as IIngredient[] = [
     <ic2:plate:6>,
     <ic2:plate:7>,
     <ic2:plate:8>,
+    <ic2:sheet:1>,
     /* Mekanism */
     <mekanism:basicblock:5>,
     <mekanism:ingot:5>,
