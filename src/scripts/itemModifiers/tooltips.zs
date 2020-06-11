@@ -33,9 +33,9 @@ static tooltipArray as IFormattedText[][IItemStack] = {
     ],
     <thebetweenlands:bl_bucket_rubber>.withTag({}) : [
         format.yellow("Bucket Recipe:"),
-        format.yellow("blank, Reed Rope, blank"),
-        format.yellow("Weedwood Plank, blank, Weedwood Plank"),
-        format.yellow("blank, Weedwood Plank, blank"),
+        format.yellow("empty, Reed Rope, empty"),
+        format.yellow("Weedwood Plank, empty, Weedwood Plank"),
+        format.yellow("empty, Weedwood Plank, empty"),
     ],
 };
 
