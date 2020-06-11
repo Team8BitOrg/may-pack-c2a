@@ -24,7 +24,19 @@ static tooltipArray as IFormattedText[][IItemStack] = {
     ],
     <chiselsandbits:bit_bag> : [
         format.gold("Advanced Builder's Bag and higher also can be used for C&B")
-    ]
+    ],
+    <thebetweenlands:bl_bucket_infusion>.withTag({}) : [
+        format.yellow("Infusions come in many different combinations, colors, etc.")
+    ],
+    <thebetweenlands:bl_bucket_rubber:1>.withTag({}) : [
+        format.yellow("Check the quests for how to make this bucket!")
+    ],
+    <thebetweenlands:bl_bucket_rubber>.withTag({}) : [
+        format.yellow("Bucket Recipe:"),
+        format.yellow("blank, Reed Rope, blank"),
+        format.yellow("Weedwood Plank, blank, Weedwood Plank"),
+        format.yellow("blank, Weedwood Plank, blank"),
+    ],
 };
 
 function init() {
