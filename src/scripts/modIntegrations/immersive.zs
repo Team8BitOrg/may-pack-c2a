@@ -227,8 +227,71 @@ function init() {
     immersive.removeMetalPress(<thermalfoundation:material:352>);
     immersive.removeMetalPress(<immersiveengineering:metal:35>); //Uranium Plate
 
-    //Remove Quartz from Crusher
-    immersive.removeCrusherByInput(<geolosys:ore_vanilla:4>); //Not sure this actually works
+    /* Crusher */
+    // Cluster to 2x Dust
+    //Iron
+    immersive.addCrusher(<contenttweaker:material_part:413> * 2, <geolosys:cluster>, 512);
+    //Gold
+    immersive.addCrusher(<contenttweaker:material_part:410> * 2, <geolosys:cluster:1>, 512);
+    //Copper
+    immersive.addCrusher(<contenttweaker:material_part:74> * 2, <geolosys:cluster:2>, 512);
+    //Tin
+    immersive.addCrusher(<contenttweaker:material_part:150> * 2, <geolosys:cluster:3>, 512);
+    //Silver
+    immersive.addCrusher(<contenttweaker:material_part:138> * 2, <geolosys:cluster:4>, 512);
+    //Lead
+    immersive.addCrusher(<contenttweaker:material_part:262> * 2, <geolosys:cluster:5>, 512);
+    //Aluminium
+    immersive.addCrusher(<contenttweaker:material_part:30> * 2, <geolosys:cluster:6>, 512);
+    //Nickel
+    immersive.addCrusher(<contenttweaker:material_part:70> * 2, <geolosys:cluster:7>, 512);
+    //Platinum
+    immersive.addCrusher(<contenttweaker:material_part:254> * 2, <geolosys:cluster:8>, 512);
+    //Uranium
+    immersive.addCrusher(<contenttweaker:material_part:298> * 2, <geolosys:cluster:9>, 512);
+    //Zinc
+    immersive.addCrusher(<contenttweaker:material_part:78> * 2, <geolosys:cluster:10>, 512);
+    //Yellorium
+    immersive.addCrusher(<contenttweaker:material_part:298> * 2, <geolosys:cluster:11>, 512);
+    /* Ore Processing */
+    //Hematite
+    immersive.addCrusher(<contenttweaker:material_part:413> * 2, <geolosys:ore>, 512);
+    //Limonite
+    immersive.addCrusher(<contenttweaker:material_part:413> * 2, <geolosys:ore:1>, 512, <contenttweaker:material_part:70>, 0.5);
+    //Malachite
+    immersive.addCrusher(<contenttweaker:material_part:74> * 2, <geolosys:ore:2>, 512);
+    //Azurite
+    immersive.addCrusher(<contenttweaker:material_part:74> * 2, <geolosys:ore:3>, 512);
+    //Cassiterite
+    immersive.addCrusher(<contenttweaker:material_part:150> * 2, <geolosys:ore:4>, 512);
+    //Teallite
+    immersive.addCrusher(<contenttweaker:material_part:150> * 2, <geolosys:ore:5>, 512);
+    //Galena
+    immersive.addCrusher(<contenttweaker:material_part:262> * 2, <geolosys:ore:6>, 512, <contenttweaker:material_part:138>, 0.5);
+    //Bauxite
+    immersive.addCrusher(<contenttweaker:material_part:30> * 2, <geolosys:ore:7>, 512);
+    //Platinum
+    immersive.addCrusher(<contenttweaker:material_part:254> * 2, <geolosys:ore:8>, 512);
+    //Autunite
+    immersive.addCrusher(<contenttweaker:material_part:298> * 2, <geolosys:ore:9>, 512);
+    //Sphalerite
+    immersive.addCrusher(<contenttweaker:material_part:78> * 2, <geolosys:ore:10>, 512);
+    //Coal
+    immersive.addCrusher(<minecraft:coal> * 4, <geolosys:ore_vanilla>, 512);
+    //Gold
+    immersive.addCrusher(<contenttweaker:material_part:410> * 2, <geolosys:ore_vanilla:2>, 512);
+    //Kimberlite
+    immersive.addCrusher(<minecraft:diamond> * 2, <geolosys:ore_vanilla:5>, 512);
+    //Beryl
+    immersive.addCrusher(<minecraft:emerald> * 2, <geolosys:ore_vanilla:6>, 512);
+    //Cinnabar
+    immersive.addCrusher(<minecraft:redstone> * 6, <geolosys:ore_vanilla:1>, 512);
+    //Lapis Lazuli
+    immersive.addCrusher(<minecraft:dye:4> * 9, <geolosys:ore_vanilla:3>, 512);
+
+
+    //Not Thermal Platinum Dust
+    immersive.removeCrusherByOutput(<thermalfoundation:material:70>);
 
 
     /* Mixer */

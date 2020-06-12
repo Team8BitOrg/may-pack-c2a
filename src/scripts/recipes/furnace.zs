@@ -7,6 +7,25 @@
 */
 
 function init() {
+    /* Golosys */
+    furnace.remove(<geolosys:ingot:1>); //Tin
+    furnace.remove(<geolosys:ingot:2>); //Silver
+    furnace.remove(<geolosys:ingot:3>); //Lead
+    furnace.remove(<geolosys:ingot:4>); //Aluminum
+    furnace.remove(<geolosys:ingot:5>); //Nickel
+    furnace.remove(<geolosys:ingot:6>); //Platinum
+    furnace.remove(<geolosys:ingot:7>); //Zinc
+    furnace.addRecipe(<alchemistry:ingot:50>, <geolosys:cluster:3>, 0.7); //Tin
+    furnace.addRecipe(<alchemistry:ingot:47>, <geolosys:cluster:4>, 0.7); //Silver
+    furnace.addRecipe(<alchemistry:ingot:82>, <geolosys:cluster:5>, 0.7); //Lead
+    furnace.addRecipe(<alchemistry:ingot:13>, <geolosys:cluster:6>, 0.7); //Aluminum
+    furnace.addRecipe(<alchemistry:ingot:28>, <geolosys:cluster:7>, 0.7); //Nickel
+    furnace.addRecipe(<alchemistry:ingot:78>, <geolosys:cluster:8>, 0.7); //Platinum
+    furnace.addRecipe(<alchemistry:ingot:30>, <geolosys:cluster:10>, 0.7); //Zinc
+    furnace.addRecipe(<alchemistry:ingot:92>, <geolosys:cluster:11>, 0.7); //Uranium
+    furnace.addRecipe(<alchemistry:ingot:92>, <geolosys:cluster:9>, 0.7); //Yellorium
+
+
     /* Immersive Engineering */
     furnace.remove(<immersiveengineering:metal>); //Copper
     furnace.remove(<immersiveengineering:metal:1>); //Aluminum

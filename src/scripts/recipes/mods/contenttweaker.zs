@@ -431,9 +431,414 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     <contenttweaker:material_part:411> : [
         [<ic2:forge_hammer:*>, <ore:ingotIron>, <ore:ingotIron>]
     ],
+
+    /* Blocks To Ingots */
+    //Lithium
+    <alchemistry:ingot:3> * 9 : [
+        [<contenttweaker:sub_block_holder_4:5>]
+    ],
+    //Beryllium
+    <alchemistry:ingot:4> * 9 : [
+        [<contenttweaker:sub_block_holder_6:2>]
+    ],
+    //Boron
+    <alchemistry:ingot:5> * 9 : [
+        [<contenttweaker:sub_block_holder_5:6>]
+    ],
+    //Sodium
+    <alchemistry:ingot:11> * 9 : [
+        [<contenttweaker:sub_block_holder_2:4>]
+    ],
+    //Magnesium
+    <alchemistry:ingot:12> * 9 : [
+        [<contenttweaker:sub_block_holder_1:7>]
+    ],
+    //Aluminium
+    <alchemistry:ingot:13> * 9 : [
+        [<contenttweaker:sub_block_holder_3:5>]
+    ],
+    //Silicon
+    <alchemistry:ingot:14> * 9 : [
+        [<contenttweaker:sub_block_holder_3:10>]
+    ],
+    //Potassium
+    <alchemistry:ingot:19> * 9 : [
+        [<contenttweaker:sub_block_holder_2:1>]
+    ],
+    //Calcium
+    <alchemistry:ingot:20> * 9 : [
+        [<contenttweaker:sub_block_holder_2>]
+    ],
+    //Scandium
+    <alchemistry:ingot:21> * 9 : [
+        [<contenttweaker:sub_block_holder_4:1>]
+    ],
+    //Titanium
+    <alchemistry:ingot:22> * 9 : [
+        [<contenttweaker:sub_block_holder_4:4>]
+    ],
+    //Vanadium
+    <alchemistry:ingot:23> * 9 : [
+        [<contenttweaker:sub_block_holder_3:8>]
+    ],
+    //Chromium
+    <alchemistry:ingot:24> * 9 : [
+        [<contenttweaker:sub_block_holder_5:11>]
+    ],
+    //Manganese
+    <alchemistry:ingot:25> * 9 : [
+        [<contenttweaker:sub_block_holder_5:12>]
+    ],
+    //Cobalt
+    <alchemistry:ingot:27> * 9 : [
+        [<contenttweaker:sub_block_holder_1>]
+    ],
+    //Nickel
+    <alchemistry:ingot:28> * 9 : [
+        [<contenttweaker:sub_block_holder_3:14>]
+    ],
+    //Copper
+    <alchemistry:ingot:29> * 9 : [
+        [<contenttweaker:sub_block_holder_0:6>]
+    ],
+    //Zinc
+    <alchemistry:ingot:30> * 9 : [
+        [<contenttweaker:sub_block_holder_1:9>]
+    ],
+    //Gallium
+    <alchemistry:ingot:31> * 9 : [
+        [<contenttweaker:sub_block_holder_4:14>]
+    ],
+    //Germanium
+    <alchemistry:ingot:32> * 9 : [
+        [<contenttweaker:sub_block_holder_3>]
+    ],
+    //Arsenic
+    <alchemistry:ingot:33> * 9 : [
+        [<contenttweaker:sub_block_holder_1:11>]
+    ],
+    //Selenium
+    <alchemistry:ingot:34> * 9 : [
+        [<contenttweaker:sub_block_holder_4:3>]
+    ],
+    //Rubidium
+    <alchemistry:ingot:37> * 9 : [
+        [<contenttweaker:sub_block_holder_1:2>]
+    ],
+    //Strontium
+    <alchemistry:ingot:38> * 9 : [
+        [<contenttweaker:sub_block_holder_5:8>]
+    ],
+    //Yttrium
+    <alchemistry:ingot:39> * 9 : [
+        [<contenttweaker:sub_block_holder_3:2>]
+    ],
+    //Zirconium
+    <alchemistry:ingot:40> * 9 : [
+        [<contenttweaker:sub_block_holder_5:15>]
+    ],
+    //Niobium
+    <alchemistry:ingot:41> * 9 : [
+        [<contenttweaker:sub_block_holder_4:2>]
+    ],
+    //Molybdenum
+    <alchemistry:ingot:42> * 9 : [
+        [<contenttweaker:sub_block_holder_5:10>]
+    ],
+    //Technetium
+    <alchemistry:ingot:43> * 9 : [
+        [<contenttweaker:sub_block_holder_0:12>]
+    ],
+    //Ruthenium
+    <alchemistry:ingot:44> * 9 : [
+        [<contenttweaker:sub_block_holder_4:7>]
+    ],
+    //Rhodium
+    <alchemistry:ingot:45> * 9 : [
+        [<contenttweaker:sub_block_holder_2:13>]
+    ],
+    //Palladium
+    <alchemistry:ingot:46> * 9 : [
+        [<contenttweaker:sub_block_holder_4:9>]
+    ],
+    //Silver
+    <alchemistry:ingot:47> * 9 : [
+        [<contenttweaker:sub_block_holder_5:13>]
+    ],
+    //Cadmium
+    <alchemistry:ingot:48> * 9 : [
+        [<contenttweaker:sub_block_holder_1:12>]
+    ],
+    //Indium
+    <alchemistry:ingot:49> * 9 : [
+        [<contenttweaker:sub_block_holder_0:7>]
+    ],
+    //Tin
+    <alchemistry:ingot:50> * 9 : [
+        [<contenttweaker:sub_block_holder_4>]
+    ],
+    //Antimony
+    <alchemistry:ingot:51> * 9 : [
+        [<contenttweaker:sub_block_holder_1:14>]
+    ],
+    //Tellurium
+    <alchemistry:ingot:52> * 9 : [
+        [<contenttweaker:sub_block_holder_2:3>]
+    ],
+    //Caesium
+    <alchemistry:ingot:55> * 9 : [
+        [<contenttweaker:sub_block_holder_6:3>]
+    ],
+    //Barium
+    <alchemistry:ingot:56> * 9 : [
+        [<contenttweaker:sub_block_holder_5:3>]
+    ],
+    //Lanthanum
+    <alchemistry:ingot:57> * 9 : [
+        [<contenttweaker:sub_block_holder_5:4>]
+    ],
+    //Cerium
+    <alchemistry:ingot:58> * 9 : [
+        [<contenttweaker:sub_block_holder_2:8>]
+    ],
+    //Praseodymium
+    <alchemistry:ingot:59> * 9 : [
+        [<contenttweaker:sub_block_holder_2:7>]
+    ],
+    //Neodymium
+    <alchemistry:ingot:60> * 9 : [
+        [<contenttweaker:sub_block_holder_4:12>]
+    ],
+    //Promethium
+    <alchemistry:ingot:61> * 9 : [
+        [<contenttweaker:sub_block_holder_5:1>]
+    ],
+    //Samarium
+    <alchemistry:ingot:62> * 9 : [
+        [<contenttweaker:sub_block_holder_4:15>]
+    ],
+    //Europium
+    <alchemistry:ingot:63> * 9 : [
+        [<contenttweaker:sub_block_holder_4:8>]
+    ],
+    //Gadolinium
+    <alchemistry:ingot:64> * 9 : [
+        [<contenttweaker:sub_block_holder_5:2>]
+    ],
+    //Terbium
+    <alchemistry:ingot:65> * 9 : [
+        [<contenttweaker:sub_block_holder_2:12>]
+    ],
+    //Dysprosium
+    <alchemistry:ingot:66> * 9 : [
+        [<contenttweaker:sub_block_holder_4:11>]
+    ],
+    //Holmium
+    <alchemistry:ingot:67> * 9 : [
+        [<contenttweaker:sub_block_holder_3:4>]
+    ],
+    //Erbium
+    <alchemistry:ingot:68> * 9 : [
+        [<contenttweaker:sub_block_holder_0:10>]
+    ],
+    //Thulium
+    <alchemistry:ingot:69> * 9 : [
+        [<contenttweaker:sub_block_holder_0:15>]
+    ],
+    //Ytterbium
+    <alchemistry:ingot:70> * 9 : [
+        [<contenttweaker:sub_block_holder_1:15>]
+    ],
+    //Lutetium
+    <alchemistry:ingot:71> * 9 : [
+        [<contenttweaker:sub_block_holder_6:4>]
+    ],
+    //Hafnium
+    <alchemistry:ingot:72> * 9 : [
+        [<contenttweaker:sub_block_holder_4:13>]
+    ],
+    //Tantalum
+    <alchemistry:ingot:73> * 9 : [
+        [<contenttweaker:sub_block_holder_6:1>]
+    ],
+    //Tungsten
     <alchemistry:ingot:74> * 9 : [
         [<contenttweaker:sub_block_holder_2:6>]
-    ]
+    ],
+    //Rhenium
+    <alchemistry:ingot:75> * 9 : [
+        [<contenttweaker:sub_block_holder_0:4>]
+    ],
+    //Osmium
+    <alchemistry:ingot:76> * 9 : [
+        [<contenttweaker:sub_block_holder_0:8>]
+    ],
+    //Iridium
+    <alchemistry:ingot:77> * 9 : [
+        [<contenttweaker:sub_block_holder_0>]
+    ],
+    //Platinum
+    <alchemistry:ingot:78> * 9 : [
+        [<contenttweaker:sub_block_holder_5:5>]
+    ],
+    //Thallium
+    <alchemistry:ingot:81> * 9 : [
+        [<contenttweaker:sub_block_holder_4:10>]
+    ],
+    //Lead
+    <alchemistry:ingot:82> * 9 : [
+        [<contenttweaker:sub_block_holder_0:9>]
+    ],
+    //Bismuth
+    <alchemistry:ingot:83> * 9 : [
+        [<contenttweaker:sub_block_holder_0:14>]
+    ],
+    //Polonium
+    <alchemistry:ingot:84> * 9 : [
+        [<contenttweaker:sub_block_holder_0:11>]
+    ],
+    //Astatine
+    <alchemistry:ingot:85> * 9 : [
+        [<contenttweaker:sub_block_holder_2:15>]
+    ],
+    //Francium
+    <alchemistry:ingot:87> * 9 : [
+        [<contenttweaker:sub_block_holder_1:1>]
+    ],
+    //Radium
+    <alchemistry:ingot:88> * 9 : [
+        [<contenttweaker:sub_block_holder_1:4>]
+    ],
+    //Actinium
+    <alchemistry:ingot:89> * 9 : [
+        [<contenttweaker:sub_block_holder_3:3>]
+    ],
+    //Thorium
+    <alchemistry:ingot:90> * 9 : [
+        [<contenttweaker:sub_block_holder_0:1>]
+    ],
+    //Protactinium
+    <alchemistry:ingot:91> * 9 : [
+        [<contenttweaker:sub_block_holder_1:6>]
+    ],
+    //Uranium
+    <alchemistry:ingot:92> * 9 : [
+        [<contenttweaker:sub_block_holder_4:6>]
+    ],
+    //Neptunium
+    <alchemistry:ingot:93> * 9 : [
+        [<contenttweaker:sub_block_holder_2:5>]
+    ],
+    //Plutonium
+    <alchemistry:ingot:94> * 9 : [
+        [<contenttweaker:sub_block_holder_2:2>]
+    ],
+    //Americium
+    <alchemistry:ingot:95> * 9 : [
+        [<contenttweaker:sub_block_holder_2:14>]
+    ],
+    //Curium
+    <alchemistry:ingot:96> * 9 : [
+        [<contenttweaker:sub_block_holder_5:14>]
+    ],
+    //Berkelium
+    <alchemistry:ingot:97> * 9 : [
+        [<contenttweaker:sub_block_holder_3:7>]
+    ],
+    //Californium
+    <alchemistry:ingot:98> * 9 : [
+        [<contenttweaker:sub_block_holder_1:8>]
+    ],
+    //Einsteinium
+    <alchemistry:ingot:99> * 9 : [
+        [<contenttweaker:sub_block_holder_3:1>]
+    ],
+    //Fermium
+    <alchemistry:ingot:100> * 9 : [
+        [<contenttweaker:sub_block_holder_3:9>]
+    ],
+    //Mendelevium
+    <alchemistry:ingot:101> * 9 : [
+        [<contenttweaker:sub_block_holder_0:5>]
+    ],
+    //Nobelium
+    <alchemistry:ingot:102> * 9 : [
+        [<contenttweaker:sub_block_holder_2:11>]
+    ],
+    //Lawrencium
+    <alchemistry:ingot:103> * 9 : [
+        [<contenttweaker:sub_block_holder_3:11>]
+    ],
+    //Rutherfordium
+    <alchemistry:ingot:104> * 9 : [
+        [<contenttweaker:sub_block_holder_1:13>]
+    ],
+    //Dubnium
+    <alchemistry:ingot:105> * 9 : [
+        [<contenttweaker:sub_block_holder_3:12>]
+    ],
+    //Seaborgium
+    <alchemistry:ingot:106> * 9 : [
+        [<contenttweaker:sub_block_holder_6>]
+    ],
+    //Bohrium
+    <alchemistry:ingot:107> * 9 : [
+        [<contenttweaker:sub_block_holder_5:9>]
+    ],
+    //Hassium
+    <alchemistry:ingot:108> * 9 : [
+        [<contenttweaker:sub_block_holder_2:10>]
+    ],
+    //Meitnerium
+    <alchemistry:ingot:109> * 9 : [
+        [<contenttweaker:sub_block_holder_2:9>]
+    ],
+    //Darmstadtium
+    <alchemistry:ingot:110> * 9 : [
+        [<contenttweaker:sub_block_holder_0:2>]
+    ],
+    //Roentgenium
+    <alchemistry:ingot:111> * 9 : [
+        [<contenttweaker:sub_block_holder_5:7>]
+    ],
+    //Copernicium
+    <alchemistry:ingot:112> * 9 : [
+        [<contenttweaker:sub_block_holder_1:10>]
+    ],
+    //Nihonium
+    <alchemistry:ingot:113> * 9 : [
+        [<contenttweaker:sub_block_holder_5>]
+    ],
+    //Flerovium
+    <alchemistry:ingot:114> * 9 : [
+        [<contenttweaker:sub_block_holder_1:3>]
+    ],
+    //Moscovium
+    <alchemistry:ingot:115> * 9 : [
+        [<contenttweaker:sub_block_holder_0:3>]
+    ],
+    //Livermorium
+    <alchemistry:ingot:116> * 9 : [
+        [<contenttweaker:sub_block_holder_1:5>]
+    ],
+    //Tennessine
+    <alchemistry:ingot:117> * 9 : [
+        [<contenttweaker:sub_block_holder_3:13>]
+    ],
+    //Oganesson
+    <alchemistry:ingot:118> * 9 : [
+        [<contenttweaker:sub_block_holder_0:13>]
+    ],
+
+
+
+
+
+
+
+
+
+
 
 
 

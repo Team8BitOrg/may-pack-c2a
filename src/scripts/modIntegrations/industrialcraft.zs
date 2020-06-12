@@ -17,5 +17,6 @@ function init() {
 
     /* Blast Furnace */
     industrialcraft.addBlastFurnace([<alchemistry:ingot:74>, <ic2:misc_resource:5>], <minecraft:iron_ingot>, 2, 6000);
+
     
 }

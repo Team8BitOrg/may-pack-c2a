@@ -30,22 +30,7 @@ static itemRenameArray as string[IItemStack] = {
     <immersiveengineering:material:2>: "Tungsten Rod",
     <immersiveengineering:material:9>: "Tungsten Mechanical Component",
     <immersiveengineering:material:23>: "Tungsten Wire",
-    <immersiveengineering:wirecoil:4>: "Tungsten Cable Coil",
-    <ic2:crafting>: "Processed Resin",
-    <ic2:leaves>: "Resin Tree Leaves",
-    <ic2:rubber_wood>: "Resin Wood",
-    <ic2:sapling>: "Resin Tree Sapling",
-    <contenttweaker:material_part:332>: "Mendelevium Plate",
-    <contenttweaker:material_part:333>: "Mendelevium Gear",
-    <contenttweaker:material_part:334>: "Mendelevium Dust",
-    <contenttweaker:sub_block_holder_0:5>: "Block of Mendelevium",
-    <contenttweaker:material_part:252>: "Platinum Plate",
-    <contenttweaker:material_part:253>: "Platinum Gear",
-    <contenttweaker:material_part:254>: "Platinum Dust",
-    <contenttweaker:sub_block_holder_5:5>: "Block of Platinum",
-
-
-
+    <immersiveengineering:wirecoil:4>: "Tungsten Cable Coil"
 
 };
 
