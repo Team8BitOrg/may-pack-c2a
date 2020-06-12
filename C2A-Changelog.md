@@ -12,8 +12,9 @@ Release Build
 -------------------
 Builder's Bag (1.2.0.14 -> 1.2.0.15)
 Ender Utilities (0.7.14 -> 0.7.15)
-<!-- EnderCore (0.5.75 -> 0.5.76) -->
+<!-- EnderCore (0.5.75 -> 0.5.76) --> //Backed down due to crash
 Immersive Engineering (0.12-92 -> 0.12-98)
+PneumaticCraft:Repressurized (0.11.14-395 -> 0.11.15-398)
 ZenStages (0.4.2 -> 0.5.0)
 
 
