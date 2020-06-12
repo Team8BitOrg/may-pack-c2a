@@ -8,12 +8,34 @@ Release Build
 -- Added Mods --
 ----------------
 
+-- Updated Mods --
+-------------------
+Builder's Bag (1.2.0.14 -> 1.2.0.15)
+Ender Utilities (0.7.14 -> 0.7.15)
+<!-- EnderCore (0.5.75 -> 0.5.76) -->
+Immersive Engineering (0.12-92 -> 0.12-98)
+ZenStages (0.4.2 -> 0.5.0)
 
 
 -- Config Changes --
 --------------------
 ic2/blast_furnace.ini
     Removed steel ingot recipes
+immersiveengineering.cfg
+    compat {
+        B:albedo=false
+        B:attaineddrops2=false
+        B:betterwithmods=false
+        B:denseores=false
+        B:extrautils2=false
+        B:forestry=false
+        B:foundry=false
+        B:harvestcraft=false
+        B:railcraft=false
+        B:tconstruct=false
+        B:thaumcraft=false
+        B:waila=false
+        B:xlfoodmod=false
 headcrumbs.cfg
     Uriah_Heep
 vanillafix.cfg

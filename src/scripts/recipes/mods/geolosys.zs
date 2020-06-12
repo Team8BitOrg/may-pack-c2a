@@ -1,5 +1,5 @@
 /*
-    This script handles the recipes for Integrated Dynamics
+    This script handles the recipes for Geolosys
 
     Note: These scripts are created and for the usage in modpacks curated by Team 8Bit. 
     You can use these scripts for reference and for learning but not for copying and 
@@ -8,6 +8,7 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.craftingHelper;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
@@ -18,20 +19,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <ic2:crafting:1> : [
-			[
-	  			[<ore:itemInsulatedCopperCable>,<ore:itemInsulatedCopperCable>,<ore:itemInsulatedCopperCable>],
-	   			[<buildcraftsilicon:redstone_chipset>, <ore:plateIron>, <buildcraftsilicon:redstone_chipset>],
-	  			[<ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>]
-			]
-	],
-	<ic2:forge_hammer> : [
-        [
-            [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
-            [<immersiveengineering:material>, <immersiveengineering:material>, <minecraft:iron_ingot>],
-            [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-        ]
-    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -73,7 +60,10 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
-	]*/ 
+	]*/
+    <geolosys:field_manual> : [
+			[<thebetweenlands:weedwood_pickaxe>, <minecraft:book>]
+	]
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -87,14 +77,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
-    <ic2:crafting:1>, //Circuit
-	<ic2:forge_hammer>,
-    <ic2:resource:12>, //Basic Machine Case
-    <ic2:resource:13>, //Advanced Machine Case
-    <ic2:te:47>, //Macerator
-    <ic2:te:56>, //Ore Washing Plant
-    <ic2:crafting:2>, //Advanced Circuit
-    <ic2:te:42>, //Fluid/Solid Canning Machine
+    <geolosys:field_manual>  
 ];
 
 function init() {

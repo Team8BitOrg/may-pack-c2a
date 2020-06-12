@@ -30,25 +30,21 @@ static itemRenameArray as string[IItemStack] = {
     <immersiveengineering:material:2>: "Tungsten Rod",
     <immersiveengineering:material:9>: "Tungsten Mechanical Component",
     <immersiveengineering:material:23>: "Tungsten Wire",
-    <immersiveengineering:pickaxe_steel>: "Tungsten Pickaxe",
-    <immersiveengineering:shovel_steel>: "Tungsten Shovel",
-    <immersiveengineering:axe_steel>: "Tungsten Axe",
-    <immersiveengineering:sword_steel>: "Tungsten Sword",
     <immersiveengineering:wirecoil:4>: "Tungsten Cable Coil",
-    <immersiveengineering:drillhead>: "Tungsten Drill Head",
-    <immersiveengineering:steel_armor_feet>: "Tungsten Boots",
-    <immersiveengineering:steel_armor_legs>: "Tungsten Leggings",
-    <immersiveengineering:steel_armor_chest>: "Tungsten Chestplate",
-    <immersiveengineering:steel_armor_head>: "Tungsten Helmet",
-    <contenttweaker:material_part:332> : "Mendelevium Plate",
-    <contenttweaker:material_part:333> : "Mendelevium Gear",
-    <contenttweaker:material_part:334> : "Mendelevium Dust",
-    <contenttweaker:sub_block_holder_0:5> : "Block of Mendelevium",
+    <ic2:crafting>: "Processed Resin",
+    <ic2:leaves>: "Resin Tree Leaves",
+    <ic2:rubber_wood>: "Resin Wood",
+    <ic2:sapling>: "Resin Tree Sapling",
+    <contenttweaker:material_part:332>: "Mendelevium Plate",
+    <contenttweaker:material_part:333>: "Mendelevium Gear",
+    <contenttweaker:material_part:334>: "Mendelevium Dust",
+    <contenttweaker:sub_block_holder_0:5>: "Block of Mendelevium",
     <contenttweaker:material_part:252>: "Platinum Plate",
     <contenttweaker:material_part:253>: "Platinum Gear",
     <contenttweaker:material_part:254>: "Platinum Dust",
     <contenttweaker:sub_block_holder_5:5>: "Block of Platinum",
-    <ic2:crafting>: "Processed Resin"
+
+
 
 
 };

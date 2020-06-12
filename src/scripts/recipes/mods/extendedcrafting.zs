@@ -95,7 +95,10 @@ static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
     <extendedcrafting:material>, //Block Iron
     <extendedcrafting:material:7>, //Luminessence
-    <extendedcrafting:table_basic>
+    <extendedcrafting:table_basic>, // Basic Table
+    <extendedcrafting:table_advanced>, // Advanced Table
+    <extendedcrafting:table_elite>, // Elite Table
+    <extendedcrafting:table_ultimate>
 ];
 
 function init() {

@@ -19,14 +19,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 			]
 	]*/
-    <immersiveengineering:stone_decoration> * 3 : [
-			[
-	  			[<minecraft:clay_ball>, <thebetweenlands:items_misc:10>, <minecraft:clay_ball>],
-	   			[<thebetweenlands:items_misc:10>, <ore:sandstone>, <thebetweenlands:items_misc:10>],
-	  			[<minecraft:clay_ball>, <thebetweenlands:items_misc:10>, <minecraft:clay_ball>]
-			]
-	],
-
     <immersiveengineering:metal_decoration0:3> * 2 : [
 			[
 	  			[<ic2:casing:3>, <minecraft:redstone_block>, <ic2:casing:3>],
@@ -66,7 +58,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
         [
             [<ic2:forge_hammer>, <contenttweaker:material_part:236>]
         ]
-    ]
+    ],
+    <immersiveengineering:tool> : [
+        [
+            [null, <thebetweenlands:items_misc:11>, <immersiveengineering:material:4>],
+            [null, <ore:stickWood>, <thebetweenlands:items_misc:11>],
+            [<ore:stickWood>, null, null]
+        ]
+    ],
 
     
 };

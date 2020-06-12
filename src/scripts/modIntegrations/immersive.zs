@@ -233,9 +233,11 @@ function init() {
 
     /* Mixer */
     immersive.addMixer(<liquid:redstone> * 1000, <liquid:biodiesel> * 1000, [<minecraft:redstone_block>, <minecraft:redstone_block>, <charm:redstone_sand>, <charm:redstone_sand>, <botania:manaresource:6>, <botania:manaresource:6>], 2048); //Destabilized Redstone
+    immersive.addMixer(<liquid:lapis> * 1000, <liquid:biodiesel> * 1000, [<minecraft:lapis_block>, <minecraft:lapis_block>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <buildcraftfactory:gel>, <buildcraftfactory:gel>], 2048); //Destabilized Redstone
 
     /* Distillation Tower */
     immersive.addDistillation([<liquid:ethanol> * 50], [<actuallyadditions:item_crystal>], <liquid:redstone> * 1000, 4096, 1500, [1]); //Restonia Crystal
+    immersive.addDistillation([<liquid:ethanol> * 50], [<actuallyadditions:item_crystal:1>], <liquid:lapis> * 1000, 4096, 1500, [1]); //Palis Crystal
 
     /* Alloy Smelter */
     immersive.removeAlloySmelter(<immersiveengineering:metal:6>); //Constantan

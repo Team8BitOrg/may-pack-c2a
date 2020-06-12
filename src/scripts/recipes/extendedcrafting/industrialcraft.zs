@@ -10,9 +10,15 @@ import mods.extendedcrafting.TableCrafting;
 function init() {
     /* Basic Machine Case */
     TableCrafting.addShaped(1, <ic2:resource:12>, [
-        [<contenttweaker:material_part:411>, <contenttweaker:material_part:411>, <contenttweaker:material_part:411>],
-        [<contenttweaker:material_part:411>, <buildcraftsilicon:redstone_chipset:1>, <contenttweaker:material_part:411>],
-        [<contenttweaker:material_part:411>, <contenttweaker:material_part:411>, <contenttweaker:material_part:411>]
+        [<contenttweaker:material_part:236>, <contenttweaker:material_part:236>, <contenttweaker:material_part:236>],
+        [<contenttweaker:material_part:236>, <buildcraftsilicon:redstone_chipset:1>, <contenttweaker:material_part:236>],
+        [<contenttweaker:material_part:236>, <contenttweaker:material_part:236>, <contenttweaker:material_part:236>]
+    ]);
+    /* Advanced Machine Case */
+    TableCrafting.addShaped(1, <ic2:resource:13>, [
+        [<contenttweaker:material_part:236>, <ic2:crafting:2>, <contenttweaker:material_part:236>],
+        [<contenttweaker:material_part:236>, <buildcraftsilicon:redstone_chipset:1>, <contenttweaker:material_part:236>],
+        [<contenttweaker:material_part:236>, <ic2:resource:12>, <contenttweaker:material_part:236>]
     ]);
     /* Advanced Circuit */
     TableCrafting.addShaped(1, <ic2:crafting:2>, [

@@ -300,7 +300,6 @@ mods.ItemStages.stageLiquid("nonstacked", <liquid:nether_brick_nak>);
 mods.ItemStages.stageLiquid("nonstacked", <liquid:nether_brick_nak_hot>);
 mods.ItemStages.stageLiquid("nonstacked", <liquid:glowstone_nak>);
 mods.ItemStages.stageLiquid("nonstacked", <liquid:glowstone_nak_hot>);
-mods.ItemStages.stageLiquid("nonstacked", <liquid:lapis>);
 mods.ItemStages.stageLiquid("nonstacked", <liquid:lapis_nak>);
 mods.ItemStages.stageLiquid("nonstacked", <liquid:lapis_nak_hot>);
 mods.ItemStages.stageLiquid("nonstacked", <liquid:gold>);

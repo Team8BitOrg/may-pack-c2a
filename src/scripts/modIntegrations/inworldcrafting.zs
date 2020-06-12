@@ -18,5 +18,8 @@ function init() {
     inworldcrafting.addFluidTransform(<liquid:creosote>, <liquid:swamp_water>, [<minecraft:coal:1>], true);
     //Treated Wood
     inworldcrafting.addFluidItemTransform(<immersiveengineering:treated_wood>, <liquid:creosote>, [<ore:plankWood>], true);
-    
+
+    /* IndustrialCraft */
+    //UU-Matter
+    inworldcrafting.addFluidItemTransform(<ic2:misc_resource:3>, <liquid:ic2uu_matter>, [<ore:slimeball>], true);
 }

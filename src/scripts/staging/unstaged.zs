@@ -17,6 +17,8 @@ import mods.zenstages.ZenStager;
 //Items to remove from Staging
 mods.ItemStages.removeItemStage(<minecraft:cauldron>); //Cauldron
 mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>); //Solidified Experience
+mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>); //Tiny Coal
+mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:11>); //Tiny Charcoal
 
 
 //Stack 3 Items
