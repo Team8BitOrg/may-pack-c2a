@@ -7,6 +7,7 @@ Release Build
 
 -- Added Mods --
 ----------------
+Snow! Real Magic!
 
 -- Updated Mods --
 -------------------
@@ -21,7 +22,9 @@ ZenStages (0.4.2 -> 0.5.0)
 -- Config Changes --
 --------------------
 ic2/blast_furnace.ini
-    Removed steel ingot recipes
+        Removed steel ingot recipes
+    /furnace.ini
+        Removed all default ingot recipes
 immersiveengineering.cfg
     compat {
         B:albedo=false
@@ -45,6 +48,20 @@ vanillafix.cfg
 -- Script Changes --
 --------------------
 Renamed IC2 rubber to avoid confusion with Betweenlands
+Added Animal Crop Recipes
+Cleaned up Rename script
+Added Molten Lapis to IE Mixer and Palis crystals to Distillation Tower
+Added UU-Mater recipe with In World Crafting
+Added Animator recipe for Sigmarite Armor with gems
+Added Animator recipes for empowered Restonia and Palis Crystal Blocks
+Added/Fixed IC2 Machine case recipes
+Added Forge Hammer to Plate and Block to Ingot recipes for all Alchemistry metals
+Changed Geolosys Field Manual Recipe
+Fixed Engineer Hammer recipe
+Removed Molten Lapis from staging
+Removed Tiny Coal and Charcoal from staging
+Set all Geolosys clusters and ores to process properly in furnaces and IE crusher
+
 
 -- Asset Changes --
 -------------------
