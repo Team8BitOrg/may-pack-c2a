@@ -62,6 +62,7 @@ function initRecipes() {
 	//scripts.recipes.extendedcrafting.scriptname.init();
 	scripts.recipes.extendedcrafting.actuallyadditions.init();
 	scripts.recipes.extendedcrafting.alchemistry.init();
+	scripts.recipes.extendedcrafting.animalcrops.init();
 	scripts.recipes.extendedcrafting.avaritia.init();
 	scripts.recipes.extendedcrafting.danknull.init();
 	scripts.recipes.extendedcrafting.immersive.init();

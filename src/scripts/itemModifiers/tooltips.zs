@@ -37,6 +37,9 @@ static tooltipArray as IFormattedText[][IItemStack] = {
         format.yellow("Weedwood Plank, empty, Weedwood Plank"),
         format.yellow("empty, Weedwood Plank, empty"),
     ],
+    <thebetweenlands:items_misc:44> : [
+        format.gold("Drops from Ash Sprites in Sludgeons")
+    ],
 };
 
 function init() {
