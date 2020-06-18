@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "-MFB Bug Report-"
+title: "-Call To Arms Bug Report-"
 labels: ''
 assignees: ''
 

@@ -25,12 +25,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:gunpowder>]
         ]
     ],
-    <extendedcrafting:material:2> : [
-        [
-            [<ic2:forge_hammer>, <extendedcrafting:material>],
-            [<extendedcrafting:material>]
-        ]
-    ],
     <extendedcrafting:table_basic> : [
         [
             [<extendedcrafting:material:14>, <extendedcrafting:material:8>, <extendedcrafting:material:14>],
@@ -80,6 +74,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
+    <extendedcrafting:material:2> : [
+        [
+            [<ic2:forge_hammer:*>, <extendedcrafting:material>, <extendedcrafting:material>]
+        ]
+    ],
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -94,11 +93,12 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
     <extendedcrafting:material>, //Block Iron
+    <extendedcrafting:material:2>, //Black Iron Slate
     <extendedcrafting:material:7>, //Luminessence
     <extendedcrafting:table_basic>, // Basic Table
-    <extendedcrafting:table_advanced>, // Advanced Table
-    <extendedcrafting:table_elite>, // Elite Table
-    <extendedcrafting:table_ultimate>
+    <extendedcrafting:table_advanced>, //Advanced Table
+    <extendedcrafting:table_elite>, //Elite Table
+    <extendedcrafting:table_ultimate> //Ultimate Table
 ];
 
 function init() {

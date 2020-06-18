@@ -2,6 +2,35 @@ Call To Arms Running Changelog
 
 -------------------------------------------------------------------------------
 Release Build
+1.0.3 --> 1.0.4
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+
+-- Updated Mods --
+-------------------
+
+-- Removed Mods --
+------------------
+
+-- Config Changes --
+--------------------
+headcrumbs.cfg
+    ElusiveArreis
+    Happybandit360
+    PixelatedFyre
+    SigmaLP
+    Jester1147
+
+-- Script Changes --
+--------------------
+
+-- Asset Changes --
+-------------------
+SOMETHING IN QUESTS ABOUT IN WORLD CRAFTING OF CREOSOTE
+
+-------------------------------------------------------------------------------
+Release Build
 1.0.2 --> 1.0.3
 -------------------------------------------------------------------------------
 
@@ -66,6 +95,7 @@ Set all Geolosys clusters and ores to process properly in furnaces and IE crushe
 -- Asset Changes --
 -------------------
 Added starting Overworld, IC2, and Immersive Engineering quests
+Updated Betweenlands quests
 
 -------------------------------------------------------------------------------
 Release Build

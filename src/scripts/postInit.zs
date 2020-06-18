@@ -46,6 +46,7 @@ function initRecipes() {
 	scripts.recipes.mods.draconicevolution.init();
 	scripts.recipes.mods.erebus.init();
 	scripts.recipes.mods.extendedcrafting.init();
+	scripts.recipes.mods.geolosys.init();
 	scripts.recipes.mods.immersiveengineering.init();
 	scripts.recipes.mods.industrialcraft.init();
 	scripts.recipes.mods.lumberjack.init();
