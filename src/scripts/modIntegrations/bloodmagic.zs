@@ -18,4 +18,13 @@ function init() {
     bloodmagic.removeAlchemyTable([<bloodmagic:cutting_fluid>.withTag({}), <geolosys:cluster:5>]);
     bloodmagic.removeAlchemyTable([<bloodmagic:cutting_fluid>.withTag({}), <geolosys:cluster:6>]);
     bloodmagic.removeAlchemyTable([<bloodmagic:cutting_fluid>.withTag({}), <geolosys:cluster:8>]);
+
+    /* Blood Orbs */
+    bloodmagic.removeBloodAltar(<minecraft:diamond>);
+    bloodmagic.removeBloodAltar(<minecraft:redstone_block>);
+    bloodmagic.removeBloodAltar(<minecraft:gold_block>);
+    bloodmagic.addBloodAltar(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <thermalfoundation:storage_resource:1>, 0, 2000, 60, 120);
+    bloodmagic.addBloodAltar(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <actuallyadditions:block_crystal_empowered>, 1, 7500, 120, 180);
+    bloodmagic.addBloodAltar(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <botania:storage:2>, 2, 20000, 240, 240);
+    
 }

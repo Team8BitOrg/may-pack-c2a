@@ -25,7 +25,21 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 	   			[<actuallyadditions:item_misc:5>, <ic2:resource:13>, <actuallyadditions:item_misc:5>],
 	  			[<contenttweaker:material_part:56>, <actuallyadditions:item_misc:5>, <contenttweaker:material_part:56>]
 			]
-	]
+	],
+    <actuallyadditions:item_misc:7> : [
+			[
+	  			[null, <immersiveengineering:wirecoil:2>, <immersiveengineering:material>],
+	   			[<immersiveengineering:wirecoil:2>, <immersiveengineering:material>, <immersiveengineering:wirecoil:2>],
+	  			[<immersiveengineering:material>, <immersiveengineering:wirecoil:2>, null]
+			]
+	],
+    <actuallyadditions:item_misc:8> : [
+			[
+	  			[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})],
+	   			[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <actuallyadditions:item_misc:7>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})],
+	  			[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})]
+			]
+	],
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -82,7 +96,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta>
     <actuallyadditions:block_misc:9>,
-    <actuallyadditions:block_atomic_reconstructor> 
+    <actuallyadditions:block_atomic_reconstructor>,
+    <actuallyadditions:item_misc:7>,
+    <actuallyadditions:item_misc:8>,
+    <actuallyadditions:item_drill:3>.withTag({Energy: 0})
+
 ];
 
 function init() {

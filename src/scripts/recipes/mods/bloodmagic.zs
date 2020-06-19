@@ -79,7 +79,10 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 
 //Removals
 static removeRecipes as IItemStack[] = [
-    //<modid:itemname:meta>   
+    //<modid:itemname:meta>
+    <bloodmagic:soul_snare>,
+    <bloodmagic:altar>,
+    <bloodmagic:soul_forge> 
 ];
 
 function init() {

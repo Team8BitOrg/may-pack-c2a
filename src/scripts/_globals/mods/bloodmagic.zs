@@ -14,11 +14,12 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.bloodmagic.AlchemyArray;
 import mods.bloodmagic.AlchemyTable;
+import mods.bloodmagic.BloodAltar;
 
 zenClass BloodMagic {
     zenConstructor() {
     }
-
+    /* Alchemy Array */
     function addAlchemyArray (output as IItemStack, input as IItemStack, catalyst as IItemStack, textureLocation as string) {
         AlchemyArray.addRecipe(output, input, catalyst, textureLocation);
     }
@@ -32,5 +33,17 @@ zenClass BloodMagic {
     function removeAlchemyTable(inputs as IItemStack[]) {
         AlchemyTable.removeRecipe(inputs);
     }
+
+    /* Blood Altar */
+    function addBloodAltar(output as IItemStack, input as IItemStack, minimumTier as int, syphon as int, consumeRate as int, drainRate as int) {
+        BloodAltar.addRecipe(output, input, minimumTier, syphon, consumeRate, drainRate);
+    }
+
+    function removeBloodAltar(input as IItemStack){
+        BloodAltar.removeRecipe(input);
+    }
+
+
+
 
 }

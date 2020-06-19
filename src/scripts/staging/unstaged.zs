@@ -23,28 +23,6 @@ mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:11>); //Tiny Charco
 
 //Stack 3 Items
 mods.ItemStages.removeItemStage(<mekanism:machineblock2:11>); //Fluid Tank
-mods.ItemStages.removeItemStage(<botania:manaresource:6>); //Redstone Root
-mods.ItemStages.removeItemStage(<actuallyadditions:block_atomic_reconstructor>); //Atomic Reconstructor
-mods.ItemStages.removeItemStage(<actuallyadditions:block_crystal:1>); //Palis Crystal Block
-mods.ItemStages.removeItemStage(<actuallyadditions:block_crystal>); //Redstonia Crystal Block
-mods.ItemStages.removeItemStage(<actuallyadditions:block_crystal_empowered>); //Empowered Redstonia Crystal Block
-mods.ItemStages.removeItemStage(<actuallyadditions:block_crystal_empowered:1>); //Empowered Palis Crystal Block
-mods.ItemStages.removeItemStage(<actuallyadditions:block_testifi_bucks_green_wall>); //Ethetic Green Block
-mods.ItemStages.removeItemStage(<actuallyadditions:block_testifi_bucks_white_wall>); //Ethetic Quartz
-mods.ItemStages.removeItemStage(<actuallyadditions:block_empowerer>); //Empowerer
-mods.ItemStages.removeItemStage(<actuallyadditions:block_display_stand>); //Display Stand
-mods.ItemStages.removeItemStage(<actuallyadditions:item_crystal_empowered>); //Empowered Redstonia Crystal
-mods.ItemStages.removeItemStage(<actuallyadditions:item_crystal_empowered:1>); //Empowered Palis Crystal
-mods.ItemStages.removeItemStage(<actuallyadditions:item_crystal>); //Redstonia Crystal
-mods.ItemStages.removeItemStage(<actuallyadditions:item_crystal:1>); //Palis Crystal
-mods.ItemStages.removeItemStage(<actuallyadditions:item_crystal:5>); //Enori Crystal
-mods.ItemStages.removeItemStage(<actuallyadditions:block_crystal:5>); //Enori Crystal Block
-mods.ItemStages.removeItemStage(<actuallyadditions:battery_bauble>); //Single Battery
-mods.ItemStages.removeItemStage(<actuallyadditions:battery_double_bauble>); //Double Battery
-mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:7>); //Basic Coil
-mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:8>); //Advanced Coil
-mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:5>); //Black Quartz
-
 
 
 

@@ -25,9 +25,11 @@ static stagedMods as string[][string] = {
         "buildcraftrobotics",
         /* "buildcraftsilicon", */
         "buildcrafttransport",
+        "actuallyadditions",
         "alchemistry",
         "bloodmagic",
         "bloodarsenal",
+        "botania",
         "extendedcrafting",
         "vc",
         "uppers",
@@ -70,14 +72,12 @@ static stagedMods as string[][string] = {
     ],
 
     stages.nonstacked.stage : [
-        "actuallyadditions",
         "advgenerators",
         "ae2stuff",
         "ae2wtlib",
         "appliedenergistics2",
         "astralsorcery",
         "avaritia",
-        "botania",
         "chancecubes",
         "compactmachines3",
         "deepmoblearning",

@@ -7,10 +7,19 @@
 
 function init() {
 
-    //Inferium Seed
+    /* Inferium Seed */
     botania.addAlchemy(<mysticalagriculture:tier1_inferium_seeds>, <ic2:crafting:20>, 50000);
 
-    //Gaia Altar
+    /* Gaia Altar */
     botania.addRuneAltar(<erebus:altar_offering>, [<minecraft:gold_block>, <botania:rune:2>, <botania:rune:13>, <thebetweenlands:items_misc:3>, <minecraft:obsidian>, <bloodmagic:teleposer>],250000);
+
+    /* Livingrock */
+    botania.removePureDaisy(<botania:livingrock>);
+    botania.addPureDaisy(<bloodmagic:blood_rune>, <botania:livingrock>, 200);
+
+    /* Livingwood */
+    botania.removePureDaisy(<botania:livingwood>);
+    botania.addPureDaisy(<ore:betweenHearthTarred>, <botania:livingwood>, 200);
+
 
 }

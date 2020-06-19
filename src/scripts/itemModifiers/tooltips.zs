@@ -40,6 +40,9 @@ static tooltipArray as IFormattedText[][IItemStack] = {
     <thebetweenlands:items_misc:44> : [
         format.gold("Drops from Ash Sprites in Sludgeons")
     ],
+    <buildcraftfactory:gel> : [
+        format.gold("These result from placing a Water Gelifier in water. Eventually.")
+    ]
 };
 
 function init() {

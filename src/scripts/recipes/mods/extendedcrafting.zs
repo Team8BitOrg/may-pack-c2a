@@ -75,9 +75,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/
     <extendedcrafting:material:2> : [
-        [
             [<ic2:forge_hammer:*>, <extendedcrafting:material>, <extendedcrafting:material>]
-        ]
     ],
 };
 

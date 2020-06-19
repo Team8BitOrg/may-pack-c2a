@@ -134,7 +134,8 @@ static removeRecipes as IItemStack[] = [
     <immersiveengineering:tool>, //Emgineers Hammer
     <immersiveengineering:stone_decoration>, //Coke brick
     <immersiveengineering:treated_wood>, //Treated Wood
-    <immersiveengineering:stone_decoration:1> //Blast Brick
+    <immersiveengineering:stone_decoration:1>, //Blast Brick
+    <immersiveengineering:metal_device1:13>, //Garden Cloche
 ];
 
 function init() {

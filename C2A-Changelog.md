@@ -15,10 +15,19 @@ Release Build
 
 -- Config Changes --
 --------------------
+cofh/thermalfoundation.cfg
+    Blizz {
+        B:Enable=false
+    Blitz {
+        B:Enable=false
+    Basalz {
+        B:Enable=false
 headcrumbs.cfg
     ElusiveArreis
     Happybandit360
     PixelatedFyre
+    pyrotech500
+    Mar3xgg
     SigmaLP
     Jester1147
 

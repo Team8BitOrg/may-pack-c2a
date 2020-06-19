@@ -12,11 +12,20 @@ import mods.extendedcrafting.TableCrafting;
 
 function init() {
 
-//
-TableCrafting.addShaped(1, <actuallyadditions:block_atomic_reconstructor>, [
-    [<botania:manaresource:4>, <actuallyadditions:item_crystal>, <botania:manaresource:4>],
-    [<actuallyadditions:item_crystal>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal>],
-    [<botania:manaresource:4>, <actuallyadditions:item_crystal>, <botania:manaresource:4>]
-]);
+    //Atomic Reconstructor
+    TableCrafting.addShaped(1, <actuallyadditions:block_atomic_reconstructor>, [
+        [<botania:manaresource:4>, <actuallyadditions:item_crystal>, <botania:manaresource:4>],
+        [<actuallyadditions:item_crystal>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal>],
+        [<botania:manaresource:4>, <actuallyadditions:item_crystal>, <botania:manaresource:4>]
+    ]);
+
+    //Drill
+    TableCrafting.addShaped(1, <actuallyadditions:item_drill:3>, [
+        [<actuallyadditions:item_crystal:2>, <actuallyadditions:item_crystal:2>, <actuallyadditions:item_crystal:2>],
+        [<actuallyadditions:item_misc:8>, <ic2:drill:26>.withTag({}).anyDamage(), <actuallyadditions:item_misc:8>],
+        [<actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>]
+    ]);
+
+
 
 }

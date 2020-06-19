@@ -27,6 +27,7 @@ function initRecipes() {
 	scripts.recipes.hideCategory.init();
 	scripts.recipes.removeAndHide.init();
 	scripts.recipes.furnace.init();
+	scripts.recipes.replaceAll.init();
 	
 	//Mods
 	//scripts.recipes.mods.scriptname.init();
@@ -65,7 +66,10 @@ function initRecipes() {
 	scripts.recipes.extendedcrafting.alchemistry.init();
 	scripts.recipes.extendedcrafting.animalcrops.init();
 	scripts.recipes.extendedcrafting.avaritia.init();
+	scripts.recipes.extendedcrafting.bloodmagic.init();
+	scripts.recipes.extendedcrafting.botania.init();
 	scripts.recipes.extendedcrafting.danknull.init();
+	scripts.recipes.extendedcrafting.extendedcrafting.init();
 	scripts.recipes.extendedcrafting.immersive.init();
 	scripts.recipes.extendedcrafting.industrialcraft.init();
 	scripts.recipes.extendedcrafting.mysticalag.init();

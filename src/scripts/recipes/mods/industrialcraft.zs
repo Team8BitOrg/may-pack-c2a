@@ -31,7 +31,15 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<immersiveengineering:material>, <immersiveengineering:material>, <minecraft:iron_ingot>],
             [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
         ]
+    ],
+	<ic2:te:46> : [
+        [
+            [null, <contenttweaker:material_part:411>, null],
+            [<contenttweaker:material_part:411>, null, <contenttweaker:material_part:411>],
+            [<contenttweaker:material_part:411>, <thebetweenlands:sulfur_furnace_dual>, <contenttweaker:material_part:411>]
+        ]
     ]
+
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -95,6 +103,7 @@ static removeRecipes as IItemStack[] = [
     <ic2:te:56>, //Ore Washing Plant
     <ic2:crafting:2>, //Advanced Circuit
     <ic2:te:42>, //Fluid/Solid Canning Machine
+    <ic2:te:46>, //Iron Furnace
 ];
 
 function init() {

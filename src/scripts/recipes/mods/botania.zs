@@ -74,7 +74,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //Removals
 static removeRecipes as IItemStack[] = [
     //<modid:itemname:meta> 
-    <botania:fertilizer>  
+    <botania:fertilizer>,
+    <botania:rfgenerator> 
 ];
 
 function init() {

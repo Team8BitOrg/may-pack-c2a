@@ -14,6 +14,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.botania.Apothecary;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
+import mods.botania.PureDaisy;
 
 #Add anymore imports needed here
 
@@ -41,6 +42,15 @@ zenClass Botania {
 
     function addRuneAltar(output as IItemStack, input as IIngredient[], mana as int) {
         RuneAltar.addRecipe(output, input, mana);
+    }
+
+    /* Pure Daisy */
+    function addPureDaisy(blockInput as IIngredient, blockOutput as IItemStack, time as int) {
+        PureDaisy.addRecipe(blockInput, blockOutput, time);
+    }
+
+    function removePureDaisy(output as IIngredient) {
+        PureDaisy.removeRecipe(output);
     }
 
 }
