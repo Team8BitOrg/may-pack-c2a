@@ -16,9 +16,9 @@ function init() {
     ]);
     /* Advanced Machine Case */
     TableCrafting.addShaped(1, <ic2:resource:13>, [
-        [<contenttweaker:material_part:236>, <ic2:crafting:2>, <contenttweaker:material_part:236>],
+        [<ic2:crafting:3>, <ic2:crafting:2>, <ic2:crafting:3>],
         [<contenttweaker:material_part:236>, <buildcraftsilicon:redstone_chipset:1>, <contenttweaker:material_part:236>],
-        [<contenttweaker:material_part:236>, <ic2:resource:12>, <contenttweaker:material_part:236>]
+        [<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>]
     ]);
     /* Advanced Circuit */
     TableCrafting.addShaped(1, <ic2:crafting:2>, [

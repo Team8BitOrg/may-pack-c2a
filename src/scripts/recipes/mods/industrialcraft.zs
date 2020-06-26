@@ -32,11 +32,27 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
         ]
     ],
+    /* Iron Furnace */
 	<ic2:te:46> : [
         [
             [null, <contenttweaker:material_part:411>, null],
             [<contenttweaker:material_part:411>, null, <contenttweaker:material_part:411>],
             [<contenttweaker:material_part:411>, <thebetweenlands:sulfur_furnace_dual>, <contenttweaker:material_part:411>]
+        ]
+    ],
+    /* Electric Furnace */
+	<ic2:te:44> : [
+        [
+            [<ic2:casing:5>, <ic2:re_battery:26>.withTag({}).anyDamage(), <ic2:casing:5>],
+            [<ic2:casing:5>, <ic2:crafting:1>, <ic2:casing:5>],
+            [<minecraft:redstone>, <ic2:te:46>, <minecraft:redstone>]
+        ]
+    ],
+    /* Overclocker */
+	<ic2:upgrade> : [
+        [
+            [<ic2:heat_storage>, <ic2:heat_storage>, <ic2:heat_storage>],
+            [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:crafting:1>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]
         ]
     ]
 

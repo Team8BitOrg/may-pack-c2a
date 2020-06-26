@@ -99,7 +99,7 @@ static removeRecipes as IItemStack[] = [
     <actuallyadditions:block_atomic_reconstructor>,
     <actuallyadditions:item_misc:7>,
     <actuallyadditions:item_misc:8>,
-    <actuallyadditions:item_drill:3>.withTag({Energy: 0})
+    <actuallyadditions:item_drill:3>
 
 ];
 

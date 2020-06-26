@@ -30,7 +30,8 @@ static itemRenameArray as string[IItemStack] = {
     <immersiveengineering:material:2>: "Tungsten Rod",
     <immersiveengineering:material:9>: "Tungsten Mechanical Component",
     <immersiveengineering:material:23>: "Tungsten Wire",
-    <immersiveengineering:wirecoil:4>: "Tungsten Cable Coil"
+    <immersiveengineering:wirecoil:4>: "Tungsten Cable Coil",
+    <ic2:casing:5>: "Tungsten Item Casing"
 
 };
 

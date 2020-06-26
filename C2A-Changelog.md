@@ -6,9 +6,19 @@ Release Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+Fast Leaf Decay
 
 -- Updated Mods --
 -------------------
+AppleSkin (1.0.9 -> 1.0.14)
+Builder's Bag (1.2.1.15 -> 1.2.2.16)
+Corail Tombstone (3.7.4 -> 3.7.5)
+Ender IO (5.1.55 -> 5.2.57)
+Ender IO Endergy (5.1.55 -> 5.2.57)
+EnderCore (0.5.75 -> 0.5.76)
+FTB Library (5.4.7.0 -> 5.4.7.2)
+FTB Quests (1.8.1.239 -> 1.8.1.1)
+FTB Utilities (5.4.0.124 -> 5.4.1.128)
 
 -- Removed Mods --
 ------------------
@@ -30,13 +40,21 @@ headcrumbs.cfg
     Mar3xgg
     SigmaLP
     Jester1147
+nuclearcraft.cfg <!-- Disabled biome radiation for now -->
+    S:radiation_biomes <
+        nuclearcraft:nuclear_wasteland_0.00
 
 -- Script Changes --
 --------------------
+Replaced all instances in recipes of MC Crafting Table with Betweenlands Crafting Table
+Changed IE Coils to only use Treated Sticks
+Removed default recipes that have been replaced.
+Fixed Recipe for IC2 Electric Furnace
+Fixed Recipe to create Black Iron Slate
 
 -- Asset Changes --
 -------------------
-SOMETHING IN QUESTS ABOUT IN WORLD CRAFTING OF CREOSOTE
+Quest updates; Added Questlines for AA, Blood Magic, and Botania
 
 -------------------------------------------------------------------------------
 Release Build
@@ -85,7 +103,6 @@ vanillafix.cfg
 
 -- Script Changes --
 --------------------
-Renamed IC2 rubber to avoid confusion with Betweenlands
 Added Animal Crop Recipes
 Cleaned up Rename script
 Added Molten Lapis to IE Mixer and Palis crystals to Distillation Tower

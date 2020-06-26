@@ -9,5 +9,6 @@
 function init() {
 /* recipes.replaceAllOccurences(IIngredient toReplace, IIngredient replaceWith, @Optional IIngredient forOutput); */
 recipes.replaceAllOccurences(<minecraft:furnace>, <thebetweenlands:sulfur_furnace_dual>);
+recipes.replaceAllOccurences(<minecraft:crafting_table>, <thebetweenlands:weedwood_workbench>);
 
 }

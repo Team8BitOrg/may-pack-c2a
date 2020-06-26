@@ -66,8 +66,48 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<ore:stickWood>, null, null]
         ]
     ],
-
-    
+    <immersiveengineering:wirecoil> * 4 : [
+        [
+            [null, <immersiveengineering:material:20>, null],
+            [<immersiveengineering:material:20>, <immersiveengineering:material>, <immersiveengineering:material:20>],
+            [null, <immersiveengineering:material:20>, null]
+        ]
+    ],
+    <immersiveengineering:wirecoil:1> * 4 : [
+        [
+            [null, <immersiveengineering:material:21>, null],
+            [<immersiveengineering:material:21>, <immersiveengineering:material>, <immersiveengineering:material:21>],
+            [null, <immersiveengineering:material:21>, null]
+        ]
+    ],
+    <immersiveengineering:wirecoil:2> * 4 : [
+        [
+            [null, <immersiveengineering:material:22>, null],
+            [<immersiveengineering:material:23>, <immersiveengineering:material>, <immersiveengineering:material:23>],
+            [null, <immersiveengineering:material:22>, null]
+        ]
+    ],
+    <immersiveengineering:wirecoil:3> * 4 : [
+        [
+            [null, <immersiveengineering:material:4>, null],
+            [<immersiveengineering:material:4>, <immersiveengineering:material>, <immersiveengineering:material:4>],
+            [null, <immersiveengineering:material:4>, null]
+        ]
+    ],
+    <immersiveengineering:wirecoil:4> * 4 : [
+        [
+            [null, <immersiveengineering:material:23>, null],
+            [<immersiveengineering:material:23>, <immersiveengineering:material>, <immersiveengineering:material:23>],
+            [null, <immersiveengineering:material:23>, null]
+        ]
+    ],
+    <immersiveengineering:wirecoil:5> * 4 : [
+        [
+            [null, <immersiveengineering:material:22>, null],
+            [<minecraft:redstone>, <immersiveengineering:material>, <minecraft:redstone>],
+            [null, <immersiveengineering:material:22>, null]
+        ]
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
@@ -136,6 +176,13 @@ static removeRecipes as IItemStack[] = [
     <immersiveengineering:treated_wood>, //Treated Wood
     <immersiveengineering:stone_decoration:1>, //Blast Brick
     <immersiveengineering:metal_device1:13>, //Garden Cloche
+    <immersiveengineering:wirecoil>, //LV Wire Coil
+    <immersiveengineering:wirecoil:1>, //MV Wire Coil
+    <immersiveengineering:wirecoil:2>, //HV Wire Coil
+    <immersiveengineering:wirecoil:3>, //Hemp Rope Coil
+    <immersiveengineering:wirecoil:4>, //Tungsten Cable Coil
+    <immersiveengineering:wirecoil:5> //Redstone Cable Coil
+
 ];
 
 function init() {
