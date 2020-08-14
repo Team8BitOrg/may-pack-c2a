@@ -1,0 +1,27 @@
+{
+	title: "AKA - Changy Laser",
+	x: -18.0d,
+	y: -3.5d,
+	dependencies: [
+		"e093f053",
+		"603b14f4",
+		"886e7ed9"
+	],
+	tasks: [{
+		uid: "2ba31d7e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "86b6abda",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_booklet"
+		}
+	}]
+}

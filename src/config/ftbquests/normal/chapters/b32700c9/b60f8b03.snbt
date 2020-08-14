@@ -1,0 +1,21 @@
+{
+	title: "Stay Warm, My Friends",
+	x: -3.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"66c69232"
+	],
+	tasks: [{
+		uid: "62179a63",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "fff8008d",
+		type: "xp",
+		xp: 10
+	}]
+}

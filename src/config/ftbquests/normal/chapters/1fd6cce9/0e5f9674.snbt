@@ -1,0 +1,30 @@
+{
+	title: "It's Wight, not White, right?",
+	x: -38.0d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"Wights will drop their hearts. These hearts are very useful."
+	],
+	dependencies: [
+		"706ad578"
+	],
+	tasks: [{
+		uid: "083510e5",
+		type: "kill",
+		title: "Defeat a Wight",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:wights_bane"
+		},
+		entity: "thebetweenlands:wight",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "61ad7522",
+		type: "xp",
+		xp: 10
+	}]
+}

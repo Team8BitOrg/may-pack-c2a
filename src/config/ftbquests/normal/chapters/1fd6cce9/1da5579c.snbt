@@ -1,0 +1,27 @@
+{
+	title: "Do Pick It",
+	icon: "thebetweenlands:scabyst_ore",
+	x: -36.0d,
+	y: -8.5d,
+	shape: "square",
+	description: "Scabyst Ore is an ore that spawns uncommonly underground in the Pitstone layer of the deep deep caverns. This is used to coat your tools and weapons for a limited time against corrosion.",
+	text: [
+		"Mine up some Scabyst. You will need a Octine Pick."
+	],
+	dependencies: [
+		"9f17d0c2"
+	],
+	tasks: [{
+		uid: "782c4b50",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 39"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "0481762b",
+		type: "xp",
+		xp: 25
+	}]
+}

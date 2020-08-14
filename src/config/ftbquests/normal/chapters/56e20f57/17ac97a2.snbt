@@ -1,0 +1,28 @@
+{
+	title: "I Just Blue Myself",
+	x: -9.0d,
+	y: -2.0d,
+	dependencies: [
+		"fdfc8369"
+	],
+	tasks: [{
+		uid: "4cfb76dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d4e29b6",
+		type: "xp",
+		xp: 5
+	}]
+}

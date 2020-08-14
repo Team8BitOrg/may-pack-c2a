@@ -1,0 +1,29 @@
+{
+	title: "The Ol' Switcheroo",
+	x: -6.5d,
+	y: -3.5d,
+	description: "Use this to convert RF to MJ or EU.",
+	text: [
+		"To power the Buildcraft lasers:",
+		"1: Connect IE power connectors to the Power Adapter",
+		"2: Place Wooden Kinesis Pipe on Power Adapter",
+		"3: Connect a different type of Kinesis Pipe between Wooden Kinesis Pipe and Laser(s)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4448328"
+	],
+	tasks: [{
+		uid: "d3e67daf",
+		type: "item",
+		items: [{
+			item: "poweradapters:mj"
+		}]
+	}],
+	rewards: [{
+		uid: "86ea47e2",
+		type: "item",
+		item: "immersiveengineering:connector",
+		count: 2
+	}]
+}

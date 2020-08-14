@@ -1,0 +1,24 @@
+{
+	title: "I Eat Pears, and Ish Like That",
+	x: -41.5d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"Grow a White Pear"
+	],
+	dependencies: [
+		"ad78456c"
+	],
+	tasks: [{
+		uid: "c1f56bd7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:middle_fruit"
+		}]
+	}],
+	rewards: [{
+		uid: "90e83deb",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Blue Gold",
+	x: 2.0d,
+	y: -5.0d,
+	description: "Make Molten Lapis in the IE Mixer. You'll have to build a lot of other machines too in order to make it.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9a2d77d7",
+		"05ebc7bf",
+		"fc85b499",
+		"c2c056a7",
+		"206823cf"
+	],
+	tasks: [{
+		uid: "2a73f04b",
+		type: "fluid",
+		fluid: "lapis"
+	}],
+	rewards: [{
+		uid: "4fee8c02",
+		type: "xp",
+		xp: 20
+	}]
+}

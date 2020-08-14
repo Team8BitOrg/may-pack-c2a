@@ -1,0 +1,20 @@
+{
+	title: "Blast Furnace, I Gave You My Heart",
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"40a657db"
+	],
+	tasks: [{
+		uid: "1b46e059",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "19df2e63",
+		type: "xp",
+		xp: 10
+	}]
+}

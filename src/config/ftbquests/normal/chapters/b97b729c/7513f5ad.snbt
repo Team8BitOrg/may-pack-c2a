@@ -1,0 +1,16 @@
+{
+	icon: "minecraft:end_portal_frame",
+	x: 16.0d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7b9359a1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "241af2bb",
+		type: "gamestage",
+		stage: "nonstacked"
+	}]
+}

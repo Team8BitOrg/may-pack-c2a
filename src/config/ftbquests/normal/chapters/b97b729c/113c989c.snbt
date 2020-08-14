@@ -1,0 +1,35 @@
+{
+	title: "It's Like A Vanilla, Pumpkin Spice Crafting Table",
+	x: 0.0d,
+	y: -0.5d,
+	description: "Many key items will have to be crafted in this table.",
+	dependencies: [
+		"29a3c206",
+		"f4bc902a"
+	],
+	tasks: [{
+		uid: "6291b39f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "61e899c3",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

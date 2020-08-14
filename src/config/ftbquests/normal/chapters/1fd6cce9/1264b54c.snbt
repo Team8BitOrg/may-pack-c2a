@@ -1,0 +1,26 @@
+{
+	title: "Tastes Just Like Chicken, If Chicken Was Soaked in Fish Water",
+	x: -45.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "Frogs are a passive mob, that are edible. Some will poison you on contact.",
+	text: [
+		"Cook up a Frog Leg"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8ec3ff77"
+	],
+	tasks: [{
+		uid: "2e179ec7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:frog_legs_cooked"
+		}]
+	}],
+	rewards: [{
+		uid: "a0c51088",
+		type: "xp",
+		xp: 5
+	}]
+}

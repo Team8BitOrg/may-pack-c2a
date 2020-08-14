@@ -1,0 +1,26 @@
+{
+	title: "Don't Sell Out Your Family For This Treat",
+	x: -43.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "Fills Hunger and Decay!",
+	text: [
+		"Jello + Sap = Sap Jello"
+	],
+	dependencies: [
+		"5df413aa",
+		"e302af3c"
+	],
+	tasks: [{
+		uid: "66cd9eac",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_jello"
+		}]
+	}],
+	rewards: [{
+		uid: "683c6bcb",
+		type: "xp",
+		xp: 10
+	}]
+}

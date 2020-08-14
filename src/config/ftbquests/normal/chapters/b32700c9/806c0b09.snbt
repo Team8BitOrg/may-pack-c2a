@@ -1,0 +1,23 @@
+{
+	title: "Down In Slaggle Rock",
+	x: 1.5d,
+	y: -4.0d,
+	shape: "pentagon",
+	description: "Once you've made some slag, Tungsten production will be quicker in the IE Blast Furnace",
+	dependencies: [
+		"adf1ecf1",
+		"7247abc5"
+	],
+	tasks: [{
+		uid: "a1422eb4",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "c4a7bba0",
+		type: "xp",
+		xp: 10
+	}]
+}

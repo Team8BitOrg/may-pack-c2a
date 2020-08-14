@@ -1,0 +1,25 @@
+{
+	title: "Just like Vanilla, but Danker",
+	icon: "thebetweenlands:weedwood_workbench",
+	x: -43.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"Craft a Weedwood Crafting Table. It holds its inventory."
+	],
+	dependencies: [
+		"65c24bea"
+	],
+	tasks: [{
+		uid: "744fbbf8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "73ce7946",
+		type: "xp",
+		xp: 10
+	}]
+}

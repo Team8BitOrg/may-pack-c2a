@@ -1,0 +1,24 @@
+{
+	title: "Megatron",
+	x: -4.5d,
+	y: 0.5d,
+	description: "Transformers will either step up your power from one tier to the next, or step it down from a higher tier.",
+	text: [
+		"MV Transfers power between Tier 2 and 3"
+	],
+	dependencies: [
+		"eb884f2c"
+	],
+	tasks: [{
+		uid: "5c229893",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 78"
+		}]
+	}],
+	rewards: [{
+		uid: "ec068990",
+		type: "xp",
+		xp: 10
+	}]
+}

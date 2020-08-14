@@ -1,0 +1,23 @@
+{
+	title: "Poosh Da Boosh",
+	icon: "thebetweenlands:weedwood_bush",
+	x: -44.5d,
+	y: -9.5d,
+	shape: "square",
+	text: [
+		"An easy way to get weedwood sticks is by punching bushes"
+	],
+	tasks: [{
+		uid: "980e1920",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 20"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "319c9e2a",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "The Holy Trinity of The Betweenlands",
+	x: -35.5d,
+	y: -10.5d,
+	shape: "square",
+	description: "Combine with Armor, Weapon, Tool and Amulet. Check Tooltip on gem to see effects.",
+	text: [
+		"Gem Ore into purifier with Swamp water and Sulfur. Do this for all 3 gems."
+	],
+	dependencies: [
+		"2f7fc565"
+	],
+	tasks: [{
+		uid: "0540fefd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crimson_middle_gem"
+		}]
+	},
+	{
+		uid: "6d587373",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aqua_middle_gem"
+		}]
+	},
+	{
+		uid: "7fb7dfae",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "aa9e9b51",
+		type: "xp",
+		xp: 50
+	}]
+}

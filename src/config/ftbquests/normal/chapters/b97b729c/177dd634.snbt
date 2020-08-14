@@ -1,0 +1,27 @@
+{
+	title: "You're Either Wither or Againsther",
+	x: -5.0d,
+	y: -0.5d,
+	description: "These will grow Wither Skeletons.",
+	text: [
+		""
+	],
+	dependencies: [
+		"08491b72"
+	],
+	tasks: [{
+		uid: "8ccc8ba6",
+		type: "item",
+		items: [{
+			id: "animalcrops:seeds",
+			tag: {
+				entity: "minecraft:wither_skeleton"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fa01653c",
+		type: "xp",
+		xp: 10
+	}]
+}

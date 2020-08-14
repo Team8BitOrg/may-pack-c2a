@@ -1,0 +1,24 @@
+{
+	title: "Chemistry 101",
+	x: 5.0d,
+	y: -1.5d,
+	description: "Alchemisty plays a major role in this pack. The guidebook is the easiest way to learn how to work things.",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5a87d44a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "alchemistry:alchemistry_book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

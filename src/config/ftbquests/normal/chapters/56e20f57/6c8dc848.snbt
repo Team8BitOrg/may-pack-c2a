@@ -1,0 +1,35 @@
+{
+	title: "Please Hammer, Don't Hurt Them",
+	x: -12.5d,
+	y: -6.5d,
+	shape: "square",
+	description: "This questline will help guide you through Immersive Engineering. ",
+	text: [
+		"Immersvie Engineering primarily offers large multiblock machines and cool aesthetical things."
+	],
+	dependencies: [
+		"ed6998d0"
+	],
+	tasks: [{
+		uid: "19a46f0c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74cbf296",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 3s
+		}
+	}]
+}

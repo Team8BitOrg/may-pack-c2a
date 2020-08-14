@@ -1,0 +1,44 @@
+{
+	title: "All The Basics",
+	x: -10.0d,
+	y: -6.5d,
+	dependencies: [
+		"55c18166"
+	],
+	tasks: [{
+		uid: "3414f84e",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	},
+	{
+		uid: "b6668a4c",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "4a5e757c",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	},
+	{
+		uid: "76414128",
+		type: "item",
+		items: [{
+			item: "botania:opencrate"
+		}]
+	}],
+	rewards: [{
+		uid: "bfde5074",
+		type: "xp",
+		xp: 10
+	}]
+}

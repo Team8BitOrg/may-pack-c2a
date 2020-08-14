@@ -1,0 +1,34 @@
+{
+	title: "Row, Row, Row Your Boat Gently Through the Swamp!",
+	x: -42.0d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		"Can be tarred for better control."
+	],
+	dependencies: [
+		"9f48c904"
+	],
+	tasks: [{
+		uid: "24373f96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_rowboat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9434afc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_rowboat_upgrade_lantern"
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "The Drippy the Drippy to the Drip",
+	x: -37.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "4 Drops make a Drip, and you'll need 8 Drips",
+	text: [
+		"Craft a Tar Drip or acqurie one from a defeated Tar Beast "
+	],
+	dependencies: [
+		"763d71ef"
+	],
+	tasks: [{
+		uid: "c51d723e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 26"
+		}]
+	}],
+	rewards: [{
+		uid: "9848b133",
+		type: "xp",
+		xp: 15
+	}]
+}

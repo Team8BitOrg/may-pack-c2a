@@ -1,0 +1,21 @@
+{
+	title: "Some Assembly Required",
+	x: -6.5d,
+	y: -0.5d,
+	description: "Various crafting components are made using this machine.",
+	dependencies: [
+		"f0ddeede"
+	],
+	tasks: [{
+		uid: "def98ae7",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:assembly_table"
+		}]
+	}],
+	rewards: [{
+		uid: "89a45997",
+		type: "xp",
+		xp: 25
+	}]
+}

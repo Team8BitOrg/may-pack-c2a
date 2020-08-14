@@ -1,0 +1,20 @@
+{
+	title: "By Your Metals Combined...",
+	x: -1.5d,
+	y: -1.0d,
+	dependencies: [
+		"b2ab0c9d"
+	],
+	tasks: [{
+		uid: "fc544865",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "609add33",
+		type: "xp",
+		xp: 15
+	}]
+}

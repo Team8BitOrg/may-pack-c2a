@@ -1,0 +1,36 @@
+{
+	title: "Some Geckos May Be Harmed During Testing",
+	icon: "thebetweenlands:items_crushed 1 7",
+	x: -32.0d,
+	y: -8.0d,
+	shape: "square",
+	description: "Test Ground Plants and Things up on Geckos to see what aspects they contain. Some things will contain multiple Aspects. ",
+	text: [
+		"Find Azuwynn and Ordaniis Aspects by testing on Geckos."
+	],
+	dependencies: [
+		"8682ade5"
+	],
+	tasks: [{
+		uid: "5b8f7196",
+		type: "checkmark",
+		title: "Azuwynn (Muscle)"
+	},
+	{
+		uid: "a47a478d",
+		type: "checkmark",
+		title: "Ordaniis (Enhance)"
+	},
+	{
+		uid: "267a4182",
+		type: "checkmark",
+		title: "Armaniis (Desire)"
+	}],
+	rewards: [{
+		uid: "1023a174",
+		type: "item",
+		item: "thebetweenlands:dentrothyst_vial 1 2",
+		count: 2,
+		random_bonus: 2
+	}]
+}

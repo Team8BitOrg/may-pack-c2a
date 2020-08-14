@@ -1,0 +1,33 @@
+{
+	title: "Advanced Potion Making",
+	x: -34.0d,
+	y: -9.0d,
+	shape: "square",
+	description: "Call me Snape",
+	text: [
+		"This will start you on the path to making Elixirs. There is much much more to discover. This will help brew an elixir of stregth.",
+		"",
+		"Craft a Book of Herblore"
+	],
+	dependencies: [
+		"4f3d5685"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70df7295",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:manual_hl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75231dda",
+		type: "xp",
+		xp: 5
+	}]
+}

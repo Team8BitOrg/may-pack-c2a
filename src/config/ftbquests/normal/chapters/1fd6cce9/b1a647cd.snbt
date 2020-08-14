@@ -1,0 +1,83 @@
+{
+	title: "Sigma Was Right Armor",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "contenttweaker:sigmarite_head"
+	},
+	x: -37.0d,
+	y: -12.0d,
+	shape: "square",
+	description: "This Armor is a little better than Syrmorite, but not as good as Valonite.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f17d0c2",
+		"6c4c3386"
+	],
+	tasks: [{
+		uid: "e86195f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:sigmarite_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fb9b7e60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:sigmarite_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db659bc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:sigmarite_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fcdbd910",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "contenttweaker:sigmarite_feet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bc9dd0e8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:elixir",
+			tag: {
+				elixirData: {
+					duration: 15400,
+					strength: 0
+				}
+			},
+			Damage: 8s
+		}
+	}]
+}

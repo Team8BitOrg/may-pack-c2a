@@ -1,0 +1,16 @@
+{
+	title: "Cre-Oil Cuisine",
+	x: -9.0d,
+	y: -6.5d,
+	description: "Created through In-World Crafting, until easier means become available.",
+	tasks: [{
+		uid: "08d60c93",
+		type: "fluid",
+		fluid: "creosote"
+	}],
+	rewards: [{
+		uid: "8314fb27",
+		type: "xp",
+		xp: 5
+	}]
+}

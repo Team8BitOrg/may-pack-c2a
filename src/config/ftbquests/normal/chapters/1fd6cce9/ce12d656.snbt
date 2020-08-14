@@ -1,0 +1,32 @@
+{
+	title: "Double the Fun",
+	icon: "thebetweenlands:sulfur_furnace_dual",
+	x: -42.0d,
+	y: -9.0d,
+	shape: "square",
+	text: [
+		"Make a furnace, now double it. "
+	],
+	dependencies: [
+		"8ec3ff77"
+	],
+	tasks: [{
+		uid: "62f9eab4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace_dual"
+		}]
+	}],
+	rewards: [{
+		uid: "cdc182e8",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 18",
+		count: 2
+	},
+	{
+		uid: "6e6128d8",
+		type: "item",
+		item: "thebetweenlands:swamp_reed_item",
+		count: 8
+	}]
+}

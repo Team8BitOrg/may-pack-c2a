@@ -1,0 +1,41 @@
+{
+	title: "...I barely even knew her",
+	icon: "thebetweenlands:items_misc 1 23",
+	x: -41.0d,
+	y: -9.0d,
+	shape: "square",
+	text: [
+		"Tap a Rubber Tree with a empty Weedwood Bucket. The tap will start to fill with Liquid Rubber.",
+		"When the bucket is full, take an empty weedwood bucket and right click the tap.",
+		"You now have a Weedwood Bucket (Rubber). Place that into a furnace."
+	],
+	dependencies: [
+		"8ec3ff77",
+		"0b3326a6"
+	],
+	tasks: [{
+		uid: "7a0900b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bl_bucket_rubber",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4be42a48",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 23"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "616edfc7",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 23"
+	}]
+}

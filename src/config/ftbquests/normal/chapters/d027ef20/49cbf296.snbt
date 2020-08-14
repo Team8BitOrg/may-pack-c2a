@@ -1,0 +1,37 @@
+{
+	title: "Getting Ahead",
+	x: -5.5d,
+	y: -6.5d,
+	description: "There's only one way to get this secret item. And it's not easy.",
+	text: [
+		"Kill the Gaia Guardian by using an Elementium Axe to have a CHANCE of getting this head to drop. Looting helps increase your odds."
+	],
+	dependencies: [
+		"886e7ed9"
+	],
+	tasks: [{
+		uid: "bf58c384",
+		type: "item",
+		items: [{
+			item: "botania:gaiahead"
+		}]
+	}],
+	rewards: [{
+		uid: "edda42d0",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

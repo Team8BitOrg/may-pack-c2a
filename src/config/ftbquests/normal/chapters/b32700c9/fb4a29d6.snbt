@@ -1,0 +1,20 @@
+{
+	title: "Mo Powah, Mo Heat, Mo Fasta",
+	x: -4.5d,
+	y: -2.5d,
+	dependencies: [
+		"e7ec9695"
+	],
+	tasks: [{
+		uid: "6dd092e5",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "cd8815d7",
+		type: "xp",
+		xp: 10
+	}]
+}

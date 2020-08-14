@@ -1,0 +1,30 @@
+{
+	title: "S'wamp S'more S'mores!",
+	x: -42.0d,
+	y: -14.0d,
+	shape: "square",
+	description: "Found in Treasure Loot Tables",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "ae84efa0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:marshmallow"
+		}]
+	},
+	{
+		uid: "0fe53168",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:marshmallow_pink"
+		}]
+	}],
+	rewards: [{
+		uid: "ad57dab6",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Safety First",
+	x: 0.0d,
+	y: -7.5d,
+	description: "Things that are too hot or make your lighter will harm you when in your inventory if you aren't protected by wearing Mitts.",
+	tasks: [{
+		uid: "3c610b82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8068520469437010221L,
+					AS_Amulet_HolderMost: -7212215502495200483L
+				}
+			},
+			id: "hotornot:mitts"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ad3790a",
+		type: "xp",
+		xp: 10
+	}]
+}

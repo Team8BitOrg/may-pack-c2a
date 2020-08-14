@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 1",
+	x: -0.5d,
+	y: -4.5d,
+	description: "From Limonite Ore",
+	dependencies: [
+		"044e4282"
+	],
+	tasks: [{
+		uid: "2c6358a3",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 7"
+		}]
+	}]
+}

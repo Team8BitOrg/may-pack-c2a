@@ -1,0 +1,23 @@
+{
+	title: "So Pure",
+	x: -13.0d,
+	y: -6.5d,
+	dependencies: [
+		"170fe94f"
+	],
+	tasks: [{
+		uid: "dae4b220",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dc1c4ce8",
+		type: "xp",
+		xp: 5
+	}]
+}

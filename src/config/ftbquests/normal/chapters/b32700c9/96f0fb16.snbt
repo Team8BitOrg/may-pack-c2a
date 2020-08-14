@@ -1,0 +1,20 @@
+{
+	title: "In A Holding Pattern",
+	x: 3.5d,
+	y: -1.0d,
+	dependencies: [
+		"15b150c9"
+	],
+	tasks: [{
+		uid: "18a19317",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 62"
+		}]
+	}],
+	rewards: [{
+		uid: "386f859d",
+		type: "xp",
+		xp: 20
+	}]
+}

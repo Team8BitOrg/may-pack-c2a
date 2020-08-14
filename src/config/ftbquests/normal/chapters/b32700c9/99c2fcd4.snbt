@@ -1,0 +1,23 @@
+{
+	title: "Clint Eastwood Smells.....U",
+	x: -7.5d,
+	y: -1.0d,
+	description: "A Tier 2 power storage device.",
+	dependencies: [
+		"efefb8a2"
+	],
+	tasks: [{
+		uid: "66e56f07",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 73s
+		}]
+	}],
+	rewards: [{
+		uid: "93ee736f",
+		type: "xp",
+		xp: 10
+	}]
+}

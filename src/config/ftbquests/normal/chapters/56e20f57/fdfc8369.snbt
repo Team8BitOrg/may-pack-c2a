@@ -1,0 +1,21 @@
+{
+	title: "No Degree Required",
+	x: -9.0d,
+	y: -3.5d,
+	description: "You can use this to craft some items with a discount.",
+	dependencies: [
+		"0f2f0652"
+	],
+	tasks: [{
+		uid: "f0699dc1",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "bdb835f8",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 9",
+	x: 2.5d,
+	y: -4.5d,
+	description: "From Autunite Ore",
+	dependencies: [
+		"fd1e7f3f"
+	],
+	tasks: [{
+		uid: "3171bc4d",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 9"
+		}]
+	}]
+}

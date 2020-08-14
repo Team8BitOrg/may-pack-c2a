@@ -1,0 +1,30 @@
+{
+	title: "I'm a Sickle Morty, A SICKLE",
+	x: -35.0d,
+	y: -8.5d,
+	shape: "square",
+	description: "Used to correctly harvest plant matter for making infusions (Potions).",
+	text: [
+		"Make Sickle"
+	],
+	dependencies: [
+		"1fdf1a76"
+	],
+	tasks: [{
+		uid: "046b50a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b5b6d6c",
+		type: "xp",
+		xp: 10
+	}]
+}

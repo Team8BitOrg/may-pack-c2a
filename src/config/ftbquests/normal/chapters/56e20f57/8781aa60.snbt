@@ -1,0 +1,42 @@
+{
+	title: "Non-Standard Progression",
+	x: 4.0d,
+	y: -3.5d,
+	description: "To progress, you'll have to empower these blocks without using an Empowerer.",
+	dependencies: [
+		"09c89958",
+		"e093f053"
+	],
+	tasks: [{
+		uid: "bea3f76c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal 1 1"
+		}]
+	},
+	{
+		uid: "328a90d1",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "2fec320f",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

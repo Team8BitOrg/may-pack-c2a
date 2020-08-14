@@ -1,0 +1,23 @@
+{
+	title: "And Make it Sappy",
+	x: -43.5d,
+	y: -10.5d,
+	shape: "square",
+	description: "Balls of Sap are the primary source of decay restoration.  When consumed, they restore 2 decay or 1 full orb . Decay happens naturally and as the decay sets in there will be negative effects to your health and well-being.",
+	text: [
+		"Punch or Chop some Sap Tree Logs to obtain this essential Betweenlands item."
+	],
+	tasks: [{
+		uid: "59827d34",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_ball"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8b8a9078",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Baby Snail, Do Do Do Doo",
+	x: -41.0d,
+	y: -13.0d,
+	shape: "square",
+	description: "Mire Snails are Breedable with Sludge Balls",
+	text: [
+		"Breed Mire Snails and Collect the Egg"
+	],
+	dependencies: [
+		"750ad534"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff45e34d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:mire_snail_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fbeb7230",
+		type: "xp",
+		xp: 5
+	}]
+}

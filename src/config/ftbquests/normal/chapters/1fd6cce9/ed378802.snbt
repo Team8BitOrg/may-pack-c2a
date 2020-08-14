@@ -1,0 +1,23 @@
+{
+	title: "You Have the GUTS to Climb the Crag!",
+	x: -38.5d,
+	y: -9.5d,
+	shape: "square",
+	description: "Cragrock can be found in Coarse Islands & Deep Waters Biomes, as well as in Head Statues and Cragrock towers.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "e87e0431",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:cragrock"
+		}]
+	}],
+	rewards: [{
+		uid: "04bdafbe",
+		type: "xp",
+		xp: 5
+	}]
+}

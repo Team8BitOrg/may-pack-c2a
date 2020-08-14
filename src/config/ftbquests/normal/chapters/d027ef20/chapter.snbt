@@ -1,0 +1,7 @@
+{
+	title: "Flower Power",
+	icon: "botania:runealtar",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

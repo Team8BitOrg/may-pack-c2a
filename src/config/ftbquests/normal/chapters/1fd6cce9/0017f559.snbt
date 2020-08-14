@@ -1,0 +1,27 @@
+{
+	title: "Spiritus Fruitus (Gregorian Chant)",
+	x: -40.0d,
+	y: -14.0d,
+	shape: "square",
+	description: "Drop from Spirit Tree Leaves. It's similar to a golden apple with a cool texture!",
+	text: [
+		"Good Luck with finding these!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9118e92c"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d5ed1f2f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:spirit_fruit"
+		}]
+	}],
+	rewards: [{
+		uid: "ace24ce8",
+		type: "xp",
+		xp: 20
+	}]
+}

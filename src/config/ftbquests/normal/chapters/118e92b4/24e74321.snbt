@@ -1,0 +1,40 @@
+{
+	title: "Bestest And Most Greatest Orb",
+	x: -18.0d,
+	y: -12.5d,
+	dependencies: [
+		"c1417900"
+	],
+	tasks: [{
+		uid: "ba58ac3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "13f5e781",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

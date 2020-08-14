@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 2",
+	x: -3.5d,
+	y: -4.5d,
+	description: "From Malachite and Azurite Ore",
+	dependencies: [
+		"82891c2b"
+	],
+	tasks: [{
+		uid: "b1a97b32",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 2"
+		}]
+	}]
+}

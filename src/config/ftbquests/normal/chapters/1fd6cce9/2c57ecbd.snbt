@@ -1,0 +1,21 @@
+{
+	title: "!Lurk..er Skin",
+	x: -37.5d,
+	y: -13.0d,
+	shape: "square",
+	description: "Very Useful Item.",
+	text: [
+		"Get a Lurker Skin. "
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "48210980",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 4"
+		}]
+	}]
+}

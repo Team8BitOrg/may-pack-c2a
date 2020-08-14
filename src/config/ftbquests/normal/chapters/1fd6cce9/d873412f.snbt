@@ -1,0 +1,49 @@
+{
+	title: "I'm Going to Pump, (clap) You UP!",
+	x: -29.5d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Place the Vials of both Aspects into an infuser and repeat the same process as done in the previous quests.",
+		"Stir until infusion turns color of desired potion (Red-ish, in this case).",
+		"If done correctly...Tada Strength Elixir."
+	],
+	dependencies: [
+		"6ccaf496"
+	],
+	tasks: [{
+		uid: "c97df275",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:elixir",
+			tag: {
+				elixirData: {
+					duration: 2400,
+					strength: 4
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95fcf4e6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:elixir",
+			tag: {
+				elixirData: {
+					duration: 11400,
+					strength: 0
+				}
+			},
+			Damage: 2s
+		}
+	}]
+}

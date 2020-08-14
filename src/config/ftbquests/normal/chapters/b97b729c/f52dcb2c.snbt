@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 7",
+	x: -2.5d,
+	y: -3.5d,
+	description: "From Bauxite Ore",
+	dependencies: [
+		"82891c2b"
+	],
+	tasks: [{
+		uid: "31c4a547",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 6"
+		}]
+	}]
+}

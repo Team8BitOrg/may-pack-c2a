@@ -1,0 +1,30 @@
+{
+	title: "I Was Born A Coal Miner's Spotter",
+	x: -7.5d,
+	y: -5.5d,
+	description: "This rod is really only helpful for locating coal. But maybe you're having trouble with sand and gravel too. I don't know your life.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b25e3854"
+	],
+	tasks: [{
+		uid: "1c71470b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prospectors:prospector_lowest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bf17e8b",
+		type: "xp",
+		xp: 5
+	}]
+}

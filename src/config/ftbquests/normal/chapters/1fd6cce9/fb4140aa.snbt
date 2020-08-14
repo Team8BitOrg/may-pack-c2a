@@ -1,0 +1,33 @@
+{
+	title: "Slowly Becoming More in da Pendant",
+	x: -34.5d,
+	y: -11.0d,
+	shape: "square",
+	description: "Find Amulet Sockets in Chests and Pots/Urns of Chance. Betweenlands has an Equipment Menu.",
+	text: [
+		"These Amulets combined with Middle Gems will provide useful buffs. Start with 1, can get more."
+	],
+	dependencies: [
+		"1e35eeee"
+	],
+	tasks: [{
+		uid: "31002a9f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:amulet",
+			tag: {
+				Gem: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8059966",
+		type: "xp",
+		xp: 10
+	}]
+}

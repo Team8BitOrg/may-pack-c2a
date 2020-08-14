@@ -1,0 +1,23 @@
+{
+	title: "To The Batbox, Robin!",
+	x: -7.5d,
+	y: -2.5d,
+	description: "Stores power and can be used to charge items.",
+	dependencies: [
+		"8e1a7386"
+	],
+	tasks: [{
+		uid: "78c8dcce",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 72s
+		}]
+	}],
+	rewards: [{
+		uid: "efe4dc05",
+		type: "xp",
+		xp: 5
+	}]
+}

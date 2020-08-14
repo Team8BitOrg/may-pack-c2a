@@ -1,0 +1,32 @@
+{
+	title: "Shears Without Sheep Moses!?",
+	x: -34.0d,
+	y: -7.0d,
+	shape: "square",
+	description: "There is no wool, but there is moss. You will need to gather moss with these to make a bed.",
+	text: [
+		"Make Syrmorite Shears"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6c4c3386"
+	],
+	tasks: [{
+		uid: "4a81656a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:syrmorite_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c43b6b3",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 11",
+		random_bonus: 1
+	}]
+}

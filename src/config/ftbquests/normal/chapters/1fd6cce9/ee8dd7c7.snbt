@@ -1,0 +1,30 @@
+{
+	title: "Gotta Catch 'em All",
+	x: -33.0d,
+	y: -9.0d,
+	shape: "square",
+	description: "The Net is used to catch those Orange Geckos. They're used to test what each ground plant does.",
+	text: [
+		""
+	],
+	dependencies: [
+		"6031ae0a"
+	],
+	tasks: [{
+		uid: "74e80c26",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a9c728cd",
+		type: "xp",
+		xp: 5
+	}]
+}

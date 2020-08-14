@@ -1,0 +1,22 @@
+{
+	title: "This is Where the Furnace Begins",
+	x: -41.5d,
+	y: -10.0d,
+	shape: "square",
+	dependencies: [
+		"9f48c904",
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "a6a6b198",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "f2decba5",
+		type: "xp",
+		xp: 10
+	}]
+}

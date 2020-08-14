@@ -1,0 +1,27 @@
+{
+	title: "Something...Something...Pink",
+	icon: "thebetweenlands:valonite_ore",
+	x: -36.0d,
+	y: -7.5d,
+	shape: "square",
+	description: "Valonite Ore is an ore that spawns uncommonly underground in the Pitstone layer deep within the caverns. The diamonds of betweenlands. Used for making Tools, Weapons, & Armor.",
+	text: [
+		"Get some Valonite. You will need a Octine Pick."
+	],
+	dependencies: [
+		"9f17d0c2"
+	],
+	tasks: [{
+		uid: "e2eef873",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "8d4be961",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 43",
+		count: 5
+	}]
+}

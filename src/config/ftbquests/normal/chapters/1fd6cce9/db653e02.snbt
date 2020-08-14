@@ -1,0 +1,35 @@
+{
+	title: "Rubber Boots - This is funny as it is.",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:rubber_boots"
+	},
+	x: -40.5d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Craft rubber boots. They will make traveling through the betweenlands much easier. The Boots are a reward in themselves. "
+	],
+	dependencies: [
+		"99270388"
+	],
+	tasks: [{
+		uid: "ee3cffae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88413896",
+		type: "xp",
+		xp: 25
+	}]
+}

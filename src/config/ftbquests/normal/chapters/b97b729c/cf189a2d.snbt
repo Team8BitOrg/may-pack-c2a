@@ -1,0 +1,21 @@
+{
+	title: "Piecing It All Together",
+	x: 5.0d,
+	y: -0.5d,
+	description: "This can combine elements to create items or compounds.",
+	dependencies: [
+		"6d09a6fe"
+	],
+	tasks: [{
+		uid: "c9d4559e",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_combiner"
+		}]
+	}],
+	rewards: [{
+		uid: "d035eab0",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "More Than Meets The Eye",
+	x: -4.5d,
+	y: -1.0d,
+	description: "Transformers will either step up your power from one tier to the next, or step it down from a higher tier.",
+	text: [
+		"LV Transfers power between Tier 1 and 2"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"efefb8a2"
+	],
+	tasks: [{
+		uid: "24b59c46",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 77"
+		}]
+	}],
+	rewards: [{
+		uid: "77c1283c",
+		type: "xp",
+		xp: 5
+	}]
+}

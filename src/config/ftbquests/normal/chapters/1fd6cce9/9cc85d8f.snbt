@@ -1,0 +1,25 @@
+{
+	title: "Rock it to the Tar Beast Boogie",
+	x: -30.0d,
+	y: -4.5d,
+	shape: "square",
+	description: "Place Tar Beast Heart into the Animator along with a Life Crystal (min 25% charge) and 32 Sulfur.",
+	dependencies: [
+		"e06d75f8",
+		"07f256e3"
+	],
+	tasks: [{
+		uid: "1aa9743e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 25"
+		}]
+	}],
+	rewards: [{
+		uid: "8eb393ed",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 43",
+		count: 6,
+		random_bonus: 6
+	}]
+}

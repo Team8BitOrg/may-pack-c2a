@@ -1,0 +1,21 @@
+{
+	title: "Extendable Iron",
+	x: 1.5d,
+	y: -1.5d,
+	description: "This is used to make the Extended Crafting tables, which will be needed for progression.",
+	text: [
+		"Combine an Iron Ingot and a Tar Drip in an IE Alloy Kiln."
+	],
+	tasks: [{
+		uid: "d2235e4c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}],
+	rewards: [{
+		uid: "2a05e2b6",
+		type: "xp",
+		xp: 20
+	}]
+}

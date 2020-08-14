@@ -1,0 +1,28 @@
+{
+	title: "Worm in the Hole, and the Hole in the Maze, and the Maze down in the Valley Ohhh",
+	x: -28.5d,
+	y: -9.0d,
+	shape: "diamond",
+	description: "Find your way to the very bottom of the Slungeon. It's Puzzle and it's a Maze, a puzzlemaze if you will. The Boss is at the end. You'll know it's the end because it's a Giant Worm.",
+	text: [
+		"Defeat the Sludge Menace to obtain a piece of the Swamp Talisman"
+	],
+	dependencies: [
+		"8eb84c18"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e32d0e1f",
+		type: "kill",
+		icon: "actuallyadditions:item_worm",
+		entity: "thebetweenlands:sludge_menace",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c82138f3",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19",
+		count: 4,
+		random_bonus: 4
+	}]
+}

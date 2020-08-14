@@ -1,0 +1,27 @@
+{
+	title: "It's Blue Da Ba Dee Da Ba Daa",
+	icon: "thebetweenlands:syrmorite_ore",
+	x: -37.0d,
+	y: -8.0d,
+	shape: "square",
+	description: "Syrmorite is the \"iron\" of Betweenlands. The ore is located in the upper cavern layer. It's used to craft Armor (but not tools or weapons), as well as some other interesting things. Also found in nugget form from Betweenlands Treasure Loot Tables.",
+	text: [
+		"Mine up some Syrmorite Ore. You will need a Bone Pick."
+	],
+	dependencies: [
+		"706ad578"
+	],
+	tasks: [{
+		uid: "53637cec",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f019210a",
+		type: "xp",
+		xp: 50
+	}]
+}

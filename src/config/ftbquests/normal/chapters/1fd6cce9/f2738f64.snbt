@@ -1,0 +1,26 @@
+{
+	title: "3 Wrongs Do Make a Right",
+	x: -45.0d,
+	y: -14.0d,
+	shape: "square",
+	description: "Need Shears to Collect the Nettle. Both Nettle and Flowering Nettle can be used.",
+	text: [
+		"Craft Nettle Soup"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b9620b65"
+	],
+	tasks: [{
+		uid: "c00c205d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:nettle_soup"
+		}]
+	}],
+	rewards: [{
+		uid: "e3c2a47c",
+		type: "xp",
+		xp: 10
+	}]
+}

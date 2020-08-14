@@ -1,0 +1,24 @@
+{
+	title: "Optimus Prime",
+	x: -4.5d,
+	y: 2.0d,
+	description: "Transformers will either step up your power from one tier to the next, or step it down from a higher tier.",
+	text: [
+		"HV Transfers power between Tier 3 and 4"
+	],
+	dependencies: [
+		"ecad4b69"
+	],
+	tasks: [{
+		uid: "c2371296",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 79"
+		}]
+	}],
+	rewards: [{
+		uid: "d423c67c",
+		type: "xp",
+		xp: 15
+	}]
+}

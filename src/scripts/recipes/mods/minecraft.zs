@@ -50,6 +50,12 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [null, <thebetweenlands:items_misc:11>, null],
             [<thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>, <thebetweenlands:items_misc:11>]
         ]
+    ],
+    <minecraft:bucket> : [
+        [
+            [<ore:ingotIron>, <thebetweenlands:bl_bucket:1>, <ore:ingotIron>],
+            [null, <ore:ingotIron>, null]
+        ]
     ]
 };
 

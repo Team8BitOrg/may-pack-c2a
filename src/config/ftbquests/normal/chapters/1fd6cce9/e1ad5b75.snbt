@@ -1,0 +1,29 @@
+{
+	title: "I'll Take a Rainbow Roll, and a California Roll",
+	x: -45.0d,
+	y: -13.0d,
+	shape: "square",
+	description: "Oh, all you have is angler sashimi...",
+	text: [
+		"3 Raw Angler Meat",
+		"3 Ground Lichen",
+		"3 Swamp Kelp",
+		"Delicious"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"55cfac7a"
+	],
+	tasks: [{
+		uid: "01024134",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sushi"
+		}]
+	}],
+	rewards: [{
+		uid: "9e534dde",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -46.0d,
+	y: -9.0d,
+	shape: "square",
+	description: "Left-Clicking item icons will show recipes in JEI. Right-Clicking will show its uses!",
+	text: [
+		"By checking this box, I acknowledge I will use JEI."
+	],
+	tasks: [{
+		uid: "bb97d152",
+		type: "checkmark",
+		title: "JEI"
+	}]
+}

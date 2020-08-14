@@ -1,0 +1,21 @@
+{
+	title: "Pay-Purr",
+	x: -37.5d,
+	y: -10.5d,
+	shape: "square",
+	dependencies: [
+		"24b36fce"
+	],
+	tasks: [{
+		uid: "58edbf10",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "f9f10a99",
+		type: "xp",
+		xp: 5
+	}]
+}

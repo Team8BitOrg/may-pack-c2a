@@ -1,0 +1,54 @@
+{
+	title: "#CallToFARMS",
+	x: -40.0d,
+	y: -11.0d,
+	shape: "square",
+	description: "Food You Grow Yourself Tastes Better",
+	text: [
+		"1. Craft a Compost Bin. Multiple Compost Bins, more compost.",
+		"2. Left-Click the Compost Bin to open it.",
+		"3. Right-Click Compostable Materials into the Compost Bin. JEI shows what is compostable. Reeds, Mushrooms, Sheared Plants are just a few.",
+		"4. Left-Click to close the Compost Bin. There will be green swirl particles.",
+		"5. The compostable material will eventually turn into Compost. Open the Bin and Right-Click to take it out.",
+		"6. Purify Swamp Dirt by placing Swamp Dirt into the Purifier with Swamp Water and Sulfur.",
+		"7. Take the Purified Swamp Dirt, and Place it down. With a Shovel Right-Click on the Purified Swamp Dirt to create Dug Purified Swamp Dirt.",
+		"8. Place Compost onto the Dug Purified Swamp Dirt by Right-Clicking.",
+		"9. Plant a White Pear Seed or a Spore onto the Composted Purifed Swamp Dirt.",
+		"10. Wait and watch your crops grow. Right Click to harvest.",
+		"Note: Compost will eventually run out, and the dirt may become unpurified. If your plants start to decay, craft a tonic with a bucket of swamp water and a ball of sap."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4f3d5685",
+		"b9620b65",
+		"880b2820"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9988c87a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:compost_bin"
+		}]
+	},
+	{
+		uid: "76084189",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 2"
+		}]
+	},
+	{
+		uid: "b3e9534e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purified_swamp_dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "a27ba360",
+		type: "xp",
+		xp: 25
+	}]
+}

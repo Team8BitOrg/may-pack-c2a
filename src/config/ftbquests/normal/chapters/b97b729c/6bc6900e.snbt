@@ -1,0 +1,27 @@
+{
+	title: "Completely Aghast",
+	x: -6.0d,
+	y: -0.5d,
+	description: "These will grow Ghasts (full size, just FYI)",
+	text: [
+		""
+	],
+	dependencies: [
+		"08491b72"
+	],
+	tasks: [{
+		uid: "6acf812a",
+		type: "item",
+		items: [{
+			id: "animalcrops:seeds",
+			tag: {
+				entity: "minecraft:ghast"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9f38024d",
+		type: "xp",
+		xp: 10
+	}]
+}

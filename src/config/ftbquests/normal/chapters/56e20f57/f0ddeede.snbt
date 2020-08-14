@@ -1,0 +1,21 @@
+{
+	title: "Got the Laser, Where Are the Sharks?",
+	x: -6.5d,
+	y: -2.0d,
+	description: "Lasers are used to power Buildcraft devices that are within range.",
+	dependencies: [
+		"0fe892f6"
+	],
+	tasks: [{
+		uid: "2b3cc778",
+		type: "item",
+		items: [{
+			item: "buildcraftsilicon:laser"
+		}]
+	}],
+	rewards: [{
+		uid: "8907add3",
+		type: "xp",
+		xp: 10
+	}]
+}

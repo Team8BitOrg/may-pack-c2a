@@ -1,0 +1,37 @@
+{
+	title: "Do NOT Hug this Tree",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:spirit_tree_face_large_mask"
+	},
+	x: -27.5d,
+	y: -11.5d,
+	shape: "diamond",
+	description: "In the Swamplands Clearing Biome you will find the Spirit Tree",
+	text: [
+		"Defeat the Spirit Tree to obtain a piece of the Swamp Talisman"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f17d0c2"
+	],
+	tasks: [{
+		uid: "ef2d14a5",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:spirit_tree_face_large_mask"
+		},
+		entity: "thebetweenlands:spirit_tree_face_large",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "548b8f0c",
+		type: "item",
+		item: "thebetweenlands:gerts_donut"
+	}]
+}

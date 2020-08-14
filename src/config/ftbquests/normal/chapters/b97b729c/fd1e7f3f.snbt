@@ -1,0 +1,30 @@
+{
+	title: "Panning For Dummies",
+	x: 3.0d,
+	y: -5.5d,
+	description: "At this level, you can find uranium, redstone, gold, and assorted quartz (but not actually quartz...go figure)",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"044e4282"
+	],
+	tasks: [{
+		uid: "cf01fdf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prospectors:prospector_high"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1bc58ba",
+		type: "xp",
+		xp: 20
+	}]
+}

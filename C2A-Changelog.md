@@ -11,14 +11,43 @@ Fast Leaf Decay
 -- Updated Mods --
 -------------------
 AppleSkin (1.0.9 -> 1.0.14)
+Athenaeum (1.18.1 -> 1.19.1)
+Astral Sorcery (1.10.24 -> 1.10.25)
+Betweenlands (3.6.1 -> 3.6.2)
 Builder's Bag (1.2.1.15 -> 1.2.2.16)
-Corail Tombstone (3.7.4 -> 3.7.5)
+Building Gadgets (2.8.3 -> 2.8.4)
+Corail Tombstone (3.7.4 -> 3.7.5 -> 4.0.0)
 Ender IO (5.1.55 -> 5.2.57)
 Ender IO Endergy (5.1.55 -> 5.2.57)
 EnderCore (0.5.75 -> 0.5.76)
 FTB Library (5.4.7.0 -> 5.4.7.2)
 FTB Quests (1.8.1.239 -> 1.8.1.1)
 FTB Utilities (5.4.0.124 -> 5.4.1.128)
+Carry On (1.12.3 -> 1.12.3.15)
+Common Capabilities (2.4.6 -> 2.4.7)
+Controlling (3.0.9 -> 3.0.10)
+CyclopsCore (1.6.4 -> 1.6.6)
+Ender IO (5.2.57 -> 5.2.59)
+Ender IO Endergy (5.2.57 -> 5.2.59)
+Everlasting Abilities (1.5.2 -> 1.5.3)
+Fairy Lights (2.1.10 -> 2.1.11)
+Flux Networks (4.0.14-31 -> 4.0.15-32)
+FTB Quests (1.8.1.1 -> 1.9.0.12)
+FTB Utilities (5.4.1.128 -> 5.4.1.130)
+In Control (3.9.16 -> 3.9.17)
+Item Filters (1.0.3.12 -> 1.0.4.2)
+JEI (4.15.0.291 -> 4.15.0.296)
+Loottweaker (0.1.7 -> 0.2.0)
+MJRLegends Lib (1.1.9 -> 1.2.0)
+Mystical Creations (1.3 -> 1.4)
+Nuclearcraft Overhauled (2o.2.7 -> 2o.3.6)
+Patchouli (1.0-20 -> 1.0-21)
+ProjectEX (1.2.0.39 -> 1.2.0.4)0
+Random Patches (1.21.0.3 -> 1.22.1.1)
+Random Tweaks (2.8.0.2 -> 2.8.2.0)
+Simply Backpacks (1.2.3 -> 1.4.9)
+Simply Jetpacks 2 (2.214.67 -> 2.215.69)
+YUNG's Better Caves (2.0.3 -> 2.0.4)
 
 -- Removed Mods --
 ------------------
@@ -32,6 +61,8 @@ cofh/thermalfoundation.cfg
         B:Enable=false
     Basalz {
         B:Enable=false
+geolosys.cfg
+    B:"Enable Yellorium"=false
 headcrumbs.cfg
     ElusiveArreis
     Happybandit360

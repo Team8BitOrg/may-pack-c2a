@@ -1,0 +1,24 @@
+{
+	title: "Also it's a Boat",
+	x: -36.5d,
+	y: -14.0d,
+	shape: "square",
+	text: [
+		"Craft a Lurker Skin Shield"
+	],
+	dependencies: [
+		"2c57ecbd"
+	],
+	tasks: [{
+		uid: "24abc89c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lurker_skin_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Heart Heart You Don't Stop",
+	x: -36.0d,
+	y: -4.0d,
+	shape: "square",
+	text: [
+		"Using 8 Tar Drips & a Wight Heart, craft a Tar Beast Heart"
+	],
+	dependencies: [
+		"0cc84522"
+	],
+	tasks: [{
+		uid: "cd1d7d0a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "6d08469b",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 23",
+		count: 4,
+		random_bonus: 8
+	}]
+}

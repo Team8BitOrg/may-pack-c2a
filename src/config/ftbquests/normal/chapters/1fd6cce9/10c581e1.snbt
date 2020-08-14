@@ -1,0 +1,25 @@
+{
+	title: "Swamp Farmers Breakfast",
+	x: -39.0d,
+	y: -13.0d,
+	shape: "square",
+	text: [
+		"Combine the Srambled Mire Snail Egg and the Yellow Dotted Fungus together with a weedwood bowl."
+	],
+	dependencies: [
+		"edc6163e",
+		"b54c869e"
+	],
+	tasks: [{
+		uid: "aae93c14",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_scramble"
+		}]
+	}],
+	rewards: [{
+		uid: "dc5ca94e",
+		type: "xp",
+		xp: 20
+	}]
+}

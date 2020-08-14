@@ -1,0 +1,26 @@
+{
+	title: "A Seedy Operation, Avoid Detection.",
+	x: -40.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "Found Hanging from Vines in Great Weedwood Trees",
+	text: [
+		"Grab a White Pear Seed"
+	],
+	dependencies: [
+		"00e432b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4ea00331",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:middle_fruit_bush_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "65746837",
+		type: "xp",
+		xp: 5
+	}]
+}

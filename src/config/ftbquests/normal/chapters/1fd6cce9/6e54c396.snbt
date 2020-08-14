@@ -1,0 +1,25 @@
+{
+	title: "This is My Jam",
+	x: -41.5d,
+	y: -11.0d,
+	shape: "square",
+	text: [
+		"Craft a Jam Donut, or if you saved one from earlier..."
+	],
+	dependencies: [
+		"3277027e",
+		"53cc8e1e"
+	],
+	tasks: [{
+		uid: "e121a751",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:jam_donut"
+		}]
+	}],
+	rewards: [{
+		uid: "6701b572",
+		type: "xp",
+		xp: 10
+	}]
+}

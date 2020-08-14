@@ -1,0 +1,22 @@
+{
+	title: "Harry's Best Friend is Cauldron",
+	x: -33.0d,
+	y: -6.0d,
+	shape: "square",
+	description: "Crafting a Syrmorite Bucket has some special mechanics.",
+	text: [
+		"Craft a cauldron using syrmorite."
+	],
+	tasks: [{
+		uid: "8c85975d",
+		type: "item",
+		items: [{
+			item: "minecraft:cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "1ef7a7bb",
+		type: "xp",
+		xp: 10
+	}]
+}

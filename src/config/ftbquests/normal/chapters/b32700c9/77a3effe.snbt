@@ -1,0 +1,21 @@
+{
+	title: "Don't Blow Up",
+	x: -3.0d,
+	y: 0.5d,
+	description: "Adding these to machines will change the power tier.",
+	dependencies: [
+		"08df9430"
+	],
+	tasks: [{
+		uid: "3016269f",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6e25180d",
+		type: "xp",
+		xp: 10
+	}]
+}

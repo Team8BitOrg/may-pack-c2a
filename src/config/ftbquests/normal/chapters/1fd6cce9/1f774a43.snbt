@@ -1,0 +1,32 @@
+{
+	title: "This Ain't Gucci, but it is Gucci",
+	x: -37.5d,
+	y: -14.5d,
+	shape: "square",
+	description: "Betweenlands has an Radial Equipment Menu that  has a keybind. The Lurker Bag also has a Keybind to open while it is equip. ",
+	text: [
+		"Craft Lurker Skin Bag, can upgrade with more Lurker Skin."
+	],
+	dependencies: [
+		"2c57ecbd"
+	],
+	tasks: [{
+		uid: "47d6b899",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:lurker_skin_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "094216f6",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 4",
+		count: 2,
+		random_bonus: 6
+	}]
+}

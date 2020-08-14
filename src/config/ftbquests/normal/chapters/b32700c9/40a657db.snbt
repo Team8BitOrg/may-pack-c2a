@@ -1,0 +1,21 @@
+{
+	title: "Round We Go",
+	x: -1.5d,
+	y: -4.0d,
+	description: "The more coils, the more heat produced.",
+	dependencies: [
+		"b60f8b03"
+	],
+	tasks: [{
+		uid: "f9a216c3",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "067339ba",
+		type: "xp",
+		xp: 5
+	}]
+}

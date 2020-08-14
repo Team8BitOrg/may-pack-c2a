@@ -1,0 +1,31 @@
+{
+	title: "They're To Die For",
+	icon: "thebetweenlands:life_crystal_stalactite 1 1",
+	x: -36.0d,
+	y: -6.5d,
+	shape: "square",
+	description: "Located way deep in the Lake Caverns within the pitstone layer within Life Crystal Ore (Stalagmites). These Stalagmites are found under the water, good luck. This Crystal is used to Animate various things. Can be recharged with Wight Hearts.",
+	text: [
+		"Get a Life...Crystal. You will need a Octine Pick."
+	],
+	dependencies: [
+		"9f17d0c2"
+	],
+	tasks: [{
+		uid: "e74c2477",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:life_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4913734a",
+		type: "xp",
+		xp: 50
+	}]
+}

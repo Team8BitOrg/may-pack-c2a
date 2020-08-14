@@ -1,0 +1,27 @@
+{
+	title: "Do You Even Lift, Orb?",
+	x: -18.0d,
+	y: -8.5d,
+	dependencies: [
+		"edddb530"
+	],
+	tasks: [{
+		uid: "6aa6ada8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4916ee2",
+		type: "xp",
+		xp: 10
+	}]
+}

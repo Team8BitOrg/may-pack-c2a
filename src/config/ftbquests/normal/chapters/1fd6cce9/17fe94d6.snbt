@@ -1,0 +1,26 @@
+{
+	title: "Stay Away from the Light!!",
+	x: -44.0d,
+	y: -13.0d,
+	shape: "square",
+	description: "Lurkers will be the best for helping you get Raw Angler Meat",
+	text: [
+		"Cook a Raw Angler Meat"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8ec3ff77"
+	],
+	tasks: [{
+		uid: "6bc71fb7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:angler_meat_cooked"
+		}]
+	}],
+	rewards: [{
+		uid: "a6ce193c",
+		type: "xp",
+		xp: 5
+	}]
+}

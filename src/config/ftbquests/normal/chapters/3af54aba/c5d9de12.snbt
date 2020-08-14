@@ -1,0 +1,10 @@
+{
+	title: "xXDigitalMonkXx",
+	x: -6.0d,
+	y: -1.5d,
+	description: "We would like to thank xXDigitalMonkXx for the testing that he did on this pack. Please go check him out on https:/twitch.tv/xxdigitalmonkxx",
+	tasks: [{
+		uid: "c6e47cdc",
+		type: "checkmark"
+	}]
+}

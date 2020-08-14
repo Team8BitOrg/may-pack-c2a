@@ -1,0 +1,22 @@
+{
+	title: "Motion of The Ocean",
+	x: -7.0d,
+	y: -5.0d,
+	description: "Early game power - Set this up correctly and you'll get 88RF/t",
+	dependencies: [
+		"c4448328"
+	],
+	tasks: [{
+		uid: "150b6c3d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "df65b2c1",
+		type: "xp",
+		xp: 15
+	}]
+}

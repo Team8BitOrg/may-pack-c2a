@@ -1,0 +1,34 @@
+{
+	title: "All That Glitters",
+	x: -28.5d,
+	y: -4.5d,
+	shape: "square",
+	description: "Obtain a Shimmerstone from a Peat Mummy. They will spawn in Marsh and Sludge Plains Biomes.",
+	text: [
+		"Obtain a  Shimmerstone from a Peat Mummy"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2f7fc565"
+	],
+	tasks: [{
+		uid: "763d3ded",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bcc2e011",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 43",
+		count: 4,
+		random_bonus: 4
+	}]
+}

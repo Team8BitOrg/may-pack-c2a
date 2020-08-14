@@ -1,0 +1,20 @@
+{
+	title: "Mr. Wizard Starter Set",
+	x: -16.5d,
+	y: -9.5d,
+	dependencies: [
+		"ae44f7b5"
+	],
+	tasks: [{
+		uid: "47d1d3d3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "0cef2b18",
+		type: "xp",
+		xp: 10
+	}]
+}

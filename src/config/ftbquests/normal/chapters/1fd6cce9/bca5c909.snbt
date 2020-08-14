@@ -1,0 +1,23 @@
+{
+	title: "Look at this S Car Go!",
+	x: -44.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "Snail Meat drops from Mire Snails that are passive and breedable. Also drop from Crimson Snails which are Hostile.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8ec3ff77"
+	],
+	tasks: [{
+		uid: "7259fc6a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:snail_flesh_cooked"
+		}]
+	}],
+	rewards: [{
+		uid: "ec60af16",
+		type: "xp",
+		xp: 5
+	}]
+}

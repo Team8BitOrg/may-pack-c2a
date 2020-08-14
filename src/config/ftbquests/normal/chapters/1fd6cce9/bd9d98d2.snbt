@@ -1,0 +1,26 @@
+{
+	title: "Crabtiraving  Glow Stick",
+	x: -43.0d,
+	y: -14.0d,
+	shape: "square",
+	description: "Silt Crabs are a Hostle Mob, but sorta cowardly",
+	text: [
+		"3 Crab Meat make Crab Stick. No Cooking Required!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "0a15c062",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_stick"
+		}]
+	}],
+	rewards: [{
+		uid: "f8d75065",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Treat Yo Wood",
+	x: -9.0d,
+	y: -5.0d,
+	description: "Treated Wood is used in a lot of recipes in Immersive Engineering while also being a great building block.",
+	dependencies: [
+		"15f4bb7f"
+	],
+	tasks: [{
+		uid: "5bf6ec6b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "484dcf45",
+		type: "xp",
+		xp: 5
+	}]
+}

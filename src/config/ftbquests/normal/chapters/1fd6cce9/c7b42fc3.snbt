@@ -1,0 +1,26 @@
+{
+	title: "The One Time Green is Better Than Orange",
+	x: -30.5d,
+	y: -6.0d,
+	shape: "square",
+	description: "These are used to make bottles along with rubber.",
+	text: [
+		"Found within the trunks and stumps of Great Weedwood Trees. Also located in treasure loot tables."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "4e13870c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_shard_green"
+		}]
+	}],
+	rewards: [{
+		uid: "856d520a",
+		type: "item",
+		item: "thebetweenlands:dentrothyst_shard_orange"
+	}]
+}

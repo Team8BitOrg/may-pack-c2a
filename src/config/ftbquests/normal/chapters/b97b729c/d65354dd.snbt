@@ -1,0 +1,24 @@
+{
+	title: "Lead And Silver Clusters",
+	icon: "geolosys:ore 1 6",
+	x: -0.5d,
+	y: -3.5d,
+	description: "From Galena Ore",
+	dependencies: [
+		"044e4282"
+	],
+	tasks: [{
+		uid: "c5832d43",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 5"
+		}]
+	},
+	{
+		uid: "63106816",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 4"
+		}]
+	}]
+}

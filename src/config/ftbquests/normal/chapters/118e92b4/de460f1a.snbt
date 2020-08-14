@@ -1,0 +1,32 @@
+{
+	title: "Hey, Tanks For The Blood",
+	x: -20.0d,
+	y: -10.0d,
+	dependencies: [
+		"edddb530"
+	],
+	tasks: [{
+		uid: "e48ad36f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_tank 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "cc86aed3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "lifeessence",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}
+	}]
+}

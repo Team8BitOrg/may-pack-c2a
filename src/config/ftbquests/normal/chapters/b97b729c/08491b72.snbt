@@ -1,0 +1,15 @@
+{
+	title: "I Won't See You In Hell",
+	x: -5.5d,
+	y: -1.5d,
+	description: "There is no Nether in this pack. Instead, you'll have to grow or make items you would find there.",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "dbc453eb",
+		type: "checkmark",
+		title: "No Nether",
+		icon: "minecraft:obsidian"
+	}]
+}

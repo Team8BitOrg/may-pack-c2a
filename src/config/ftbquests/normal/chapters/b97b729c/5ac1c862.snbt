@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 10",
+	x: 0.5d,
+	y: -4.5d,
+	description: "From Sphalerite Ore",
+	dependencies: [
+		"044e4282"
+	],
+	tasks: [{
+		uid: "e2682618",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 10"
+		}]
+	}]
+}

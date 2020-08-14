@@ -1,0 +1,24 @@
+{
+	title: "Scrambled, Not Stirred",
+	x: -40.0d,
+	y: -13.0d,
+	shape: "square",
+	text: [
+		"Cook the Mire Snail Egg"
+	],
+	dependencies: [
+		"d8ae4e40"
+	],
+	tasks: [{
+		uid: "dc724e3a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_snail_egg_cooked"
+		}]
+	}],
+	rewards: [{
+		uid: "d3c502c4",
+		type: "xp",
+		xp: 5
+	}]
+}

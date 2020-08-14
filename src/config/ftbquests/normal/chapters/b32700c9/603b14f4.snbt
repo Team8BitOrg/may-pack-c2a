@@ -1,0 +1,37 @@
+{
+	title: "High-End Machinery",
+	x: -7.105427357601002E-15d,
+	y: -0.25d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3efddbd5",
+		"d180b0e3"
+	],
+	tasks: [{
+		uid: "ec5d66e9",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "c8606fd0",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

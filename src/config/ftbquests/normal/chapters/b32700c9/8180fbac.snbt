@@ -1,0 +1,23 @@
+{
+	title: "Microwave Fried Enderman",
+	x: -7.5d,
+	y: 0.5d,
+	description: "A Tier 3 power storage device.",
+	dependencies: [
+		"99c2fcd4"
+	],
+	tasks: [{
+		uid: "171cfe43",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 74s
+		}]
+	}],
+	rewards: [{
+		uid: "04537835",
+		type: "xp",
+		xp: 15
+	}]
+}

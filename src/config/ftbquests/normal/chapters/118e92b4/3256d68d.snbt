@@ -1,0 +1,21 @@
+{
+	title: "Like A Boss",
+	x: -14.5d,
+	y: -10.5d,
+	dependencies: [
+		"9ace6ac6",
+		"a696a502"
+	],
+	tasks: [{
+		uid: "9dcaaa7c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "ac63a62f",
+		type: "xp",
+		xp: 20
+	}]
+}

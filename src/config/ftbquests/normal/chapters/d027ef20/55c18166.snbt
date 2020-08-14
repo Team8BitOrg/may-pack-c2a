@@ -1,0 +1,30 @@
+{
+	title: "It's Alive!?",
+	x: -11.5d,
+	y: -6.5d,
+	description: "These are not made now you think.",
+	dependencies: [
+		"03bd0ecc"
+	],
+	tasks: [{
+		uid: "3790a1b4",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d5456b35",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5f8c33a0",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Stinky Pete",
+	x: 0.0d,
+	y: -5.5d,
+	description: "This upgrade brings you to nickel, zinc, lead, silver, and lapis.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"82891c2b"
+	],
+	tasks: [{
+		uid: "e91d2a3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prospectors:prospector_med"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72210d2b",
+		type: "xp",
+		xp: 15
+	}]
+}

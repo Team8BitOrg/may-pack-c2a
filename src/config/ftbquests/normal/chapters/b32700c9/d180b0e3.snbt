@@ -1,0 +1,24 @@
+{
+	title: "Fun Fact: Circut City Still Exists",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"Prior to Actually Additions, empowered crystals must be made in blocks via the Animator."
+	],
+	dependencies: [
+		"09c89958",
+		"e093f053"
+	],
+	tasks: [{
+		uid: "4e633c1e",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e3053fa8",
+		type: "xp",
+		xp: 25
+	}]
+}

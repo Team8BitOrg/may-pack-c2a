@@ -1,0 +1,45 @@
+{
+	title: "A Bigger, Better Tool",
+	x: -16.5d,
+	y: -4.5d,
+	description: "The drill can be augmented to mine faster, in bigger areas, and with silk touch or fortune.",
+	text: [
+		"You also can dye it different colors."
+	],
+	dependencies: [
+		"a5dbedb0"
+	],
+	tasks: [{
+		uid: "d0ab3796",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "actuallyadditions:item_drill",
+			tag: {
+				Energy: 0
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "27d45b6e",
+		type: "command",
+		title: "Prestige Point",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Bit Mo Betta Orb",
+	x: -18.0d,
+	y: -9.5d,
+	dependencies: [
+		"ae44f7b5"
+	],
+	tasks: [{
+		uid: "edf02f44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "185103f8",
+		type: "xp",
+		xp: 15
+	}]
+}

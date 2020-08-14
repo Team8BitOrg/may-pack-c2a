@@ -1,0 +1,26 @@
+{
+	title: "Like A Phoenix",
+	x: -18.0d,
+	y: -6.0d,
+	description: "Right click the ash on the ground to create an array. Then right click the components on it, in the correct order.",
+	dependencies: [
+		"8fa70e41"
+	],
+	tasks: [{
+		uid: "a6165a3a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bcb1b64",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "I Said a Drip-Drop",
+	x: -38.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "Tar Pools are located throughout the betweenlands. Both underground and on the surface.",
+	text: [
+		"Throw a piece of rubber into a source block of tar."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"99270388"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "1738e0c1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tar_piece"
+		}]
+	}],
+	rewards: [{
+		uid: "32098dcf",
+		type: "xp",
+		xp: 5
+	}]
+}

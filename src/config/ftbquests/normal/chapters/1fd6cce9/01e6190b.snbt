@@ -1,0 +1,31 @@
+{
+	title: "Be-dazzled",
+	x: -33.5d,
+	y: -11.0d,
+	shape: "square",
+	description: "This will give you extra amulet slots. ",
+	text: [
+		"These Drop from Some of the Betweenlands Bosses. Not the Spirit Tree."
+	],
+	dependencies: [
+		"8eb84c18",
+		"fb4140aa"
+	],
+	tasks: [{
+		uid: "3eba9e87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:amulet_slot"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e758a78",
+		type: "xp",
+		xp: 10
+	}]
+}

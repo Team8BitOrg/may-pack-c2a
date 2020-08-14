@@ -1,0 +1,24 @@
+{
+	title: "I'm a Guy Named Gus & I'm Fun. Call me Fun Gus.",
+	x: -38.5d,
+	y: -12.0d,
+	shape: "square",
+	text: [
+		"Grow a Yellow Dotted Fungus"
+	],
+	dependencies: [
+		"06165499"
+	],
+	tasks: [{
+		uid: "dcf89993",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:yellow_dotted_fungus"
+		}]
+	}],
+	rewards: [{
+		uid: "db6c0626",
+		type: "xp",
+		xp: 5
+	}]
+}

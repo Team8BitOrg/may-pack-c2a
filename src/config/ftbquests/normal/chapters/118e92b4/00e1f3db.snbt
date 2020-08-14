@@ -1,0 +1,29 @@
+{
+	title: "It Was Bound To Come Up",
+	x: -16.0d,
+	y: -6.0d,
+	description: "Killing mobs with this can give Weak Blood Shards",
+	dependencies: [
+		"6be734e2"
+	],
+	tasks: [{
+		uid: "ce7e2663",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30b5eabb",
+		type: "xp",
+		xp: 20
+	}]
+}

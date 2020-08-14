@@ -1,0 +1,23 @@
+{
+	title: "Bark, Bark, Bark",
+	x: -38.5d,
+	y: -10.5d,
+	shape: "square",
+	description: "Hollow Logs yeild this bark. They can be found in Swamplands, Marsh and Sluge Plains Biomes.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "14edce1a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "37d5878e",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Burny Slimeders",
+	x: -4.0d,
+	y: -0.5d,
+	description: "These will grow Magma Slimes.",
+	text: [
+		""
+	],
+	dependencies: [
+		"08491b72"
+	],
+	tasks: [{
+		uid: "28d18b70",
+		type: "item",
+		items: [{
+			id: "animalcrops:seeds",
+			tag: {
+				entity: "minecraft:magma_cube"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "83b9b230",
+		type: "xp",
+		xp: 10
+	}]
+}

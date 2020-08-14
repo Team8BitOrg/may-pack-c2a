@@ -1,0 +1,27 @@
+{
+	title: "You're Just Projecting",
+	x: -2.0d,
+	y: -3.5d,
+	description: "Craft this with your Engineer's Manual on the page with the multiblock and you'll get a hologram of where to place blocks",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4448328"
+	],
+	tasks: [{
+		uid: "0b77515a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6461715",
+		type: "xp",
+		xp: 10
+	}]
+}

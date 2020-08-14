@@ -1,0 +1,21 @@
+{
+	title: "A Piece of Greenpeace?",
+	x: 3.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"603b14f4"
+	],
+	tasks: [{
+		uid: "25a40257",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 48"
+		}]
+	}],
+	rewards: [{
+		uid: "4a9e9e34",
+		type: "xp",
+		xp: 20
+	}]
+}

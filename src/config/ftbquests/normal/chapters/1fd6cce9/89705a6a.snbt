@@ -1,0 +1,27 @@
+{
+	title: "Wait, They Don't Love You Like I Love You",
+	icon: "thebetweenlands:amate_map",
+	x: -36.5d,
+	y: -10.5d,
+	shape: "square",
+	description: "This will help find Structures, Structures that have Treasure. Treasure that may make your time here easier... or not.",
+	text: [
+		"Craft the Map"
+	],
+	dependencies: [
+		"a0a3fc05",
+		"1e35eeee"
+	],
+	tasks: [{
+		uid: "c4281b2e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:empty_amate_map"
+		}]
+	}],
+	rewards: [{
+		uid: "69d6d1bd",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "It's Ok, Sprorlings Can Be Reborn",
+	x: -39.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "Sporlings drop Spores. Those Spores can be planted on fertilized purified swamp dirt.",
+	text: [
+		"Get Spores. Just don't tell Sigma how you did it."
+	],
+	dependencies: [
+		"00e432b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc7f3012",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:spores"
+		}]
+	}],
+	rewards: [{
+		uid: "380bc1a6",
+		type: "xp",
+		xp: 5
+	}]
+}

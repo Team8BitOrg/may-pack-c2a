@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -9.0d,
+	description: "I Did it on Surface",
+	tasks: [{
+		uid: "9a7ff10a",
+		type: "dimension",
+		title: "The The Overworld",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "af200729",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.step_assist.name"
+				}]
+			}
+		},
+		auto: "enabled",
+		command: "/prestige add @p 1"
+	}]
+}

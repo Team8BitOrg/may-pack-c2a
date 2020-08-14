@@ -1,0 +1,23 @@
+{
+	title: "If You Can't Kelp It,  Wakame Even Try!?",
+	x: -46.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "Found in Coarse Islands and Deep Waters Biomes",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8ec3ff77"
+	],
+	tasks: [{
+		uid: "31dfdde4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fried_swamp_kelp"
+		}]
+	}],
+	rewards: [{
+		uid: "bac3de7f",
+		type: "xp",
+		xp: 5
+	}]
+}

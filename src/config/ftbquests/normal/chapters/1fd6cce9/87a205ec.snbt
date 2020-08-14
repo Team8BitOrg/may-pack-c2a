@@ -1,0 +1,65 @@
+{
+	title: "Make Tools, Do Not Act Like One",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:weedwood_pickaxe"
+	},
+	x: -42.5d,
+	y: -10.0d,
+	shape: "square",
+	description: "In the Betweenlands Tools will slowly corrode. This Corrosion can be removed in a Purfier, with tree sap",
+	text: [
+		"Craft a weedwood pickaxe, axe, and sword"
+	],
+	dependencies: [
+		"9f48c904"
+	],
+	tasks: [{
+		uid: "bdfc1e80",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "567b17f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb3e4cfa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5490c9e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_shovel"
+		}
+	}]
+}

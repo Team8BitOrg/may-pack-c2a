@@ -1,0 +1,33 @@
+{
+	title: "Peat is Neat, but Moss IS Boss",
+	icon: "thebetweenlands:pyrad_flame",
+	x: -33.0d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		"Peat is located in Marsh Biomes.",
+		"Harvest the moss with Symorite Shears."
+	],
+	dependencies: [
+		"b9620b65"
+	],
+	tasks: [{
+		uid: "e319e9c7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:peat"
+		}]
+	},
+	{
+		uid: "f0c9fbfc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss"
+		}]
+	}],
+	rewards: [{
+		uid: "b88b2706",
+		type: "item",
+		item: "thebetweenlands:octine_ingot"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Icy Too",
+	icon: "ic2:resource 1 12",
+	x: -7.5d,
+	y: -4.0d,
+	description: "Industrialcraft (IC2) will help provide basic power and machines.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ed6998d0"
+	],
+	tasks: [{
+		uid: "1bb3a5e2",
+		type: "checkmark",
+		title: "Industrialcraft"
+	}]
+}

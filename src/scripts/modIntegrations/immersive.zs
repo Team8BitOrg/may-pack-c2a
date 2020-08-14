@@ -310,6 +310,7 @@ function init() {
 
     immersive.addAlloySmelter(<extendedcrafting:material>, <minecraft:iron_ingot>, <thebetweenlands:items_misc:26>, 1200); //Black Iron
     immersive.addAlloySmelter(<contenttweaker:sub_block_holder_2:6>, <minecraft:iron_block>, <thermalfoundation:material:769> * 36, 9600); //Tungsten Block
+    immersive.addAlloySmelter(<contenttweaker:material_part:426>, <ore:ingotGold>, <ore:ingotSilver>, 1200); //Electrum
 
     /* Blast Furnace */
     immersive.removeBlastFurnace(<immersiveengineering:metal:8>); // Steel Ingot

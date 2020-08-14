@@ -1,0 +1,26 @@
+{
+	title: "We All Float Up Here",
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"b2ab0c9d"
+	],
+	tasks: [{
+		uid: "7e099f7f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2air",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "487a6813",
+		type: "xp",
+		xp: 5
+	}]
+}

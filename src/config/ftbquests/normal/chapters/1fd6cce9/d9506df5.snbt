@@ -1,0 +1,28 @@
+{
+	title: "Infuuuusion....HA!",
+	x: -32.0d,
+	y: -7.0d,
+	shape: "square",
+	description: "This device will require a flame underneath. Use the Peat, Moss, and an Octine Ingot. Also needs swamp water.",
+	text: [
+		"Craft a Infuser.",
+		"In order to use this, place a peat block under the Infuser. You will need an air block between the peat and the Infuser. Place the moss on top of the peat. With an Octine Ingot in hand, Hold Right-Click to Ignite the Moss."
+	],
+	dependencies: [
+		"c1953b0d",
+		"a2e0f43d",
+		"d6a5c5e2"
+	],
+	tasks: [{
+		uid: "51c0b3b7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "a1f89793",
+		type: "xp",
+		xp: 10
+	}]
+}

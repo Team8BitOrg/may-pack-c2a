@@ -1,0 +1,22 @@
+{
+	title: "So Does This Make it Alive, Again...",
+	x: -43.0d,
+	y: -13.0d,
+	shape: "square",
+	description: "J...E...L...L...O... it's alive!",
+	dependencies: [
+		"750ad534"
+	],
+	tasks: [{
+		uid: "05606131",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sludge_jello"
+		}]
+	}],
+	rewards: [{
+		uid: "4387148d",
+		type: "xp",
+		xp: 5
+	}]
+}

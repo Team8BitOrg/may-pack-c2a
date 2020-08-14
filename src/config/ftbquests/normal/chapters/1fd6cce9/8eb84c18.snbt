@@ -1,0 +1,39 @@
+{
+	title: "If You Can Catch an Orb, You Can Dodge A Ball",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:shockwave_sword"
+	},
+	x: -28.5d,
+	y: -10.5d,
+	shape: "diamond",
+	description: "Make your way through the Wight Fortress located in Marsh Biomes. Smash the Cages to release the Shockwave Sword. You must be direcly underneath to break them. This sword is required to defeat the Primordial Malevolence.",
+	text: [
+		"Defeat the Primordial Malevolence to obtain a piece of the Swamp Talisman"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1fdf1a76"
+	],
+	tasks: [{
+		uid: "26874508",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:voodoo_doll"
+		},
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4b6851f3",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19",
+		count: 4,
+		random_bonus: 4
+	}]
+}

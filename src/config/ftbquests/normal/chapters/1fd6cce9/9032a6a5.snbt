@@ -1,0 +1,29 @@
+{
+	title: "We Altared How This Normally Works",
+	x: -27.0d,
+	y: -9.5d,
+	shape: "square",
+	description: "Pray We Do Not Altar It Further",
+	text: [
+		"Craft a Dark Druid Altar"
+	],
+	dependencies: [
+		"8eb84c18",
+		"09c9386a",
+		"350ac571",
+		"9118e92c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f97e569f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:druid_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "288748c4",
+		type: "item",
+		item: "thebetweenlands:sapling_weedwood"
+	}]
+}

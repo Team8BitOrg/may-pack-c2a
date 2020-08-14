@@ -1,0 +1,30 @@
+{
+	title: "Technically Fertilizer",
+	x: -17.5d,
+	y: -6.5d,
+	description: "This fertilizer will magically produce mystical flowers for you.",
+	text: [
+		"Created using an alchemy array with UU-Matter"
+	],
+	dependencies: [
+		"e4d0ae6f"
+	],
+	tasks: [{
+		uid: "e9af8d0e",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "e0bc3f74",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:lexicon",
+			tag: {}
+		}
+	}]
+}

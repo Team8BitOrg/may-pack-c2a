@@ -1,0 +1,20 @@
+{
+	title: "Semi-Fluid Kind Of Life",
+	x: -6.0d,
+	y: 2.0d,
+	dependencies: [
+		"13d65282"
+	],
+	tasks: [{
+		uid: "34377d46",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "ac393454",
+		type: "xp",
+		xp: 10
+	}]
+}

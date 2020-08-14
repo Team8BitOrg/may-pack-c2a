@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore_vanilla 1 5",
+	x: 6.5d,
+	y: -4.5d,
+	description: "From Kimberlite Ore",
+	dependencies: [
+		"6f47951a"
+	],
+	tasks: [{
+		uid: "542c5a8f",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

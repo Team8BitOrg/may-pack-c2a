@@ -1,0 +1,25 @@
+{
+	title: "Donut or Doughnut, There is No Fry",
+	icon: "thebetweenlands:reed_donut",
+	x: -42.5d,
+	y: -11.0d,
+	shape: "square",
+	dependencies: [
+		"8ec3ff77"
+	],
+	tasks: [{
+		uid: "b9ff7ab5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:reed_donut"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "64801fa6",
+		type: "item",
+		item: "thebetweenlands:jam_donut",
+		count: 2
+	}]
+}

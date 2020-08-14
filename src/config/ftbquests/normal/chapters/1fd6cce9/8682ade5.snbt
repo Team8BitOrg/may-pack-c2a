@@ -1,0 +1,49 @@
+{
+	title: "15 Geckos Could Save You 15% or More",
+	x: -32.0d,
+	y: -9.0d,
+	shape: "square",
+	description: "These will go into the Gecko Cages.",
+	text: [
+		"Just catch 4 of them. You may definitely need more than 4."
+	],
+	dependencies: [
+		"ee8dd7c7",
+		"52dd9603"
+	],
+	tasks: [{
+		uid: "425efa50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		}],
+		count: 4L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a96dc311",
+		type: "item",
+		auto: "disabled",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		},
+		random_bonus: 2
+	}]
+}

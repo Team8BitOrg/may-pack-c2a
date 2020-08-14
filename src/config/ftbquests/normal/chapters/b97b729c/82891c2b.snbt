@@ -1,0 +1,30 @@
+{
+	title: "A Dowsing Rod, But Swol",
+	x: -3.5d,
+	y: -5.5d,
+	description: "This rod will allow you to find iron, tin, copper, and aluminum.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"445ca606"
+	],
+	tasks: [{
+		uid: "36e17ea3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prospectors:prospector_low"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e05aa5ea",
+		type: "xp",
+		xp: 10
+	}]
+}

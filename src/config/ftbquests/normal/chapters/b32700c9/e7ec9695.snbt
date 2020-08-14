@@ -1,0 +1,21 @@
+{
+	title: "Furnace 2: Electric Boogaloo",
+	x: -4.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"66c69232"
+	],
+	tasks: [{
+		uid: "2b093b03",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 44"
+		}]
+	}],
+	rewards: [{
+		uid: "b3eddbc8",
+		type: "xp",
+		xp: 5
+	}]
+}

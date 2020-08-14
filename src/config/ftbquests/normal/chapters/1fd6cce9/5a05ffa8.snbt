@@ -1,0 +1,18 @@
+{
+	title: "Low Effort & Vegan",
+	x: -43.5d,
+	y: -9.5d,
+	shape: "square",
+	tasks: [{
+		uid: "7661a2e2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:nibblestick"
+		}]
+	}],
+	rewards: [{
+		uid: "0a8d9929",
+		type: "xp",
+		xp: 10
+	}]
+}

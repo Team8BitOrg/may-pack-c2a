@@ -1,0 +1,33 @@
+{
+	title: "Just Give Me A Resin",
+	x: -6.0d,
+	y: -4.0d,
+	description: "Betweenlands rubber is NOT compatible",
+	dependencies: [
+		"11579e83"
+	],
+	tasks: [{
+		uid: "ae143b3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "647d8e0d",
+		type: "item",
+		items: [{
+			item: "ic2:crafting"
+		}]
+	}],
+	rewards: [{
+		uid: "249b5a4f",
+		type: "xp",
+		xp: 5
+	}]
+}

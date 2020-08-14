@@ -1,0 +1,26 @@
+{
+	title: "To Fruit in Jello, or Not to Fruit in Jello? That Is the question.",
+	x: -42.0d,
+	y: -13.0d,
+	shape: "square",
+	description: "In this case, yes fruit in jello.",
+	text: [
+		"Make White Pear Jello"
+	],
+	dependencies: [
+		"5df413aa",
+		"53cc8e1e"
+	],
+	tasks: [{
+		uid: "e1b843cf",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:middle_fruit_jello"
+		}]
+	}],
+	rewards: [{
+		uid: "4f3faa2c",
+		type: "xp",
+		xp: 15
+	}]
+}

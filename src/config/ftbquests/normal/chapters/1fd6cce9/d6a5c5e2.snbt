@@ -1,0 +1,35 @@
+{
+	title: "\"Best Item in Minecraft\" - SigmaLP",
+	x: -32.0d,
+	y: -6.0d,
+	shape: "square",
+	description: " This will be needed to take infusions out of the infuser. It will not be consumed when used to make rubber.",
+	text: [
+		"1. Place a Sulfur Torch beneath the Cauldron.",
+		"2. Right-Click 3 Syrmorite Ingots into the Cauldron.",
+		"3. Using a Bucket, scoop the Liquid Syrmorite out of the Cauldron.",
+		"4. Place the Liquid Syrmorite into the world.",
+		"5. Toss a Weedwood Bucket into the Liquid Syrmorite source block.",
+		"6. Profit."
+	],
+	dependencies: [
+		"d18ba9cc"
+	],
+	tasks: [{
+		uid: "70b5fec2",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {}
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "daf09362",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 11",
+		random_bonus: 2
+	}]
+}

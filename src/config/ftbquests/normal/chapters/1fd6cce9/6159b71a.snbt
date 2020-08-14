@@ -1,0 +1,18 @@
+{
+	title: "Teleporting To Your Grave with Corails",
+	icon: "tombstone:decorative_grave_simple",
+	x: -44.0d,
+	y: -7.5d,
+	shape: "square",
+	description: "Crafting a Wight Heart with your grave key will allow you to teleport to your grave.",
+	tasks: [{
+		uid: "ded0a4fe",
+		type: "checkmark",
+		title: "I will remember this"
+	}],
+	rewards: [{
+		uid: "d39436cd",
+		type: "toast",
+		title: "Yay!"
+	}]
+}

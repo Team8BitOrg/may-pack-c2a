@@ -1,0 +1,20 @@
+{
+	title: "It Costs ALL The Mana",
+	x: -7.0d,
+	y: -6.5d,
+	dependencies: [
+		"08903a9f"
+	],
+	tasks: [{
+		uid: "0983b157",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "9504ac9a",
+		type: "xp",
+		xp: 25
+	}]
+}

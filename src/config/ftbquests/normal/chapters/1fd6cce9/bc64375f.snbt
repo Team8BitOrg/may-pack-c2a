@@ -1,0 +1,50 @@
+{
+	title: "Ara-what-this?",
+	x: -30.0d,
+	y: -7.0d,
+	shape: "square",
+	description: "This aspect is the aspect of attraction (trollface)",
+	text: [
+		"1. Fill the Infuser with 3 buckets of Swamp Water.",
+		"2. Make sure there is a fire underneath the Infuser.",
+		"3. Right-Click the ground up materials containing Armaniis into the Infuser.",
+		"4. Stir by Right-Clicking the Infuser.",
+		"5. When bubbles and \"smoke\" particles leave the infuser scoop the mixture out with a syrmorite bucket by shift-right-clicking with an empty off-hand.",
+		"6. Place the infusion into an Alembic by right-clicking the alembic with a infusion bucket.",
+		"7. Wait.",
+		"8. Take a green dentrothyst vial and collect your aspect."
+	],
+	dependencies: [
+		"edc4b9a1"
+	],
+	tasks: [{
+		uid: "0e883f2d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:aspect_vial",
+			tag: {
+				blHerbloreAspects: {
+					container: [{
+						aspect: {
+							type: "Armaniis"
+						},
+						storage: {
+							hasStoredStatic: 0b,
+							storedStatic: 0,
+							dynamic: 2000
+						}
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b96dc59",
+		type: "xp",
+		xp: 25
+	}]
+}

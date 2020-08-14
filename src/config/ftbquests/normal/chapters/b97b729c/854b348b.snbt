@@ -1,0 +1,24 @@
+{
+	title: "Like Stone, but with Sulfur",
+	x: -6.0d,
+	y: 0.5d,
+	description: "You can make Netherrack by combining chemicals.",
+	text: [
+		""
+	],
+	dependencies: [
+		"08491b72"
+	],
+	tasks: [{
+		uid: "a63dedca",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}]
+	}],
+	rewards: [{
+		uid: "5cdbee17",
+		type: "xp",
+		xp: 10
+	}]
+}

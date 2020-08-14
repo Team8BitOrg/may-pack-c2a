@@ -1,0 +1,22 @@
+{
+	title: "Don't Void Your Warranty",
+	x: -3.0d,
+	y: -1.0d,
+	description: "These will speed up IC2 machines, but at a cost of more energy",
+	hide_dependency_lines: true,
+	dependencies: [
+		"b2ab0c9d"
+	],
+	tasks: [{
+		uid: "faddeeb4",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "6fed1b21",
+		type: "xp",
+		xp: 10
+	}]
+}

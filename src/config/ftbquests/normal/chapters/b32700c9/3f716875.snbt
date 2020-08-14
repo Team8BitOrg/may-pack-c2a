@@ -1,0 +1,26 @@
+{
+	title: "Ultimate-ish Power Transmission",
+	x: -9.0d,
+	y: 2.0d,
+	description: "Nearly lossless power transfer regardless of the distance, but power tiers still matter.",
+	dependencies: [
+		"28a710d2"
+	],
+	tasks: [{
+		uid: "6eecc949",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "96c4362a",
+		type: "xp",
+		xp: 10
+	}]
+}

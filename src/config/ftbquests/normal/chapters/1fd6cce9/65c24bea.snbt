@@ -1,0 +1,24 @@
+{
+	title: "If we'd punch weedwood tree, we'd get weedwood log",
+	icon: "thebetweenlands:log_weedwood",
+	x: -44.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"Weedwood is the wood of the betweenlands"
+	],
+	tasks: [{
+		uid: "0e859536",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:log_weedwood"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19dc5d71",
+		type: "xp",
+		xp: 10
+	}]
+}

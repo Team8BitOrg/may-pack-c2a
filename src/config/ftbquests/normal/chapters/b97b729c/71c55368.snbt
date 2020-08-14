@@ -1,0 +1,38 @@
+{
+	title: "The Other Quartzes",
+	icon: "geolosys:ore_vanilla 1 4",
+	x: 3.5d,
+	y: -3.5d,
+	description: "From Assorted Quartz Ore",
+	dependencies: [
+		"fd1e7f3f"
+	],
+	tasks: [{
+		uid: "85382599",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}]
+	},
+	{
+		uid: "8d158436",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	},
+	{
+		uid: "575cbfa3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 5"
+		}]
+	},
+	{
+		uid: "e67e28b9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dust 1 10"
+		}]
+	}]
+}

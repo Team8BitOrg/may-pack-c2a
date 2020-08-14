@@ -1,0 +1,38 @@
+{
+	title: "Let it Bow, Let it Bow!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:weedwood_bow"
+	},
+	x: -39.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"Craft a Weedwood Bow"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9f48c904"
+	],
+	tasks: [{
+		uid: "cf024b8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:weedwood_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f137a3b5",
+		type: "item",
+		item: "thebetweenlands:angler_tooth_arrow",
+		count: 8,
+		random_bonus: 8
+	}]
+}

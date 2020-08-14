@@ -1,0 +1,25 @@
+{
+	title: "You Can't Actually Sleep",
+	x: -34.0d,
+	y: -6.0d,
+	shape: "square",
+	description: "This will allow you to set your spawn point.",
+	text: [
+		"Use shears to collect moss, and make a bed. "
+	],
+	dependencies: [
+		"b9620b65"
+	],
+	tasks: [{
+		uid: "12e935cc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss_bed_item"
+		}]
+	}],
+	rewards: [{
+		uid: "1efa1cf8",
+		type: "xp",
+		xp: 5
+	}]
+}

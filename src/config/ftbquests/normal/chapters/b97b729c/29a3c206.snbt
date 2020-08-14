@@ -1,0 +1,22 @@
+{
+	title: "Steel Yourself",
+	icon: "contenttweaker:sub_block_holder_2 1 6",
+	x: -1.5d,
+	y: -1.5d,
+	description: "Tungsten is one of the most important metals you will work with. Getting it will start out slow, but speed up as you progress.",
+	text: [
+		"Tungsten can be made early game in the IE Alloy Kiln or IC2 Blast Furnace. Upgrading to the IE Coke Oven or Blast Furnace will speed up production."
+	],
+	tasks: [{
+		uid: "179e07cb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "37c0a3e8",
+		type: "xp",
+		xp: 20
+	}]
+}

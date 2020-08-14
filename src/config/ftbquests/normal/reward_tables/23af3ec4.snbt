@@ -1,0 +1,11 @@
+{
+	title: "Arrow Reward",
+	icon: "thebetweenlands:angler_tooth_arrow",
+	loot_size: 8,
+	rewards: [{
+		item: "thebetweenlands:angler_tooth_arrow"
+	},
+	{
+		item: "thebetweenlands:octine_arrow"
+	}]
+}

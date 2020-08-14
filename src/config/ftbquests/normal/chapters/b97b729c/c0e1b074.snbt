@@ -1,0 +1,21 @@
+{
+	title: "Lay It Out To Dry",
+	x: 6.0d,
+	y: -0.5d,
+	description: "Primarially used to get mineral salt from water, but also dries out lava and milk.",
+	dependencies: [
+		"6d09a6fe"
+	],
+	tasks: [{
+		uid: "ab491189",
+		type: "item",
+		items: [{
+			item: "alchemistry:evaporator"
+		}]
+	}],
+	rewards: [{
+		uid: "8c8b0173",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -9,10 +9,11 @@
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
+import loottweaker.LootTweaker;
 
 function init() {
     //Add Excavate I book to Greebling Corpse
-    val greebling_corpse = LootTables.getTable("thebetweenlands:entities/greebling_corpse");
+    val greebling_corpse = LootTweaker.getTable("thebetweenlands:entities/greebling_corpse");
     val excavate = greebling_corpse.addPool("excavate", 1, 1, 0, 0);
     excavate.addItemEntry(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 31 as short}]}), 8);
 }

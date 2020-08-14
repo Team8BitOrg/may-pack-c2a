@@ -1,0 +1,39 @@
+{
+	title: "Say UP jump the Bait",
+	icon: "thebetweenlands:mummy_bait",
+	x: -28.5d,
+	y: -6.5d,
+	shape: "square",
+	text: [
+		"Craft a Mummy Bait"
+	],
+	dependencies: [
+		"52ab73d5",
+		"bc64375f",
+		"9cc85d8f"
+	],
+	tasks: [{
+		uid: "8f4fc197",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mummy_bait"
+		}]
+	}],
+	rewards: [{
+		uid: "ff090b4c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:elixir",
+			tag: {
+				elixirData: {
+					duration: 6200,
+					strength: 0
+				}
+			},
+			Damage: 4s
+		}
+	}]
+}

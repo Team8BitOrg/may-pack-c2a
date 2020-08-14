@@ -1,0 +1,42 @@
+{
+	title: "Welcome!",
+	icon: "thebetweenlands:sapling_weedwood",
+	x: -47.0d,
+	y: -9.0d,
+	shape: "square",
+	text: [
+		"Welcome to The Betweenlands!",
+		"This is a guide as much as they are quests. There are things in the Betweenlands that these quests do not touch on. Those things are not required to reach the overworld, but they may help with the overall experience.",
+		"The Betweenlands will decay your mental state & corrode your tools over time. There are countermeasures as well as ways to prevent it.",
+		"All that is required to leave is to craft the Swamp Talisman. This will require defeating four of The Betweenlands bosses & crafting a Dark Druid Altar. The bosses all drop a piece of the Swamp Talisman.",
+		"There will be more quests revealed as they are completed."
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "b54e2c37",
+		type: "checkmark",
+		title: "I \"read\" this"
+	}],
+	rewards: [{
+		uid: "965b74bd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8068520469437010221L,
+					AS_Amulet_HolderMost: -7212215502495200483L
+				}
+			},
+			id: "minecraft:wooden_axe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 23s
+				}],
+				display: {
+					Name: "Call To Arms T&C Axe"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 8",
+	x: 5.5d,
+	y: -4.5d,
+	description: "From Platinum Ore",
+	dependencies: [
+		"6f47951a"
+	],
+	tasks: [{
+		uid: "4ae576cd",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 8"
+		}]
+	}]
+}

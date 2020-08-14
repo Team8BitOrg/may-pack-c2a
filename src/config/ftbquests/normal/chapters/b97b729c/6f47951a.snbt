@@ -1,0 +1,30 @@
+{
+	title: "Where The Demeralds At?",
+	x: 6.5d,
+	y: -5.5d,
+	description: "This will let you find all ores including Platinum, Diamond, and Emerald.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"fd1e7f3f"
+	],
+	tasks: [{
+		uid: "d2b38c28",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "prospectors:prospector_best"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3901d299",
+		type: "xp",
+		xp: 25
+	}]
+}

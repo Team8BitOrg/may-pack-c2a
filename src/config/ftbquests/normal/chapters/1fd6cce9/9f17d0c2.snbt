@@ -1,0 +1,28 @@
+{
+	title: "Orange You Glad It's Not Blue Da Ba Dee Da Ba Daa",
+	x: -37.0d,
+	y: -7.0d,
+	shape: "square",
+	description: "Octine Ore can be found in the lower parts of the upper cavern layer.This can be made into tools(but not armor). Also combined with Syrmorite armor, & found in nugget form from Betweenlands Treasure Loot Tables.",
+	text: [
+		"Mine up some Octine Ore. You will need a Bone Pick."
+	],
+	dependencies: [
+		"706ad578"
+	],
+	tasks: [{
+		uid: "304579fb",
+		type: "item",
+		icon: "thebetweenlands:octine_ore",
+		items: [{
+			item: "thebetweenlands:octine_ore"
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "e047e360",
+		type: "xp",
+		xp: 40
+	}]
+}

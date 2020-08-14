@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore_vanilla 1 2",
+	x: 2.5d,
+	y: -3.5d,
+	description: "From Gold Ore",
+	dependencies: [
+		"fd1e7f3f"
+	],
+	tasks: [{
+		uid: "b873954d",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 1"
+		}]
+	}]
+}

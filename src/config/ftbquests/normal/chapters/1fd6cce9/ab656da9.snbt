@@ -1,0 +1,26 @@
+{
+	title: "It's Good Floral You",
+	x: -46.0d,
+	y: -13.0d,
+	shape: "square",
+	description: "Found in Marshes and Loot Tables",
+	text: [
+		"Craft a weedwood bowl, and 6 petals to make this salad."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b9620b65"
+	],
+	tasks: [{
+		uid: "55ba22e5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weeping_blue_petal_salad"
+		}]
+	}],
+	rewards: [{
+		uid: "a7107a36",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore_vanilla",
+	x: -6.5d,
+	y: -4.5d,
+	description: "From Coal Ore",
+	dependencies: [
+		"445ca606"
+	],
+	tasks: [{
+		uid: "0047f53c",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}]
+}

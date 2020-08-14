@@ -36,6 +36,7 @@ function initRecipes() {
 	scripts.recipes.mods.appliedenergistics.init();
 	scripts.recipes.mods.astral.init();
 	scripts.recipes.mods.avaritia.init();
+	scripts.recipes.mods.birdsfoods.init();
 	scripts.recipes.mods.bloodmagic.init();
 	scripts.recipes.mods.botania.init();
 	scripts.recipes.mods.buildersbag.init();
@@ -55,6 +56,7 @@ function initRecipes() {
 	scripts.recipes.mods.mysticalag.init();
 	scripts.recipes.mods.pneumaticraft.init();
 	scripts.recipes.mods.poweradapter.init();
+	scripts.recipes.mods.quantumstorage.init();
 	scripts.recipes.mods.randomthings.init();
 	scripts.recipes.mods.rftools.init();
 	scripts.recipes.mods.thebetweenlands.init();

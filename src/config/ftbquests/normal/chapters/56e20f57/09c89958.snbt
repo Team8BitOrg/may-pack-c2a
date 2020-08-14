@@ -1,0 +1,22 @@
+{
+	title: "Heisenberg's Favorite",
+	x: 2.0d,
+	y: -6.5d,
+	description: "Process a bucket of Molten Lapis in the IE Distillation Tower",
+	dependencies: [
+		"41caffa5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61689923",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2b3f8ff1",
+		type: "xp",
+		xp: 20
+	}]
+}

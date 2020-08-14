@@ -1,0 +1,25 @@
+{
+	title: "Get the Gunk OFF Yo Junk ",
+	x: -36.0d,
+	y: -9.5d,
+	shape: "square",
+	description: "This will  clean your tools,  process the Middle Gems, and MORE",
+	text: [
+		"Craft a Purifier"
+	],
+	dependencies: [
+		"178c5761"
+	],
+	tasks: [{
+		uid: "880b2820",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	}],
+	rewards: [{
+		uid: "faee0f58",
+		type: "xp",
+		xp: 10
+	}]
+}

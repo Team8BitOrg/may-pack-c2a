@@ -1,0 +1,77 @@
+{
+	title: "No One Ever Aspects That",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:aspect_vial",
+		Damage: 1s
+	},
+	x: -30.5d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Infuse, Distill, and then Collect the Aspects in Orange Dentrothyst Vials"
+	],
+	dependencies: [
+		"bc64375f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e421ecc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:aspect_vial",
+			tag: {
+				blHerbloreAspects: {
+					container: [{
+						aspect: {
+							type: "Ordaniis"
+						},
+						storage: {
+							hasStoredStatic: 0b,
+							storedStatic: 0,
+							dynamic: 2000
+						}
+					}]
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "69cd9985",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:aspect_vial",
+			tag: {
+				blHerbloreAspects: {
+					container: [{
+						aspect: {
+							type: "Azuwynn"
+						},
+						storage: {
+							hasStoredStatic: 0b,
+							storedStatic: 0,
+							dynamic: 2000
+						}
+					}]
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c887b21",
+		type: "xp",
+		xp: 25
+	}]
+}

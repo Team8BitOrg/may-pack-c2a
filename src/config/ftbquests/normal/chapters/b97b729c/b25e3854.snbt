@@ -1,0 +1,21 @@
+{
+	title: "Ore You Gonna Go My Way?",
+	x: 0.0d,
+	y: -6.5d,
+	description: "Ore generation is different than you might expect. You can find surface samples to help you locate where ores are underground. Rods and Prospectors can help you pinpoint where the ores are located. Higher levels of rods will find more types of ores.",
+	text: [
+		"Ore veins are large, but sporatic. You may have to search for a while to locate the specific ore you are searching for. Be sure to mark ore samples on your map for later."
+	],
+	tasks: [{
+		uid: "e3a67506",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "geolosys:field_manual"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

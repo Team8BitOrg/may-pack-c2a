@@ -1,0 +1,22 @@
+{
+	title: "Dispite All My Rage, I'm Still Just a Gecko In a Cage",
+	x: -33.0d,
+	y: -8.0d,
+	shape: "square",
+	description: "Right-Click Geckos into these cages.",
+	dependencies: [
+		"ee8dd7c7"
+	],
+	tasks: [{
+		uid: "81e40a9a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	}],
+	rewards: [{
+		uid: "9476e486",
+		type: "xp",
+		xp: 10
+	}]
+}

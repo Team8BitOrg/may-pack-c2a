@@ -1,0 +1,18 @@
+{
+	title: "It takes 2 Bae-bae, to make a dream...",
+	icon: "thebetweenlands:wight_heart",
+	x: -37.0d,
+	y: -5.0d,
+	shape: "square",
+	dependencies: [
+		"0e5f9674"
+	],
+	tasks: [{
+		uid: "84b9ad87",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:wight_heart"
+		}],
+		count: 2L
+	}]
+}

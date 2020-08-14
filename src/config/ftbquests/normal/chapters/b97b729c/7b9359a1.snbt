@@ -1,0 +1,13 @@
+{
+	title: "Unimplemented Quests",
+	x: 16.0d,
+	y: -6.0d,
+	description: "All Quests in this area are unimplemented, please ignore.",
+	tasks: [{
+		uid: "181071c0",
+		type: "item",
+		items: [{
+			item: "minecraft:structure_void"
+		}]
+	}]
+}

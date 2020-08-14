@@ -1,0 +1,34 @@
+{
+	title: "To the Dread of the Mummy, of Peat",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:ring_of_summoning"
+	},
+	x: -27.5d,
+	y: -8.0d,
+	shape: "diamond",
+	description: "Toss Mummy Bait on ground in a Marsh or a Sludge Plains. This is a difficult boss, best come heavy. \"Cheese Proofed\"",
+	text: [
+		"Defeat the Dread Peat Mummy to obtain a piece of the Swamp Talisman"
+	],
+	dependencies: [
+		"cc4f126b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5f67ea74",
+		type: "kill",
+		icon: "thebetweenlands:mummy_bait",
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ec422135",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19",
+		count: 4,
+		random_bonus: 4
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Element 77",
+	x: 5.0d,
+	y: 0.5d,
+	dependencies: [
+		"9f5ad1a5"
+	],
+	tasks: [{
+		uid: "eafeccb5",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "234cf435",
+		type: "xp",
+		xp: 10
+	}]
+}

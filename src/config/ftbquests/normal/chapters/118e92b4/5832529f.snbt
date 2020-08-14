@@ -1,0 +1,26 @@
+{
+	title: "Now The Real Fun Begins",
+	x: -13.5d,
+	y: -7.0d,
+	dependencies: [
+		"a696a502",
+		"00e1f3db"
+	],
+	tasks: [{
+		uid: "089986de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b900488",
+		type: "xp",
+		xp: 25
+	}]
+}

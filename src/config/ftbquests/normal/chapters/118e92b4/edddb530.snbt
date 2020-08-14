@@ -1,0 +1,35 @@
+{
+	title: "Tis But A Flesh Wound",
+	x: -20.0d,
+	y: -8.5d,
+	text: [
+		"Refer to the Inspectoris Scandalum for information on upgrading your Blood Altar"
+	],
+	dependencies: [
+		"69671564"
+	],
+	tasks: [{
+		uid: "dbd6884a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "bc573c45",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d701b856",
+		type: "xp",
+		xp: 10
+	}]
+}

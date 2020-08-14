@@ -1,0 +1,28 @@
+{
+	title: "The Light in the Darkness",
+	icon: "thebetweenlands:sulfur_torch",
+	x: -40.5d,
+	y: -10.0d,
+	shape: "square",
+	text: [
+		"You can find Sulfur at the enterance to the caverens, in the caverns, and throughout the world in chests and pots of chance."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "c221914b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sulfur_torch"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "23783db9",
+		type: "item",
+		item: "thebetweenlands:sulfur_torch",
+		count: 12
+	}]
+}

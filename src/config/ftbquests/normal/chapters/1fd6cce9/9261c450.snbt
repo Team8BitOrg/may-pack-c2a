@@ -1,0 +1,22 @@
+{
+	title: "What the... Limestone... Flux!?",
+	x: -35.0d,
+	y: -7.5d,
+	shape: "square",
+	description: "This added into the Furnace and Double Furnace can sometimes yield extra ingots in the output.",
+	dependencies: [
+		"55cfac7a"
+	],
+	tasks: [{
+		uid: "20dd180e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "7895772d",
+		type: "xp",
+		xp: 5
+	}]
+}

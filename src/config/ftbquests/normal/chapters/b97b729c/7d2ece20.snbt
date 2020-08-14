@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore",
+	x: -4.5d,
+	y: -4.5d,
+	description: "From Hematite Ore (also Limonite)",
+	dependencies: [
+		"82891c2b"
+	],
+	tasks: [{
+		uid: "461904d9",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Here I Am, Stuck In the Middle with Gems",
+	x: -37.0d,
+	y: -9.0d,
+	shape: "square",
+	description: "These Gems are basically Enchants/Enchancments for Armor, Weapons, and Tools. You can find them embedded in the swamp.",
+	text: [
+		"Collect the 3 Middle Gem Ore"
+	],
+	dependencies: [
+		"706ad578"
+	],
+	tasks: [{
+		uid: "7b8809d8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:green_middle_gem_ore"
+		}]
+	},
+	{
+		uid: "89d9c3b6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aqua_middle_gem_ore"
+		}]
+	},
+	{
+		uid: "389f32c4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crimson_middle_gem_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "e66f1360",
+		type: "xp",
+		xp: 50
+	}]
+}

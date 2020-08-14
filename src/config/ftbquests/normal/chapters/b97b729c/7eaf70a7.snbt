@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore_vanilla 1 1",
+	x: 3.5d,
+	y: -4.5d,
+	description: "From Cinnabar Ore",
+	dependencies: [
+		"fd1e7f3f"
+	],
+	tasks: [{
+		uid: "8eafb1e5",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 16.5d,
+	y: -4.0d,
+	description: "For help with construction please reference the Alchemistry Guidebook",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7513f5ad",
+		"6d09a6fe"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "56600ae4",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}]
+	},
+	{
+		uid: "ad234f3a",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_casing"
+		}],
+		count: 98L
+	},
+	{
+		uid: "83b6ee40",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_core"
+		}],
+		count: 3L
+	}]
+}

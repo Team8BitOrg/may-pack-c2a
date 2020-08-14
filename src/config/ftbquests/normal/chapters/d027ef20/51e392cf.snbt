@@ -1,0 +1,21 @@
+{
+	title: "From One Thing To Another",
+	x: -8.5d,
+	y: -5.5d,
+	description: "Placing an Alchemy Catalyst under a mana pool, can convert certain items into others.",
+	dependencies: [
+		"0508dc92"
+	],
+	tasks: [{
+		uid: "163ce15f",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "6a350325",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Crystals Make The Best Deodorant",
+	x: 2.0d,
+	y: -0.5d,
+	description: "Process a bucket of Destablized Redstone in the IE Distillation Tower",
+	dependencies: [
+		"8a454b45"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05e07913",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "a49b80fd",
+		type: "xp",
+		xp: 20
+	}]
+}

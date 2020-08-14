@@ -1,0 +1,22 @@
+{
+	title: "Is Pepsi Okay?",
+	x: -11.0d,
+	y: -6.5d,
+	description: "The Coke Oven produces Coal Coke, Charcoal and Creosote Oil. You must supply it with Coal or Wood Logs.",
+	dependencies: [
+		"6c8dc848"
+	],
+	tasks: [{
+		uid: "95a2ca57",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "0e4f724d",
+		type: "xp",
+		xp: 10
+	}]
+}

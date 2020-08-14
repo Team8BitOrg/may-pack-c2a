@@ -1,0 +1,33 @@
+{
+	title: "Let's Get Out of Here",
+	x: -25.5d,
+	y: -9.5d,
+	shape: "rsquare",
+	description: "We're Home",
+	text: [
+		"Craft Swamp Talisman, use on sapling to get to the Overworld"
+	],
+	dependencies: [
+		"9032a6a5"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "dc4d3164",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0b5f7e7",
+		type: "gamestage",
+		title: "To the Overworld",
+		icon: "minecraft:sapling",
+		auto: "enabled",
+		stage: "overworld"
+	}]
+}

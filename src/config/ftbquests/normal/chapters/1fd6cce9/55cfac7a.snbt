@@ -1,0 +1,38 @@
+{
+	title: "Rick And Mortar",
+	x: -34.0d,
+	y: -8.0d,
+	shape: "square",
+	description: "This will grind up all the plants you've collected with the Sickle.",
+	text: [
+		"Craft Both of these items. Left-Click will activate them if a valid item is in the input slot."
+	],
+	dependencies: [
+		"4f3d5685"
+	],
+	tasks: [{
+		uid: "44095cee",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	},
+	{
+		uid: "4bd8951b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:pestle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0f77fce",
+		type: "xp",
+		xp: 10
+	}]
+}

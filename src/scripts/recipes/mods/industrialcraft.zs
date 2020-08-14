@@ -54,7 +54,125 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<ic2:heat_storage>, <ic2:heat_storage>, <ic2:heat_storage>],
             [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:crafting:1>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]
         ]
-    ]
+    ],
+    /* Wind Turbine */
+	<ic2:te:21> : [
+        [
+            [<ic2:crafting:29>, <ic2:resource:12>, <ic2:crafting:29>]
+        ]
+    ],
+    /* Extractor */
+	<ic2:te:45> : [
+        [
+            [<ic2:treetap>, <ic2:resource:12>, <ic2:treetap>],
+            [<ic2:treetap>, <ic2:crafting:1>, <ic2:treetap>]
+        ]
+    ],
+    /* Block Cutting Machine */
+	<ic2:te:51> : [
+        [
+            [<ic2:crafting:1>],
+            [<ic2:resource:12>],
+            [<ic2:crafting:6>]
+        ]
+    ],
+    /* Block Cutting Machine */
+	<ic2:te:51> : [
+        [
+            [<ic2:crafting:1>],
+            [<ic2:resource:12>],
+            [<ic2:crafting:6>]
+        ]
+    ],
+    /* Charge Pad (Bat Box) */
+	<ic2:te:68> : [
+        [
+            [<ic2:crafting:1>, <minecraft:stone_pressure_plate>, <ic2:crafting:1>],
+            [<ic2:crafting>, <ic2:te:72>, <ic2:crafting>]
+        ]
+    ],
+    /* Charge Pad (CESU) */
+	<ic2:te:69> : [
+        [
+            [<ic2:crafting:1>, <minecraft:stone_pressure_plate>, <ic2:crafting:1>],
+            [<ic2:crafting>, <ic2:te:73>, <ic2:crafting>]
+        ]
+    ],
+    /* Charge Pad (MFE) */
+	<ic2:te:70> : [
+        [
+            [<ic2:crafting:1>, <minecraft:stone_pressure_plate>, <ic2:crafting:1>],
+            [<ic2:crafting>, <ic2:te:74>, <ic2:crafting>]
+        ]
+    ],
+    /* Charge Pad (MFSU) */
+	<ic2:te:71> : [
+        [
+            [<ic2:crafting:1>, <minecraft:stone_pressure_plate>, <ic2:crafting:1>],
+            [<ic2:crafting>, <ic2:te:75>, <ic2:crafting>]
+        ]
+    ],
+    /* MV Transformer */
+	<ic2:te:78> : [
+        [
+            [<ic2:cable>],
+            [<ic2:resource:12>],
+            [<ic2:cable>]
+        ]
+    ],
+    /* Industrial workbench */
+	<ic2:te:88> : [
+        [
+            [null, <thebetweenlands:weedwood_workbench>, null],
+            [<ic2:forge_hammer>, <ic2:resource:12>, <ic2:cutter>]
+        ]
+    ],
+    /* Bronze Helmet */
+	<ic2:bronze_helmet> : [
+        [
+            [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+            [<ore:ingotBronze>, null, <ore:ingotBronze>]
+        ]
+    ],
+    /* Bronze Boots */
+	<ic2:bronze_boots> : [
+        [
+            [<ore:ingotBronze>, null, <ore:ingotBronze>],
+            [<ore:ingotBronze>, null, <ore:ingotBronze>]
+        ]
+    ],
+    /* Rubber Dinghy */
+	<ic2:boat:1> : [
+        [
+            [<ic2:crafting>, null, <ic2:crafting>],
+            [<ic2:crafting>, <ic2:crafting>, <ic2:crafting>]
+        ]
+    ],
+   /* Carbon Fibre Canoe */
+	<ic2:boat:2> : [
+        [
+            [<ic2:crafting:15>, null, <ic2:crafting:15>],
+            [<ic2:crafting:15>, <ic2:crafting:15>, <ic2:crafting:15>]
+        ]
+    ],
+   /* Empty Booze Barrel */
+	<ic2:barrel> : [
+        [
+            [<ore:plankWood>],
+            [<ic2:rubber_wood>],
+            [<ore:plankWood>]
+        ]
+    ],
+     /* Tool Box */
+	<ic2:tool_box> : [
+        [
+            [<ic2:casing>, <ore:chest>, <ic2:casing>],
+            [<ic2:casing>, <ic2:casing>, <ic2:casing>]
+        ]
+    ],
+
+
+
 
 };
 
@@ -98,6 +216,11 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
     /*<mod:itemname:meta> : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 	]*/ 
+     /* Steel Item Casing */
+    <ic2:casing:5> : [
+			[<ic2:forge_hammer>, <contenttweaker:material_part:236>]
+	] 
+
 };
 
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
@@ -120,6 +243,7 @@ static removeRecipes as IItemStack[] = [
     <ic2:crafting:2>, //Advanced Circuit
     <ic2:te:42>, //Fluid/Solid Canning Machine
     <ic2:te:46>, //Iron Furnace
+    
 ];
 
 function init() {

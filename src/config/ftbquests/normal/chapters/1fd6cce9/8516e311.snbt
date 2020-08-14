@@ -1,0 +1,23 @@
+{
+	title: "Worst Thing You'll Put in Your Pie Hole",
+	x: -44.0d,
+	y: -14.0d,
+	shape: "square",
+	description: "However, this will reset your tastebuds. Cleanse Yo Pallet.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "100ed54f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:chiromaw_wing"
+		}]
+	}],
+	rewards: [{
+		uid: "0971dc62",
+		type: "xp",
+		xp: 5
+	}]
+}

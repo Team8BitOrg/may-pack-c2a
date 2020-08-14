@@ -1,0 +1,34 @@
+{
+	title: "This Is on My Bucket List",
+	icon: {
+		id: "thebetweenlands:bl_bucket",
+		tag: {
+			Fluid: {}
+		}
+	},
+	x: -41.5d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Using Reed Rope and Weedwood Planks, craft a weedwood bucket.",
+		"(Click the bucket above to see the recipe)"
+	],
+	dependencies: [
+		"9f48c904"
+	],
+	tasks: [{
+		uid: "8170d79b",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "26b4f0b9",
+		type: "xp",
+		xp: 10
+	}]
+}

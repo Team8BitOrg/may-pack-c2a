@@ -1,0 +1,23 @@
+{
+	title: "Gotta Keep 'um Animated",
+	x: -36.0d,
+	y: -5.0d,
+	shape: "square",
+	description: "This will repair your armor and tools at the cost of Life Crystal Charge and Sulfur. Discover it's other purposes in JEI.",
+	dependencies: [
+		"a46fbfaf",
+		"4e292e47"
+	],
+	tasks: [{
+		uid: "ebf642db",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:animator"
+		}]
+	}],
+	rewards: [{
+		uid: "0ae874f1",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19"
+	}]
+}

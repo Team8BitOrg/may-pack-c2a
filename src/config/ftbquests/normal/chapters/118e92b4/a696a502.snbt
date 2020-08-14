@@ -1,0 +1,24 @@
+{
+	title: "It's A Magic Stick, But Not A Wand",
+	x: -16.0d,
+	y: -8.0d,
+	dependencies: [
+		"ae44f7b5"
+	],
+	tasks: [{
+		uid: "73a990b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a8948d7",
+		type: "xp",
+		xp: 20
+	}]
+}

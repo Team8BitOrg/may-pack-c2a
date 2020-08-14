@@ -1,0 +1,16 @@
+{
+	icon: "geolosys:ore 1 5",
+	x: -3.5d,
+	y: -3.5d,
+	description: "From Teallite and Cassiterite Ore",
+	dependencies: [
+		"82891c2b"
+	],
+	tasks: [{
+		uid: "41ba98bc",
+		type: "item",
+		items: [{
+			item: "geolosys:cluster 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "It's NOT a Booger",
+	x: -42.5d,
+	y: -12.0d,
+	shape: "square",
+	description: "These drop from sludge, worms, and sludge worms.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "e4716ad1",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sludge_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "017225fb",
+		type: "xp",
+		xp: 5
+	}]
+}

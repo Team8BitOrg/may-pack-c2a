@@ -1,0 +1,20 @@
+{
+	title: "When Worlds Collide",
+	x: -4.0d,
+	y: -3.5d,
+	dependencies: [
+		"d7c4e13a"
+	],
+	tasks: [{
+		uid: "bf292449",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b7772160",
+		type: "xp",
+		xp: 30
+	}]
+}

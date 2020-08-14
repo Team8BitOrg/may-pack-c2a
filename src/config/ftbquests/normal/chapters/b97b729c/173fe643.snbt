@@ -1,0 +1,24 @@
+{
+	title: "Break It Down Now",
+	x: 4.0d,
+	y: -0.5d,
+	description: "This can break down items and compounds to its more basic chemical elements.",
+	text: [
+		""
+	],
+	dependencies: [
+		"6d09a6fe"
+	],
+	tasks: [{
+		uid: "77fe0b21",
+		type: "item",
+		items: [{
+			item: "alchemistry:chemical_dissolver"
+		}]
+	}],
+	rewards: [{
+		uid: "fc77d189",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "I've got a Bone to Pick With YOU",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:bone_pickaxe"
+	},
+	x: -38.5d,
+	y: -8.5d,
+	shape: "square",
+	description: "Slimy Bones can be found in Slimy Bone Ore, OR as a drop from a Swamp Hag. The Ore is found in the upper cavern area. It can make both tools, weapons, armor.",
+	text: [
+		"Get Slimy Bones, and craft a Bone Pickaxe"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "195417cc",
+		type: "item",
+		title: "Dem bones, dem bones, dem slime bones",
+		icon: "thebetweenlands:items_misc 1 14",
+		items: [{
+			item: "thebetweenlands:items_misc 1 14"
+		}],
+		count: 3L
+	},
+	{
+		uid: "faf454ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d60356c0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bone_sword"
+		}
+	}]
+}

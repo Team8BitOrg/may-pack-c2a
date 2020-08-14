@@ -1,0 +1,21 @@
+{
+	title: "OMG Karen, You Can't Just Ask Flowers Why They're White",
+	x: -16.0d,
+	y: -6.5d,
+	description: "All variations of mystical flowers will be needed, but the white petals are necessary to get started.",
+	dependencies: [
+		"e652fda7"
+	],
+	tasks: [{
+		uid: "40b9a0b2",
+		type: "item",
+		items: [{
+			item: "botania:flower"
+		}]
+	}],
+	rewards: [{
+		uid: "a6cb4f71",
+		type: "xp",
+		xp: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Like a Limestone Cowboy",
+	x: -39.5d,
+	y: -9.5d,
+	shape: "square",
+	description: "This can be ground up and has a chance to double ores in the furnace.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "0c6badb4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:limestone"
+		}]
+	}],
+	rewards: [{
+		uid: "ce6c10fd",
+		type: "xp",
+		xp: 5
+	}]
+}

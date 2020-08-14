@@ -1,0 +1,35 @@
+{
+	title: "Blast Off!",
+	x: -12.5d,
+	y: -5.0d,
+	description: "The Blast Furnace will produce Tungsten at a slightly faster rate the the IC2 alternative, when supplied with Charcoal or Coal Coke and Iron Ingots.",
+	dependencies: [
+		"6c8dc848"
+	],
+	tasks: [{
+		uid: "e34af5b9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "2b9adaef",
+		type: "command",
+		title: "Prestige Point!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "everlastingabilities:ability_totem",
+			tag: {
+				"everlastingabilities:abilityStoreStack": [{
+					level: 1,
+					name: "ability.abilities.everlastingabilities.resistance.name"
+				}]
+			}
+		},
+		command: "/prestige add @p 1"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Like Redstone, But Less Stable",
+	x: 2.0d,
+	y: -2.0d,
+	description: "Make Destablized Redstone in the IE Mixer. You'll have to build a lot of other machines too in order to make it.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9a2d77d7",
+		"05ebc7bf",
+		"fc85b499",
+		"c2c056a7",
+		"206823cf"
+	],
+	tasks: [{
+		uid: "6a194f17",
+		type: "fluid",
+		fluid: "redstone"
+	}],
+	rewards: [{
+		uid: "ff20919d",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "MisterWiggly",
+	x: -7.5d,
+	y: -1.5d,
+	description: "We would like to thank MisterWiggly for the testing that he did on this pack. Please go check him out on https:/twitch.tv/misterwiggly",
+	tasks: [{
+		uid: "8d5f090f",
+		type: "checkmark"
+	}]
+}

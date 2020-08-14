@@ -1,0 +1,26 @@
+{
+	title: "One Does Not Simply Eat One Fig Newton",
+	x: -41.0d,
+	y: -14.0d,
+	shape: "square",
+	description: "Found in Treasure Loot Tables",
+	text: [
+		"Find one. Sigma has never eaten one. It is Forbidden."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"87a205ec"
+	],
+	tasks: [{
+		uid: "2256982d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:forbidden_fig"
+		}]
+	}],
+	rewards: [{
+		uid: "201479ed",
+		type: "xp",
+		xp: 20
+	}]
+}

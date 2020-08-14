@@ -1,0 +1,28 @@
+{
+	title: "I Believe I Can Fly",
+	x: -9.0d,
+	y: -2.5d,
+	description: "Behold, the power of flight, as long as you have the power for flight.",
+	dependencies: [
+		"efefb8a2"
+	],
+	tasks: [{
+		uid: "6ae8a517",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:jetpack_electric",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c5bd42a",
+		type: "xp",
+		xp: 20
+	}]
+}

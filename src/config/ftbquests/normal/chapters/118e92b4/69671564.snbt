@@ -1,0 +1,23 @@
+{
+	title: "Got Em",
+	x: -22.0d,
+	y: -7.5d,
+	description: "When a mob hit by a snare has particles coming off it, it will drop Demonic Will when killed.",
+	tasks: [{
+		uid: "ea5411a0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}],
+	rewards: [{
+		uid: "c099715b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "guideapi:bloodmagic-guide"
+		}
+	}]
+}

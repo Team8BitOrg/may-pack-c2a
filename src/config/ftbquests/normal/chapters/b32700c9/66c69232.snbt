@@ -1,0 +1,20 @@
+{
+	title: "Bare Bones Case",
+	x: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"8c87c23b"
+	],
+	tasks: [{
+		uid: "a435e968",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "08edec34",
+		type: "xp",
+		xp: 10
+	}]
+}

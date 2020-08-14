@@ -1,0 +1,27 @@
+{
+	title: "Hells Blazes",
+	x: -7.0d,
+	y: -0.5d,
+	description: "These will grow Blazes.",
+	text: [
+		""
+	],
+	dependencies: [
+		"08491b72"
+	],
+	tasks: [{
+		uid: "68f8dcec",
+		type: "item",
+		items: [{
+			id: "animalcrops:seeds",
+			tag: {
+				entity: "minecraft:blaze"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "91c6df1b",
+		type: "xp",
+		xp: 10
+	}]
+}

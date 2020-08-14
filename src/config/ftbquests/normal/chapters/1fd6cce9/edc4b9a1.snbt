@@ -1,0 +1,26 @@
+{
+	title: "There is Little Foolish Wand-Waving Here, many of you will hardly believe this is magic.",
+	x: -31.0d,
+	y: -7.0d,
+	shape: "square",
+	description: "This will distill infusion buckets into elixters & aspects",
+	text: [
+		"Pour the infusion into the alembic. You will need a dentrothyst bottle to collect the finished elixirs or aspects. An infusion may give multiple aspects that each need collected."
+	],
+	dependencies: [
+		"d9506df5",
+		"c7b42fc3"
+	],
+	tasks: [{
+		uid: "359c59ad",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "20dfcebd",
+		type: "xp",
+		xp: 10
+	}]
+}

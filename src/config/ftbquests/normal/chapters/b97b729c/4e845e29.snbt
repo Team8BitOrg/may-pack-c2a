@@ -1,0 +1,35 @@
+{
+	x: 15.5d,
+	y: -4.0d,
+	description: "For help with construction please reference Alchemistry Guidebook",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7513f5ad",
+		"6d09a6fe"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c214debd",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_controller"
+		}]
+	},
+	{
+		uid: "67ce3638",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_casing"
+		}],
+		count: 98L
+	},
+	{
+		uid: "77e85aa2",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_core"
+		}],
+		count: 3L
+	}]
+}

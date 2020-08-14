@@ -1,0 +1,22 @@
+{
+	title: "Power-try In Motion",
+	x: -6.5d,
+	y: -6.5d,
+	description: "When attached to a Water Wheel or a Windmill, it will produce power.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6c8dc848"
+	],
+	tasks: [{
+		uid: "a03c485f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ff7b9847",
+		type: "xp",
+		xp: 10
+	}]
+}

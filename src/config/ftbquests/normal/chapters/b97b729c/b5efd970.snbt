@@ -1,0 +1,21 @@
+{
+	title: "Once They Dye, Barium",
+	x: -5.0d,
+	y: 0.5d,
+	description: "You can make Nether Quartz by combining chemicals.",
+	dependencies: [
+		"08491b72"
+	],
+	tasks: [{
+		uid: "17b2de6e",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "19f60c68",
+		type: "xp",
+		xp: 10
+	}]
+}
