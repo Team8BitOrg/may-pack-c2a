@@ -218,10 +218,6 @@ function init() {
 
     
     // Steel components
-    immersive.addMetalPress(<immersiveengineering:material:2> * 2, <alchemistry:ingot:74>, <immersiveengineering:mold:2>, 2000);
-    immersive.removeMetalPress(<immersiveengineering:material:2>);
-    immersive.addMetalPress(<immersiveengineering:material:23> * 2, <alchemistry:ingot:74>, <immersiveengineering:mold:4>, 2000);
-    immersive.removeMetalPress(<immersiveengineering:material:23>);
     immersive.removeMetalPress(<thermalfoundation:material:288>);
     immersive.removeMetalPress(<immersiveengineering:metal:38>);
     immersive.removeMetalPress(<thermalfoundation:material:352>);

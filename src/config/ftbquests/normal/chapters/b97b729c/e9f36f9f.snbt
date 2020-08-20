@@ -7,11 +7,10 @@
 		"044e4282"
 	],
 	tasks: [{
-		uid: "e399314b",
+		uid: "8a27af3c",
 		type: "item",
-		icon: "minecraft:dye 1 4",
 		items: [{
-			item: "geolosys:ore_vanilla 1 3"
+			item: "minecraft:dye 1 4"
 		}]
 	}]
 }

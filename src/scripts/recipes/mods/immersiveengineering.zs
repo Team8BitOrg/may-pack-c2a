@@ -38,7 +38,7 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
     <immersiveengineering:metal_decoration0:5> * 2 : [
 			[
 	  			[<ic2:casing:5>, <immersiveengineering:material:9>, <ic2:casing:5>],
-	   			[<ore:craftingPison>, <alchemistry:ingot:39>, <ore:craftingPison>],
+	   			[<ore:craftingPiston>, <alchemistry:ingot:39>, <ore:craftingPiston>],
 	  			[<ic2:casing:5>, <immersiveengineering:material:9>, <ic2:casing:5>]
 			]
 	],
@@ -120,6 +120,13 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
             [<minecraft:redstone>, <immersiveengineering:material>, <minecraft:redstone>],
             [null, <immersiveengineering:material:22>, null]
         ]
+    ],
+    <immersiveengineering:metal_device1:3> : [
+        [
+            [<alchemistry:ingot:74>, <alchemistry:ingot:74>, <alchemistry:ingot:74>],
+            [<contenttweaker:material_part:424>, <immersiveengineering:metal_decoration0>, <contenttweaker:material_part:424>],
+            [<contenttweaker:material_part:424>, <contenttweaker:material_part:424>, <contenttweaker:material_part:424>]
+        ]
     ]
 };
 
@@ -196,7 +203,8 @@ static removeRecipes as IItemStack[] = [
     <immersiveengineering:wirecoil:2>, //HV Wire Coil
     <immersiveengineering:wirecoil:3>, //Hemp Rope Coil
     <immersiveengineering:wirecoil:4>, //Tungsten Cable Coil
-    <immersiveengineering:wirecoil:5> //Redstone Cable Coil
+    <immersiveengineering:wirecoil:5>, //Redstone Cable Coil
+    <immersiveengineering:metal_device1:3>, //Thermoelectric Generator
     
 
 ];

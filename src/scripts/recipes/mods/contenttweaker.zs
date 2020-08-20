@@ -8,10 +8,310 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.craftingHelper;
 
 //Shaped Recipes
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-
+    <contenttweaker:sub_block_holder_1> : [
+        craftingHelper.create3By3(<ore:ingotCobalt>)
+    ],
+    <contenttweaker:sub_block_holder_1:1> : [
+        craftingHelper.create3By3(<ore:ingotFrancium>)
+    ],
+    <contenttweaker:sub_block_holder_1:2> : [
+        craftingHelper.create3By3(<ore:ingotRubidium>)
+    ],
+    <contenttweaker:sub_block_holder_1:3> : [
+        craftingHelper.create3By3(<ore:ingotFlerovium>)
+    ],
+    <contenttweaker:sub_block_holder_1:4> : [
+        craftingHelper.create3By3(<ore:ingotRadium>)
+    ],
+    <contenttweaker:sub_block_holder_1:5> : [
+        craftingHelper.create3By3(<ore:ingotLivermorium>)
+    ],
+    <contenttweaker:sub_block_holder_1:6> : [
+        craftingHelper.create3By3(<ore:ingotProtactinium>)
+    ],
+    <contenttweaker:sub_block_holder_1:7> : [
+        craftingHelper.create3By3(<ore:ingotMagnesium>)
+    ],
+    <contenttweaker:sub_block_holder_1:8> : [
+        craftingHelper.create3By3(<ore:ingotCalifornium>)
+    ],
+    <contenttweaker:sub_block_holder_1:9> : [
+        craftingHelper.create3By3(<ore:ingotZinc>)
+    ],
+    <contenttweaker:sub_block_holder_1:10> : [
+        craftingHelper.create3By3(<ore:ingotCopernicium>)
+    ],
+    <contenttweaker:sub_block_holder_1:11> : [
+        craftingHelper.create3By3(<ore:ingotArsenic>)
+    ],
+    <contenttweaker:sub_block_holder_1:12> : [
+        craftingHelper.create3By3(<ore:ingotCadmium>)
+    ],
+    <contenttweaker:sub_block_holder_1:13> : [
+        craftingHelper.create3By3(<ore:ingotRutherfordium>)
+    ],
+    <contenttweaker:sub_block_holder_1:14> : [
+        craftingHelper.create3By3(<ore:ingotAntimony>)
+    ],
+    <contenttweaker:sub_block_holder_1:15> : [
+        craftingHelper.create3By3(<ore:ingotYtterbium>)
+    ],
+    <contenttweaker:sub_block_holder_0> : [
+        craftingHelper.create3By3(<ore:ingotIridium>)
+    ],
+    <contenttweaker:sub_block_holder_0:1> : [
+        craftingHelper.create3By3(<ore:ingotThorium>)
+    ],
+    <contenttweaker:sub_block_holder_0:2> : [
+        craftingHelper.create3By3(<ore:ingotDarmstadtium>)
+    ],
+    <contenttweaker:sub_block_holder_0:3> : [
+        craftingHelper.create3By3(<ore:ingotMoscovium>)
+    ],
+    <contenttweaker:sub_block_holder_0:4> : [
+        craftingHelper.create3By3(<ore:ingotRhenium>)
+    ],
+    <contenttweaker:sub_block_holder_0:5> : [
+        craftingHelper.create3By3(<ore:ingotMendelevium>)
+    ],
+    <contenttweaker:sub_block_holder_0:6> : [
+        craftingHelper.create3By3(<ore:ingotCopper>)
+    ],
+    <contenttweaker:sub_block_holder_0:7> : [
+        craftingHelper.create3By3(<ore:ingotIndium>)
+    ],
+    <contenttweaker:sub_block_holder_0:8> : [
+        craftingHelper.create3By3(<ore:ingotOsmium>)
+    ],
+    <contenttweaker:sub_block_holder_0:9> : [
+        craftingHelper.create3By3(<ore:ingotLead>)
+    ],
+    <contenttweaker:sub_block_holder_0:10> : [
+        craftingHelper.create3By3(<ore:ingotErbium>)
+    ],
+    <contenttweaker:sub_block_holder_0:11> : [
+        craftingHelper.create3By3(<ore:ingotPolonium>)
+    ],
+    <contenttweaker:sub_block_holder_0:12> : [
+        craftingHelper.create3By3(<ore:ingotTechnetium>)
+    ],
+    <contenttweaker:sub_block_holder_0:13> : [
+        craftingHelper.create3By3(<ore:ingotOganesson>)
+    ],
+    <contenttweaker:sub_block_holder_0:14> : [
+        craftingHelper.create3By3(<ore:ingotBismuth>)
+    ],
+    <contenttweaker:sub_block_holder_0:15> : [
+        craftingHelper.create3By3(<ore:ingotThulium>)
+    ],
+    <contenttweaker:sub_block_holder_3> : [
+        craftingHelper.create3By3(<ore:ingotGermanium>)
+    ],
+    <contenttweaker:sub_block_holder_3:1> : [
+        craftingHelper.create3By3(<ore:ingotEinsteinium>)
+    ],
+    <contenttweaker:sub_block_holder_3:2> : [
+        craftingHelper.create3By3(<ore:ingotYttrium>)
+    ],
+    <contenttweaker:sub_block_holder_3:3> : [
+        craftingHelper.create3By3(<ore:ingotActinium>)
+    ],
+    <contenttweaker:sub_block_holder_3:4> : [
+        craftingHelper.create3By3(<ore:ingotHolmium>)
+    ],
+    <contenttweaker:sub_block_holder_3:5> : [
+        craftingHelper.create3By3(<ore:ingotAluminum>)
+    ],
+    <contenttweaker:sub_block_holder_3:7> : [
+        craftingHelper.create3By3(<ore:ingotBerkelium>)
+    ],
+    <contenttweaker:sub_block_holder_3:8> : [
+        craftingHelper.create3By3(<ore:ingotVanadium>)
+    ],
+    <contenttweaker:sub_block_holder_3:9> : [
+        craftingHelper.create3By3(<ore:ingotFermium>)
+    ],
+    <contenttweaker:sub_block_holder_3:10> : [
+        craftingHelper.create3By3(<ore:ingotSilicon>)
+    ],
+    <contenttweaker:sub_block_holder_3:11> : [
+        craftingHelper.create3By3(<ore:ingotLawrencium>)
+    ],
+    <contenttweaker:sub_block_holder_3:12> : [
+        craftingHelper.create3By3(<ore:ingotDubnium>)
+    ],
+    <contenttweaker:sub_block_holder_3:13> : [
+        craftingHelper.create3By3(<ore:ingotTennessine>)
+    ],
+    <contenttweaker:sub_block_holder_3:14> : [
+        craftingHelper.create3By3(<ore:ingotNickel>)
+    ],
+    <contenttweaker:sub_block_holder_2> : [
+        craftingHelper.create3By3(<ore:ingotCalcium>)
+    ],
+    <contenttweaker:sub_block_holder_2:1> : [
+        craftingHelper.create3By3(<ore:ingotPotassium>)
+    ],
+    <contenttweaker:sub_block_holder_2:2> : [
+        craftingHelper.create3By3(<ore:ingotPlutonium>)
+    ],
+    <contenttweaker:sub_block_holder_2:3> : [
+        craftingHelper.create3By3(<ore:ingotTellurium>)
+    ],
+    <contenttweaker:sub_block_holder_2:4> : [
+        craftingHelper.create3By3(<ore:ingotSodium>)
+    ],
+    <contenttweaker:sub_block_holder_2:5> : [
+        craftingHelper.create3By3(<ore:ingotNeptunium>)
+    ],
+    <contenttweaker:sub_block_holder_2:6> : [
+        craftingHelper.create3By3(<ore:ingotTungsten>)
+    ],
+    <contenttweaker:sub_block_holder_2:7> : [
+        craftingHelper.create3By3(<ore:ingotPraseodymium>)
+    ],
+    <contenttweaker:sub_block_holder_2:8> : [
+        craftingHelper.create3By3(<ore:ingotCerium>)
+    ],
+    <contenttweaker:sub_block_holder_2:9> : [
+        craftingHelper.create3By3(<ore:ingotMeitnerium>)
+    ],
+    <contenttweaker:sub_block_holder_2:10> : [
+        craftingHelper.create3By3(<ore:ingotHassium>)
+    ],
+    <contenttweaker:sub_block_holder_2:11> : [
+        craftingHelper.create3By3(<ore:ingotNobelium>)
+    ],
+    <contenttweaker:sub_block_holder_2:12> : [
+        craftingHelper.create3By3(<ore:ingotTerbium>)
+    ],
+    <contenttweaker:sub_block_holder_2:13> : [
+        craftingHelper.create3By3(<ore:ingotRhodium>)
+    ],
+    <contenttweaker:sub_block_holder_2:14> : [
+        craftingHelper.create3By3(<ore:ingotAmericium>)
+    ],
+    <contenttweaker:sub_block_holder_2:15> : [
+        craftingHelper.create3By3(<ore:ingotAstatine>)
+    ],
+    <contenttweaker:sub_block_holder_5> : [
+        craftingHelper.create3By3(<ore:ingotNihonium>)
+    ],
+    <contenttweaker:sub_block_holder_5:1> : [
+        craftingHelper.create3By3(<ore:ingotPromethium>)
+    ],
+    <contenttweaker:sub_block_holder_5:2> : [
+        craftingHelper.create3By3(<ore:ingotGadolinium>)
+    ],
+    <contenttweaker:sub_block_holder_5:3> : [
+        craftingHelper.create3By3(<ore:ingotBarium>)
+    ],
+    <contenttweaker:sub_block_holder_5:4> : [
+        craftingHelper.create3By3(<ore:ingotLanthanum>)
+    ],
+    <contenttweaker:sub_block_holder_5:5> : [
+        craftingHelper.create3By3(<ore:ingotPlatinum>)
+    ],
+    <contenttweaker:sub_block_holder_5:6> : [
+        craftingHelper.create3By3(<ore:ingotBoron>)
+    ],
+    <contenttweaker:sub_block_holder_5:7> : [
+        craftingHelper.create3By3(<ore:ingotRoentgenium>)
+    ],
+    <contenttweaker:sub_block_holder_5:8> : [
+        craftingHelper.create3By3(<ore:ingotStrontium>)
+    ],
+    <contenttweaker:sub_block_holder_5:9> : [
+        craftingHelper.create3By3(<ore:ingotBohrium>)
+    ],
+    <contenttweaker:sub_block_holder_5:10> : [
+        craftingHelper.create3By3(<ore:ingotMolybdenum>)
+    ],
+    <contenttweaker:sub_block_holder_5:11> : [
+        craftingHelper.create3By3(<ore:ingotChromium>)
+    ],
+    <contenttweaker:sub_block_holder_5:12> : [
+        craftingHelper.create3By3(<ore:ingotManganese>)
+    ],
+    <contenttweaker:sub_block_holder_5:13> : [
+        craftingHelper.create3By3(<ore:ingotSilver>)
+    ],
+    <contenttweaker:sub_block_holder_5:14> : [
+        craftingHelper.create3By3(<ore:ingotCurium>)
+    ],
+    <contenttweaker:sub_block_holder_5:15> : [
+        craftingHelper.create3By3(<ore:ingotZirconium>)
+    ],
+    <contenttweaker:sub_block_holder_4> : [
+        craftingHelper.create3By3(<ore:ingotTin>)
+    ],
+    <contenttweaker:sub_block_holder_4:1> : [
+        craftingHelper.create3By3(<ore:ingotScandium>)
+    ],
+    <contenttweaker:sub_block_holder_4:2> : [
+        craftingHelper.create3By3(<ore:ingotNiobium>)
+    ],
+    <contenttweaker:sub_block_holder_4:3> : [
+        craftingHelper.create3By3(<ore:ingotSelenium>)
+    ],
+    <contenttweaker:sub_block_holder_4:4> : [
+        craftingHelper.create3By3(<ore:ingotTitanium>)
+    ],
+    <contenttweaker:sub_block_holder_4:5> : [
+        craftingHelper.create3By3(<ore:ingotLithium>)
+    ],
+    <contenttweaker:sub_block_holder_4:6> : [
+        craftingHelper.create3By3(<ore:ingotUranium>)
+    ],
+    <contenttweaker:sub_block_holder_4:7> : [
+        craftingHelper.create3By3(<ore:ingotRuthenium>)
+    ],
+    <contenttweaker:sub_block_holder_4:8> : [
+        craftingHelper.create3By3(<ore:ingotEuropium>)
+    ],
+    <contenttweaker:sub_block_holder_4:9> : [
+        craftingHelper.create3By3(<ore:ingotPalladium>)
+    ],
+    <contenttweaker:sub_block_holder_4:10> : [
+        craftingHelper.create3By3(<ore:ingotThallium>)
+    ],
+    <contenttweaker:sub_block_holder_4:11> : [
+        craftingHelper.create3By3(<ore:ingotDysprosium>)
+    ],
+    <contenttweaker:sub_block_holder_4:12> : [
+        craftingHelper.create3By3(<ore:ingotNeodymium>)
+    ],
+    <contenttweaker:sub_block_holder_4:13> : [
+        craftingHelper.create3By3(<ore:ingotHafnium>)
+    ],
+    <contenttweaker:sub_block_holder_4:14> : [
+        craftingHelper.create3By3(<ore:ingotGallium>)
+    ],
+    <contenttweaker:sub_block_holder_4:15> : [
+        craftingHelper.create3By3(<ore:ingotSamarium>)
+    ],
+    <contenttweaker:sub_block_holder_6> : [
+        craftingHelper.create3By3(<ore:ingotSeaborgium>)
+    ],
+    <contenttweaker:sub_block_holder_6:1> : [
+        craftingHelper.create3By3(<ore:ingotTantalum>)
+    ],
+    <contenttweaker:sub_block_holder_6:2> : [
+        craftingHelper.create3By3(<ore:ingotBeryllium>)
+    ],
+    <contenttweaker:sub_block_holder_6:3> : [
+        craftingHelper.create3By3(<ore:ingotCesium>)
+    ],
+    <contenttweaker:sub_block_holder_6:4> : [
+        craftingHelper.create3By3(<ore:ingotLutetium>)
+    ],
+    <contenttweaker:sub_block_holder_3:15> : [
+        craftingHelper.create3By3(<ore:ingotTough>)
+    ]
 };
 
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {

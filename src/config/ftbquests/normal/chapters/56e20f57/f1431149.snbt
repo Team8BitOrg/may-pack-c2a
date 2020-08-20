@@ -1,0 +1,28 @@
+{
+	x: -9.0d,
+	y: -6.5d,
+	description: "Toss a piece of charcoal into swamp water to make this, until easier means become available.",
+	tasks: [{
+		uid: "4465c744",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {
+					FluidName: "creosote",
+					Amount: 1000
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fff36980",
+		type: "xp",
+		xp: 15
+	}]
+}

@@ -13,6 +13,13 @@
 
 /* Geolosys */
 <ore:ingotCopper>.remove(<geolosys:ingot>);
+<ore:ingotTin>.remove(<geolosys:ingot:1>);
+<ore:ingotSilver>.remove(<geolosys:ingot:2>);
+<ore:ingotLead>.remove(<geolosys:ingot:3>);
+<ore:ingotAluminum>.remove(<geolosys:ingot:4>);
+<ore:ingotNickel>.remove(<geolosys:ingot:5>);
+<ore:ingotPlatinum>.remove(<geolosys:ingot:6>);
+<ore:ingotZinc>.remove(<geolosys:ingot:7>);
 
 /* Immersive Engineering */
 <ore:ingotCopper>.remove(<immersiveengineering:metal>);
@@ -28,6 +35,10 @@
 /* Industrialcraft */
 <ore:ingotSteel>.remove(<ic2:ingot:5>);
 <ore:ingotCopper>.remove(<ic2:ingot:2>);
+<ore:ingotTin>.remove(<ic2:ingot:6>);
+<ore:ingotSilver>.remove(<ic2:ingot:4>);
+<ore:ingotLead>.remove(<ic2:ingot:3>);
+<ore:ingotUranium>.remove(<ic2:ingot:8>);
 
 /* Mekanism */
 <ore:ingotSteel>.remove(<mekanism:ingot:4>);
@@ -36,6 +47,18 @@
 /* Nuclearcraft */
 <ore:ingotSteel>.remove(<nuclearcraft:alloy:5>);
 <ore:ingotCopper>.remove(<nuclearcraft:ingot>);
+<ore:ingotTin>.remove(<nuclearcraft:ingot:1>);
+<ore:ingotLead>.remove(<nuclearcraft:ingot:2>);
+<ore:ingotThorium>.remove(<nuclearcraft:ingot:3>); //
+<ore:ingotUranium>.remove(<nuclearcraft:ingot:4>);
+<ore:ingotBoron>.remove(<nuclearcraft:ingot:5>);
+<ore:ingotLithium>.remove(<nuclearcraft:ingot:6>);
+<ore:ingotMagnesium>.remove(<nuclearcraft:ingot:7>);
+<ore:ingotBeryllium>.remove(<nuclearcraft:ingot:9>);
+<ore:ingotZirconium>.remove(<nuclearcraft:ingot:10>);
+<ore:ingotManganese>.remove(<nuclearcraft:ingot:11>);
+<ore:ingotAluminum>.remove(<nuclearcraft:ingot:12>);
+<ore:ingotSilver>.remove(<nuclearcraft:ingot:13>);
 
 /* Thermal Foundation */
 <ore:ingotCopper>.remove(<thermalfoundation:material:128>);

@@ -8,8 +8,7 @@
 function init() {
 
     //Metal Former Plate Recipes
-    industrialcraft.addRollingRecipe(<contenttweaker:material_part:119>, <alchemistry:ingot:43>);
-    industrialcraft.addRollingRecipe(<contenttweaker:material_part:235>, <alchemistry:ingot:74>);
+
     
     //Block Cutter Plate Recipes
     industrialcraft.addBlockCutter(<contenttweaker:material_part:119> * 9, <contenttweaker:sub_block_holder_2:2>);

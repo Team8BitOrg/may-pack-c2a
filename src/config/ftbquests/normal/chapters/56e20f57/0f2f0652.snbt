@@ -4,7 +4,7 @@
 	y: -5.0d,
 	description: "Treated Wood is used in a lot of recipes in Immersive Engineering while also being a great building block.",
 	dependencies: [
-		"15f4bb7f"
+		"f1431149"
 	],
 	tasks: [{
 		uid: "5bf6ec6b",

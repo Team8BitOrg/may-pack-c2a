@@ -218,7 +218,7 @@ static shapelessRecipes as IIngredient[][][IItemStack] = {
 	]*/ 
      /* Steel Item Casing */
     <ic2:casing:5> : [
-			[<ic2:forge_hammer>, <contenttweaker:material_part:236>]
+			[<ic2:forge_hammer:*>, <contenttweaker:material_part:236>]
 	] 
 
 };

@@ -23,5 +23,8 @@ function init() {
     mods.alchemistry.Dissolver.addRecipe(<thebetweenlands:items_misc:39>, false, 5, [[10, <alchemistry:compound:1>],[20, <alchemistry:element:39> * 4, <alchemistry:compound:13>]]);
     /* Raw Carbon Fibres */
      mods.alchemistry.Dissolver.addRecipe(<ic2:crafting:13>, true, 1, [[1.0, <alchemistry:element:6> * 32 ]]);
+     /* Copper Ingots */
+     mods.alchemistry.Dissolver.addRecipe(<ic2:ingot:2>, true, 1, [[1.0, <alchemistry:element:29> * 16 ]]);
+     mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:ingot>, true, 1, [[1.0, <alchemistry:element:29> * 16 ]]);
     
 }
